@@ -235,9 +235,45 @@ jobs:
               'Zimbabwe': 'ZW',
           }
 
-          print('Fetching voyage.gc.ca...')
-          resp = requests.get(URL, headers={'User-Agent': 'Mozilla/5.0 (compatible; trip-radar/1.0)'}, timeout=30)
-          resp.raise_for_status()
+          URLS = [
+              'https://voyage.gc.ca/voyager/avertissements',
+              'https://travel.gc.ca/travelling/advisories',
+          ]
+
+          HEADERS = {
+              'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+              'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+              'Accept-Language': 'fr-CA,fr;q=0.9,en-CA;q=0.8,en;q=0.7',
+              'Accept-Encoding': 'gzip, deflate, br',
+              'Connection': 'keep-alive',
+              'Upgrade-Insecure-Requests': '1',
+          }
+
+          import time
+
+          resp = None
+          for attempt_url in URLS:
+              for attempt in range(3):
+                  try:
+                      print(f'Fetching {attempt_url} (tentative {attempt+1}/3)...')
+                      session = requests.Session()
+                      resp = session.get(attempt_url, headers=HEADERS, timeout=60)
+                      resp.raise_for_status()
+                      URL = attempt_url
+                      print(f'✅ Connexion réussie ({resp.status_code})')
+                      break
+                  except Exception as e:
+                      print(f'⚠️  Échec: {e}')
+                      if attempt < 2:
+                          time.sleep(10)
+              if resp and resp.ok:
+                  break
+
+          if not resp or not resp.ok:
+              print('ERREUR: Impossible de contacter voyage.gc.ca après toutes les tentatives.')
+              sys.exit(1)
+
+          is_french = 'voyage.gc.ca' in URL
 
           soup = BeautifulSoup(resp.text, 'html.parser')
           countries = []
@@ -264,6 +300,8 @@ jobs:
               if level == 0:
                   continue
 
+              # Si on a fetché la page anglaise, on cherche le nom français via le lien alternatif
+              # mais on garde le slug (identique en FR et EN) pour retrouver le nom dans ISO2_MAP
               iso2 = ISO2_MAP.get(name, '')
               if not iso2:
                   unknown.append(name)
