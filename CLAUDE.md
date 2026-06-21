@@ -1,13 +1,13 @@
 # CLAUDE.md — Trip Radar
 
 Fichier de contexte pour Claude Code / sessions futures.
-Créé le 2026-06-21.
+Créé le 2026-06-21. Dernière mise à jour : 2026-06-21.
 
 ---
 
 ## 🗺️ Vue d'ensemble du projet
 
-**Trip Radar** est une carte interactive mondiale des avertissements de voyage du gouvernement du Canada (Affaires mondiales Canada). Elle affiche les niveaux de risque par pays avec filtres interactifs et liens vers les pages détail de chaque destination.
+**Trip Radar** est une carte interactive mondiale des avertissements de voyage du gouvernement du Canada (Affaires mondiales Canada). Elle affiche les niveaux de risque par pays avec filtres interactifs, zoom/pan, et liens vers les pages détail de chaque destination.
 
 **URL live :** https://geomartino.github.io/trip-radar/
 **Repo :** https://github.com/geomartino/trip-radar
@@ -19,13 +19,13 @@ Créé le 2026-06-21.
 
 ```
 trip-radar/
-├── index.html                        # Page principale — carte interactive
-├── data.json                         # Données générées automatiquement (ne pas éditer manuellement)
-├── README.md                         # Documentation publique du repo
-├── CLAUDE.md                         # Ce fichier — contexte pour Claude
+├── index.html                           # Page principale — carte interactive
+├── data.json                            # Données générées automatiquement (ne pas éditer manuellement)
+├── README.md                            # Documentation publique du repo
+├── CLAUDE.md                            # Ce fichier — contexte pour Claude
 └── .github/
     └── workflows/
-        └── update-data.yml           # GitHub Actions — mise à jour quotidienne des données
+        └── update-data-canada.yml       # GitHub Actions — mise à jour quotidienne (Canada)
 ```
 
 ---
@@ -34,7 +34,7 @@ trip-radar/
 
 ### Flux de données
 ```
-GitHub Actions (tourne 1x/jour à 6h UTC)
+GitHub Actions (tourne 1x/jour à 4h UTC / minuit EST)
     → fetche voyage.gc.ca/voyager/avertissements (HTML brut)
     → script Python (BeautifulSoup) parse le HTML directement
     → génère data.json avec pays + niveaux de risque + slugs URL
@@ -42,15 +42,16 @@ GitHub Actions (tourne 1x/jour à 6h UTC)
 
 Navigateur de l'utilisateur
     → charge index.html (GitHub Pages, statique)
-    → fetch data.json (fichier statique, ultra rapide)
-    → colorie la carte SVG selon les niveaux
+    → fetch data.json + world-atlas TopoJSON (CDN) en parallèle
+    → rendu de la carte via D3.js (projection Natural Earth)
+    → colorie les pays selon les niveaux de risque
 ```
 
 ### Pourquoi cette architecture ?
 - **100% gratuit pour toujours** — aucune API payante, aucune carte de crédit requise
-- **Aucun secret à gérer** — plus de clé Anthropic, zéro surface d'attaque
+- **Aucun secret à gérer** — zéro clé API, zéro surface d'attaque
 - **Pas de backend** — tout est statique, hébergé gratuitement sur GitHub Pages
-- **Données fraîches** — mise à jour automatique chaque matin
+- **Données fraîches** — mise à jour automatique chaque nuit à minuit EST
 - **Robuste** — si le workflow échoue, l'ancienne version de data.json reste en place
 - **GitHub Actions gratuit** — 2000 minutes/mois pour les repos publics, largement suffisant
 
@@ -97,16 +98,19 @@ ex: https://voyage.gc.ca/destinations/colombie
 
 ---
 
-## 🗺️ Carte SVG
+## 🗺️ Carte — D3.js + TopoJSON
 
-- La carte est un SVG inline dans `index.html`
-- Les pays sont représentés par des `<path>` avec les attributs :
+- Rendu via **D3.js v7** (CDN jsdelivr) + **topojson-client v3**
+- Données géographiques : **world-atlas@2** (`countries-110m.json`) via unpkg CDN
+- Projection : **Natural Earth** (`d3.geoNaturalEarth1`) — viewBox `0 0 2000 1001`
+- Fond océan + lignes de grille (graticule) inclus
+- Les pays sont des `<path>` dans un `<g>` wrapper avec les attributs :
   - `data-iso2` : code ISO 3166-1 alpha-2
   - `data-level` : niveau de risque (0–4)
   - `data-name` : nom en français
   - `data-slug` : slug URL voyage.gc.ca
-- Les chemins SVG (`MAP_PATHS`) sont des polygones simplifiés (Natural Earth)
-- Le viewBox est `0 0 2000 1001`
+- **Zoom/Pan** via `d3.zoom()` — molette, clic-glisser, boutons +/−/⊙
+- Mapping codes numériques ISO → ISO2 dans `NUM_TO_ISO2` (dans `index.html`)
 
 ---
 
@@ -123,8 +127,10 @@ ex: https://voyage.gc.ca/destinations/colombie
 ```
 
 ### Stack technique
-- **HTML/CSS/JS vanilla** — aucun framework, aucune dépendance
-- **SVG inline** — pas de librairie de carte externe
+- **HTML/CSS/JS vanilla** — aucun framework
+- **D3.js v7** (CDN) — rendu carte et zoom/pan
+- **topojson-client v3** (CDN) — parsing des données géographiques
+- **world-atlas@2** (CDN unpkg) — géométries Natural Earth 110m
 - **Fetch API** — pour charger data.json
 - **GitHub Pages** — hébergement statique gratuit
 - **GitHub Actions + Python/BeautifulSoup** — pipeline de mise à jour des données, zéro coût
@@ -133,25 +139,56 @@ ex: https://voyage.gc.ca/destinations/colombie
 
 ## 🔧 Fonctionnalités actuelles
 
-- [x] Carte mondiale colorée par niveau de risque
+- [x] Carte mondiale précise (Natural Earth) colorée par niveau de risque
+- [x] Zoom molette + pan clic-glisser + boutons +/−/⊙
 - [x] Tooltip au survol (nom du pays + niveau)
 - [x] Clic → ouvre la page détail sur voyage.gc.ca
 - [x] Filtres par niveau (Tous / Niveau 1 / 2 / 3 / 4) avec compteurs
 - [x] Effet "dimming" des pays non sélectionnés lors d'un filtre
-- [x] Mise à jour automatique quotidienne via GitHub Actions
+- [x] Mise à jour automatique quotidienne via GitHub Actions (4h UTC)
 - [x] Date de dernière mise à jour affichée dans le header
 
 ---
 
-## 🚀 Évolutions prévues / idées futures
+## 🚀 Milestones & issues GitHub
 
-- [ ] Ajouter d'autres sources (US State Department, UK FCDO, etc.)
-- [ ] Barre de recherche par pays
-- [ ] Panneau latéral avec liste des pays filtrés
-- [ ] Mode bilingue FR/EN
-- [ ] Historique des changements de niveau (suivi dans le temps)
-- [ ] Notifications si un pays change de niveau
-- [ ] Améliorer la précision des chemins SVG (actuellement très simplifiés)
+### Milestone 1 — Sources de données internationales
+https://github.com/geomartino/trip-radar/milestone/1
+
+- **Issue #1** — Source USA (US State Department / travel.state.gov)
+- **Issue #2** — Source UK (FCDO / gov.uk/foreign-travel-advice)
+
+Architecture prévue : un workflow `update-data-{pays}.yml` par source, un `data-{pays}.json` par source, sélecteur de source dans le front-end. Les niveaux seront normalisés sur l'échelle 1-4 commune.
+
+### Milestone 2 — Intégration prix de billets d'avion
+https://github.com/geomartino/trip-radar/milestone/2
+
+Trois options documentées, par ordre de complexité :
+
+- **Issue #3 — Option A** : lien Google Flights dans le tooltip (sans API, ~15 min)
+  - URL : `https://www.google.com/travel/flights?q=vols+vers+{nom_pays}`
+  - Zéro backend, zéro coût, implémentation triviale
+
+- **Issue #4 — Option B** : prix réels via API Amadeus côté client
+  - API gratuite (2000 req/mois), clé visible dans le code
+  - Nécessite un mapping `iso2 → code IATA aéroport` à construire
+  - Auth OAuth2 Amadeus (token Bearer, expire 30 min)
+
+- **Issue #5 — Option C** : Amadeus + fonction serverless (Cloudflare Workers / Netlify)
+  - Clé API sécurisée côté serveur, cache centralisé
+  - Plus complexe mais plus robuste pour usage public
+
+**Recommandation** : commencer par l'Option A, puis évaluer si les vrais prix justifient l'Option B ou C.
+
+---
+
+## 🐛 Points d'attention
+
+1. **voyage.gc.ca peut bloquer les IPs GitHub Actions** — le workflow essaie d'abord la page FR, puis la page EN (`travel.gc.ca`) en fallback, avec 3 tentatives chacune.
+2. **Le parsing HTML peut casser** si le gouvernement change la structure de leur page — surveiller les échecs du workflow et ajuster le sélecteur BeautifulSoup (images SVG avec noms `normal-precautions`, `increased-caution`, `reconsider-travel`, `do-not-travel`).
+3. **Les slugs URL** sont extraits directement des liens `<a href="/destinations/...">` — fiables mais à vérifier si un pays ne redirige pas.
+4. **data.json ne doit pas être édité manuellement** — il est écrasé à chaque run du workflow.
+5. **Pays sans iso2** — si un nouveau pays apparaît dans les données sans match dans `ISO2_MAP` (workflow) ou `NUM_TO_ISO2` (index.html), il s'affichera gris sur la carte. Le workflow logge un avertissement `⚠️` dans ce cas.
 
 ---
 
@@ -167,16 +204,9 @@ ex: https://voyage.gc.ca/destinations/colombie
 
 ---
 
-## 🐛 Points d'attention
-
-1. **Les chemins SVG sont très simplifiés** — certains petits pays peuvent être imprécis ou manquants. Amélioration possible avec TopoJSON/D3.
-2. **Le parsing HTML de voyage.gc.ca peut casser** si le gouvernement change la structure de leur page — surveiller les échecs du workflow GitHub Actions et ajuster le sélecteur BeautifulSoup en conséquence.
-3. **Les slugs URL** sont extraits directement des liens `<a href>` sur la page — ils devraient être fiables, mais vérifier manuellement si un pays ne redirige pas correctement.
-4. **data.json ne doit pas être édité manuellement** — il est écrasé à chaque run du workflow.
-
----
-
 ## 💬 Contexte de développement
 
 Ce projet a été initié dans une session Claude.ai (claude-sonnet-4-6) le 2026-06-21.
 Les décisions d'architecture ont été prises pour maximiser la gratuité (aucune API payante), la sécurité (aucune clé exposée), la simplicité (site 100% statique) et la maintenabilité (pipeline automatisé avec Python/BeautifulSoup).
+
+La carte a migré de polygones SVG simplifiés faits main vers D3.js + Natural Earth TopoJSON pour une qualité géographique professionnelle.
