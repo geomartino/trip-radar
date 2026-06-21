@@ -264,6 +264,50 @@
 
     .source-badge a { color: var(--text-muted); text-decoration: none; }
     .source-badge a:hover { color: var(--accent); }
+
+    /* Map navigation */
+    #map-svg {
+      cursor: grab;
+    }
+    #map-svg:active {
+      cursor: grabbing;
+    }
+
+    .map-controls {
+      position: absolute;
+      top: 16px;
+      right: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      z-index: 10;
+    }
+
+    .map-ctrl-btn {
+      width: 32px;
+      height: 32px;
+      background: #0d1a26cc;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      line-height: 1;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      backdrop-filter: blur(8px);
+      transition: color 0.15s, border-color 0.15s;
+    }
+
+    .map-ctrl-btn:hover {
+      color: var(--text);
+      border-color: var(--text-muted);
+    }
+
+    .map-ctrl-sep {
+      height: 8px;
+    }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
@@ -310,6 +354,13 @@
 
   <svg id="map-svg" viewBox="0 0 2000 1001" xmlns="http://www.w3.org/2000/svg">
   </svg>
+
+  <div class="map-controls">
+    <button class="map-ctrl-btn" id="btn-zoom-in" title="Zoom avant">+</button>
+    <button class="map-ctrl-btn" id="btn-zoom-out" title="Zoom arrière">−</button>
+    <div class="map-ctrl-sep"></div>
+    <button class="map-ctrl-btn" id="btn-reset" title="Vue globale">⊙</button>
+  </div>
 
   <div class="legend">
     <div class="legend-title">Niveau de risque</div>
@@ -422,6 +473,8 @@ function updateCounts(countries) {
   document.getElementById('count-4').textContent = `(${counts[4]})`;
 }
 
+let mapZoom, mapSvgD3;
+
 function buildMap(world) {
   const svg = document.getElementById('map-svg');
   const width = 2000, height = 1001;
@@ -432,11 +485,15 @@ function buildMap(world) {
 
   const pathGen = d3.geoPath(projection);
 
+  // Groupe principal — cible du zoom/pan
+  const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+  svg.appendChild(g);
+
   // Fond océan
   const sphere = document.createElementNS('http://www.w3.org/2000/svg', 'path');
   sphere.setAttribute('d', pathGen({type: 'Sphere'}));
   sphere.style.fill = '#0d1a26';
-  svg.appendChild(sphere);
+  g.appendChild(sphere);
 
   // Lignes de grille
   const gratEl = document.createElementNS('http://www.w3.org/2000/svg', 'path');
@@ -444,7 +501,7 @@ function buildMap(world) {
   gratEl.style.fill = 'none';
   gratEl.style.stroke = '#162535';
   gratEl.style.strokeWidth = '0.4';
-  svg.appendChild(gratEl);
+  g.appendChild(gratEl);
 
   // Pays
   const countries = topojson.feature(world, world.objects.countries);
@@ -475,7 +532,28 @@ function buildMap(world) {
     path.addEventListener('mousemove', (e) => showTooltip(e, iso2, info, level));
     path.addEventListener('mouseleave', hideTooltip);
 
-    svg.appendChild(path);
+    g.appendChild(path);
+  });
+
+  // Zoom & pan
+  mapSvgD3 = d3.select(svg);
+  mapZoom = d3.zoom()
+    .scaleExtent([1, 10])
+    .on('zoom', (event) => {
+      g.setAttribute('transform', event.transform.toString());
+    });
+
+  mapSvgD3.call(mapZoom).on('dblclick.zoom', null);
+
+  // Boutons de navigation
+  document.getElementById('btn-zoom-in').addEventListener('click', () => {
+    mapSvgD3.transition().duration(300).call(mapZoom.scaleBy, 1.5);
+  });
+  document.getElementById('btn-zoom-out').addEventListener('click', () => {
+    mapSvgD3.transition().duration(300).call(mapZoom.scaleBy, 1 / 1.5);
+  });
+  document.getElementById('btn-reset').addEventListener('click', () => {
+    mapSvgD3.transition().duration(400).call(mapZoom.transform, d3.zoomIdentity);
   });
 }
 
