@@ -48,13 +48,13 @@
       "name": "Anguilla",
       "slug": "anguilla",
       "level": 1,
-      "iso2": ""
+      "iso2": "AI"
     },
     {
       "name": "Antarctique",
       "slug": "antarctique",
       "level": 2,
-      "iso2": ""
+      "iso2": "AQ"
     },
     {
       "name": "Antigua-et-Barbuda",
@@ -84,7 +84,7 @@
       "name": "Aruba",
       "slug": "aruba",
       "level": 1,
-      "iso2": ""
+      "iso2": "AW"
     },
     {
       "name": "Australie",
@@ -108,7 +108,7 @@
       "name": "Açores",
       "slug": "acores",
       "level": 1,
-      "iso2": ""
+      "iso2": "PT"
     },
     {
       "name": "Bahamas",
@@ -150,7 +150,7 @@
       "name": "Bermudes",
       "slug": "bermudes",
       "level": 1,
-      "iso2": ""
+      "iso2": "BM"
     },
     {
       "name": "Bhoutan",
@@ -168,7 +168,7 @@
       "name": "Bonaire",
       "slug": "bonaire",
       "level": 1,
-      "iso2": ""
+      "iso2": "BQ"
     },
     {
       "name": "Bosnie-Herzégovine",
@@ -306,7 +306,7 @@
       "name": "Curaçao",
       "slug": "curacao",
       "level": 1,
-      "iso2": ""
+      "iso2": "CW"
     },
     {
       "name": "Côte d'Ivoire",
@@ -348,7 +348,7 @@
       "name": "Eswatini",
       "slug": "eswatini",
       "level": 2,
-      "iso2": ""
+      "iso2": "SZ"
     },
     {
       "name": "Fidji",
@@ -390,7 +390,7 @@
       "name": "Gibraltar",
       "slug": "gibraltar",
       "level": 1,
-      "iso2": ""
+      "iso2": "GI"
     },
     {
       "name": "Grenade",
@@ -402,7 +402,7 @@
       "name": "Groenland",
       "slug": "groenland",
       "level": 1,
-      "iso2": ""
+      "iso2": "GL"
     },
     {
       "name": "Grèce",
@@ -414,13 +414,13 @@
       "name": "Guadeloupe",
       "slug": "guadeloupe",
       "level": 1,
-      "iso2": ""
+      "iso2": "GP"
     },
     {
       "name": "Guam",
       "slug": "guam",
       "level": 1,
-      "iso2": ""
+      "iso2": "GU"
     },
     {
       "name": "Guatemala",
@@ -456,7 +456,7 @@
       "name": "Guyane française",
       "slug": "guyane-francaise",
       "level": 1,
-      "iso2": ""
+      "iso2": "GF"
     },
     {
       "name": "Géorgie",
@@ -480,7 +480,7 @@
       "name": "Hong Kong",
       "slug": "hong-kong",
       "level": 2,
-      "iso2": ""
+      "iso2": "HK"
     },
     {
       "name": "Hongrie",
@@ -510,7 +510,7 @@
       "name": "Iraq",
       "slug": "iraq",
       "level": 4,
-      "iso2": ""
+      "iso2": "IQ"
     },
     {
       "name": "Irlande",
@@ -528,7 +528,7 @@
       "name": "Israël et la Palestine",
       "slug": "israel-et-palestine",
       "level": 4,
-      "iso2": ""
+      "iso2": "IL"
     },
     {
       "name": "Italie",
@@ -594,7 +594,7 @@
       "name": "La Réunion",
       "slug": "la-reunion",
       "level": 1,
-      "iso2": ""
+      "iso2": "RE"
     },
     {
       "name": "Laos",
@@ -654,7 +654,7 @@
       "name": "Macao",
       "slug": "macao",
       "level": 2,
-      "iso2": ""
+      "iso2": "MO"
     },
     {
       "name": "Macédoine du Nord",
@@ -708,7 +708,7 @@
       "name": "Martinique",
       "slug": "martinique",
       "level": 1,
-      "iso2": ""
+      "iso2": "MQ"
     },
     {
       "name": "Maurice",
@@ -726,7 +726,7 @@
       "name": "Mayotte",
       "slug": "mayotte",
       "level": 2,
-      "iso2": ""
+      "iso2": "YT"
     },
     {
       "name": "Mexique",
@@ -738,7 +738,7 @@
       "name": "Micronésie (EFM)",
       "slug": "micronesie-efm",
       "level": 1,
-      "iso2": ""
+      "iso2": "FM"
     },
     {
       "name": "Moldova",
@@ -762,7 +762,7 @@
       "name": "Montserrat",
       "slug": "montserrat",
       "level": 1,
-      "iso2": ""
+      "iso2": "MS"
     },
     {
       "name": "Monténégro",
@@ -816,7 +816,7 @@
       "name": "Niue",
       "slug": "niue",
       "level": 1,
-      "iso2": ""
+      "iso2": "NU"
     },
     {
       "name": "Norvège",
@@ -828,7 +828,7 @@
       "name": "Nouvelle-Calédonie",
       "slug": "nouvelle-caledonie",
       "level": 2,
-      "iso2": ""
+      "iso2": "NC"
     },
     {
       "name": "Nouvelle-Zélande",
@@ -912,13 +912,13 @@
       "name": "Polynésie française",
       "slug": "polynesie-francaise",
       "level": 1,
-      "iso2": ""
+      "iso2": "PF"
     },
     {
       "name": "Porto Rico",
       "slug": "puerto-rico",
       "level": 1,
-      "iso2": ""
+      "iso2": "PR"
     },
     {
       "name": "Portugal",
@@ -978,25 +978,25 @@
       "name": "République du Congo (Brazzaville)",
       "slug": "congo-brazzaville",
       "level": 2,
-      "iso2": ""
+      "iso2": "CG"
     },
     {
       "name": "République démocratique du Congo (Kinshasa)",
       "slug": "congo-kinshasa",
       "level": 4,
-      "iso2": ""
+      "iso2": "CD"
     },
     {
       "name": "Saint-Barthélemy",
       "slug": "saint-barthelemy",
       "level": 1,
-      "iso2": ""
+      "iso2": "BL"
     },
     {
       "name": "Saint-Kitts-et-Nevis",
       "slug": "saint-kitts-et-nevis",
       "level": 1,
-      "iso2": ""
+      "iso2": "KN"
     },
     {
       "name": "Saint-Marin",
@@ -1008,13 +1008,13 @@
       "name": "Saint-Martin",
       "slug": "saint-martin",
       "level": 1,
-      "iso2": ""
+      "iso2": "MF"
     },
     {
       "name": "Saint-Pierre-et-Miquelon",
       "slug": "saint-pierre-et-miquelon",
       "level": 1,
-      "iso2": ""
+      "iso2": "PM"
     },
     {
       "name": "Saint-Vincent-et-Grenadines",
@@ -1032,7 +1032,7 @@
       "name": "Salvador",
       "slug": "salvador",
       "level": 2,
-      "iso2": ""
+      "iso2": "SV"
     },
     {
       "name": "Samoa",
@@ -1044,13 +1044,13 @@
       "name": "Samoa américaines",
       "slug": "samoa-americaines",
       "level": 1,
-      "iso2": ""
+      "iso2": "AS"
     },
     {
       "name": "Sao Tomé-et-Principe",
       "slug": "sao-tome-et-principe",
       "level": 1,
-      "iso2": ""
+      "iso2": "ST"
     },
     {
       "name": "Serbie",
@@ -1080,7 +1080,7 @@
       "name": "Sint Maarten",
       "slug": "sint-maarten",
       "level": 1,
-      "iso2": ""
+      "iso2": "SX"
     },
     {
       "name": "Slovaquie",
@@ -1164,7 +1164,7 @@
       "name": "Taïwan",
       "slug": "taiwan",
       "level": 1,
-      "iso2": ""
+      "iso2": "TW"
     },
     {
       "name": "Tchad",
@@ -1176,7 +1176,7 @@
       "name": "Tchéquie",
       "slug": "tchequie",
       "level": 1,
-      "iso2": ""
+      "iso2": "CZ"
     },
     {
       "name": "Thaïlande",
@@ -1188,7 +1188,7 @@
       "name": "Timor-Leste (Timor oriental)",
       "slug": "timor-leste-timor-oriental",
       "level": 2,
-      "iso2": ""
+      "iso2": "TL"
     },
     {
       "name": "Togo",
@@ -1200,7 +1200,7 @@
       "name": "Tokelau",
       "slug": "tokelau",
       "level": 1,
-      "iso2": ""
+      "iso2": "TK"
     },
     {
       "name": "Tonga",
@@ -1236,7 +1236,7 @@
       "name": "Türkiye",
       "slug": "turkiye",
       "level": 2,
-      "iso2": ""
+      "iso2": "TR"
     },
     {
       "name": "Ukraine",
@@ -1266,7 +1266,7 @@
       "name": "Vietnam",
       "slug": "vietnam",
       "level": 2,
-      "iso2": ""
+      "iso2": "VN"
     },
     {
       "name": "Yémen",
@@ -1314,7 +1314,7 @@
       "name": "États-Unis",
       "slug": "etats-unis",
       "level": 1,
-      "iso2": ""
+      "iso2": "US"
     },
     {
       "name": "Éthiopie",
@@ -1326,31 +1326,31 @@
       "name": "Îles Canaries",
       "slug": "iles-canaries",
       "level": 1,
-      "iso2": ""
+      "iso2": "ES"
     },
     {
       "name": "Îles Caïmans",
       "slug": "caimans-iles",
       "level": 1,
-      "iso2": ""
+      "iso2": "KY"
     },
     {
       "name": "Îles Cook",
       "slug": "iles-cook",
       "level": 1,
-      "iso2": ""
+      "iso2": "CK"
     },
     {
       "name": "Îles Falkland",
       "slug": "iles-falkland",
       "level": 1,
-      "iso2": ""
+      "iso2": "FK"
     },
     {
       "name": "Îles Mariannes du Nord",
       "slug": "mariannes-du-nord-iles",
       "level": 1,
-      "iso2": ""
+      "iso2": "MP"
     },
     {
       "name": "Îles Marshall",
@@ -1368,19 +1368,19 @@
       "name": "Îles Turks et Caicos",
       "slug": "iles-turks-et-caicos",
       "level": 2,
-      "iso2": ""
+      "iso2": "TC"
     },
     {
       "name": "Îles Vierges américaines",
       "slug": "iles-vierges-americaines",
       "level": 1,
-      "iso2": ""
+      "iso2": "VI"
     },
     {
       "name": "Îles Vierges britanniques",
       "slug": "iles-vierges-britanniques",
       "level": 1,
-      "iso2": ""
+      "iso2": "VG"
     }
   ]
 }
