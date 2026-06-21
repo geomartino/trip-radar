@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trip Radar — Avertissements de voyage</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0f1923;
+      --surface: #162030;
+      --border: #1e2f42;
+      --text: #e8edf2;
+      --text-muted: #6b8299;
+      --accent: #3d8ef0;
+
+      --level-1: #2a6e4e;
+      --level-1-hover: #38a36e;
+      --level-2: #b8860b;
+      --level-2-hover: #e8a800;
+      --level-3: #c05a1f;
+      --level-3-hover: #f07030;
+      --level-4: #8b1a1a;
+      --level-4-hover: #cc2222;
+      --level-0: #1a2a38;
+      --level-0-hover: #243a52;
+    }
+
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      padding: 18px 28px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid var(--border);
+      background: var(--surface);
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1.15rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--text);
+    }
+
+    .logo span { color: var(--accent); }
+
+    .updated {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .updated strong { color: var(--text); }
+
+    /* Filters */
+    .filters {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 28px;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+
+    .filter-label {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-right: 4px;
+    }
+
+    .filter-btn {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+      padding: 6px 14px;
+      border-radius: 20px;
+      border: 1px solid transparent;
+      cursor: pointer;
+      font-size: 0.82rem;
+      font-weight: 500;
+      transition: all 0.15s;
+      background: transparent;
+      color: var(--text-muted);
+      border-color: var(--border);
+    }
+
+    .filter-btn .dot {
+      width: 9px; height: 9px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .filter-btn.active { color: var(--text); border-color: currentColor; }
+    .filter-btn[data-level="all"].active { border-color: var(--accent); color: var(--accent); }
+    .filter-btn[data-level="1"].active { border-color: var(--level-1-hover); color: var(--level-1-hover); }
+    .filter-btn[data-level="2"].active { border-color: var(--level-2-hover); color: var(--level-2-hover); }
+    .filter-btn[data-level="3"].active { border-color: var(--level-3-hover); color: var(--level-3-hover); }
+    .filter-btn[data-level="4"].active { border-color: var(--level-4-hover); color: var(--level-4-hover); }
+    .filter-btn:hover { color: var(--text); border-color: var(--text-muted); }
+
+    .filter-count {
+      font-size: 0.72rem;
+      opacity: 0.7;
+    }
+
+    /* Map container */
+    .map-wrapper {
+      flex: 1;
+      position: relative;
+      overflow: hidden;
+    }
+
+    #map-svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    /* Country styles */
+    .country {
+      stroke: #0f1923;
+      stroke-width: 0.4;
+      transition: fill 0.2s;
+      cursor: default;
+    }
+
+    .country.has-data { cursor: pointer; }
+    .country.dimmed { opacity: 0.15; }
+
+    .country[data-level="0"] { fill: var(--level-0); }
+    .country[data-level="1"] { fill: var(--level-1); }
+    .country[data-level="2"] { fill: var(--level-2); }
+    .country[data-level="3"] { fill: var(--level-3); }
+    .country[data-level="4"] { fill: var(--level-4); }
+
+    .country.has-data[data-level="0"]:hover { fill: var(--level-0-hover); }
+    .country.has-data[data-level="1"]:hover { fill: var(--level-1-hover); }
+    .country.has-data[data-level="2"]:hover { fill: var(--level-2-hover); }
+    .country.has-data[data-level="3"]:hover { fill: var(--level-3-hover); }
+    .country.has-data[data-level="4"]:hover { fill: var(--level-4-hover); }
+
+    /* Tooltip */
+    #tooltip {
+      position: fixed;
+      pointer-events: none;
+      background: #0d1a26ee;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px 14px;
+      font-size: 0.85rem;
+      max-width: 240px;
+      z-index: 100;
+      display: none;
+      backdrop-filter: blur(8px);
+    }
+
+    #tooltip .tt-name {
+      font-weight: 700;
+      font-size: 0.95rem;
+      margin-bottom: 4px;
+    }
+
+    #tooltip .tt-level {
+      font-size: 0.78rem;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    #tooltip .tt-dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    #tooltip .tt-hint {
+      margin-top: 6px;
+      font-size: 0.72rem;
+      color: var(--text-muted);
+    }
+
+    /* Loading */
+    #loading {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: var(--bg);
+      gap: 14px;
+      z-index: 50;
+    }
+
+    .spinner {
+      width: 36px; height: 36px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    #loading p { color: var(--text-muted); font-size: 0.88rem; }
+
+    /* Legend */
+    .legend {
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+      background: #0d1a26cc;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px 16px;
+      backdrop-filter: blur(10px);
+      font-size: 0.78rem;
+    }
+
+    .legend-title {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      margin-bottom: 8px;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 5px;
+      color: var(--text);
+    }
+
+    .legend-dot {
+      width: 11px; height: 11px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    /* Source badge */
+    .source-badge {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      background: #0d1a26cc;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 5px 10px;
+      backdrop-filter: blur(8px);
+    }
+
+    .source-badge a { color: var(--text-muted); text-decoration: none; }
+    .source-badge a:hover { color: var(--accent); }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">✈️ Trip<span>Radar</span></div>
+  <div class="updated" id="updated-label">Chargement…</div>
+</header>
+
+<div class="filters" id="filters">
+  <span class="filter-label">Filtrer :</span>
+  <button class="filter-btn active" data-level="all">
+    <span>Tous les pays</span>
+    <span class="filter-count" id="count-all"></span>
+  </button>
+  <button class="filter-btn" data-level="1">
+    <span class="dot" style="background:var(--level-1-hover)"></span>
+    <span>Mesures normales</span>
+    <span class="filter-count" id="count-1"></span>
+  </button>
+  <button class="filter-btn" data-level="2">
+    <span class="dot" style="background:var(--level-2-hover)"></span>
+    <span>Grande prudence</span>
+    <span class="filter-count" id="count-2"></span>
+  </button>
+  <button class="filter-btn" data-level="3">
+    <span class="dot" style="background:var(--level-3-hover)"></span>
+    <span>Voyage non essentiel</span>
+    <span class="filter-count" id="count-3"></span>
+  </button>
+  <button class="filter-btn" data-level="4">
+    <span class="dot" style="background:var(--level-4-hover)"></span>
+    <span>Évitez tout voyage</span>
+    <span class="filter-count" id="count-4"></span>
+  </button>
+</div>
+
+<div class="map-wrapper">
+  <div id="loading">
+    <div class="spinner"></div>
+    <p>Chargement des avertissements…</p>
+  </div>
+
+  <!-- SVG world map will be injected here -->
+  <svg id="map-svg" viewBox="0 0 2000 1001" xmlns="http://www.w3.org/2000/svg">
+  </svg>
+
+  <div class="legend">
+    <div class="legend-title">Niveau de risque</div>
+    <div class="legend-item"><span class="legend-dot" style="background:var(--level-1)"></span> Mesures normales</div>
+    <div class="legend-item"><span class="legend-dot" style="background:var(--level-2)"></span> Grande prudence</div>
+    <div class="legend-item"><span class="legend-dot" style="background:var(--level-3)"></span> Évitez si non essentiel</div>
+    <div class="legend-item"><span class="legend-dot" style="background:var(--level-4)"></span> Évitez tout voyage</div>
+    <div class="legend-item"><span class="legend-dot" style="background:var(--level-0)"></span> Aucune donnée</div>
+  </div>
+
+  <div class="source-badge">
+    Source : <a href="https://voyage.gc.ca/voyager/avertissements" target="_blank">Affaires mondiales Canada</a>
+  </div>
+</div>
+
+<div id="tooltip">
+  <div class="tt-name" id="tt-name"></div>
+  <div class="tt-level">
+    <span class="tt-dot" id="tt-dot"></span>
+    <span id="tt-level-text"></span>
+  </div>
+  <div class="tt-hint" id="tt-hint"></div>
+</div>
+
+<script>
+// ─── Config ──────────────────────────────────────────────────────────────────
+
+const LEVEL_LABELS = {
+  1: 'Prenez des mesures de sécurité normales',
+  2: 'Faites preuve d\'une grande prudence',
+  3: 'Évitez tout voyage non essentiel',
+  4: 'Évitez tout voyage'
+};
+
+const LEVEL_COLORS = {
+  0: '#1a2a38',
+  1: '#2a6e4e',
+  2: '#b8860b',
+  3: '#c05a1f',
+  4: '#8b1a1a'
+};
+
+const LEVEL_HOVER_COLORS = {
+  0: '#243a52',
+  1: '#38a36e',
+  2: '#e8a800',
+  3: '#f07030',
+  4: '#cc2222'
+};
+
+// ─── Map paths (Natural Earth, simplified) ────────────────────────────────────
+// ISO2 → SVG path data
+const MAP_PATHS = {
+  "AF": "M1369 354 1371 372 1381 378 1395 376 1404 384 1413 382 1420 388 1428 387 1436 394 1432 404 1434 414 1424 416 1416 424 1406 422 1399 430 1386 428 1381 420 1372 418 1365 408 1356 406 1348 396 1352 384 1358 374 1365 366Z",
+  "AL": "M1080 293 1082 302 1078 310 1072 314 1068 308 1070 298 1074 290Z",
+  "DZ": "M988 320 1010 318 1028 322 1040 318 1048 324 1052 336 1050 348 1044 356 1040 368 1032 378 1016 388 1000 388 984 396 980 408 972 412 960 408 952 398 944 390 940 374 948 362 952 348 956 336 964 328Z",
+  "AO": "M1048 524 1060 518 1072 522 1080 516 1092 516 1096 528 1092 540 1088 552 1080 560 1072 568 1060 568 1052 560 1044 552 1040 540 1044 528Z",
+  "AR": "M700 700 712 696 722 702 730 714 728 728 722 740 714 752 706 762 698 770 690 762 682 752 678 740 680 726 690 714Z",
+  "AM": "M1218 328 1228 326 1234 332 1230 340 1220 342 1212 338Z",
+  "AU": "M1680 580 1700 572 1720 574 1738 582 1750 596 1752 614 1742 628 1724 634 1706 630 1692 620 1682 606 1678 592Z",
+  "AT": "M1040 258 1052 256 1062 260 1068 268 1060 274 1048 274 1038 268Z",
+  "AZ": "M1232 326 1244 322 1252 328 1248 338 1236 340 1228 336Z",
+  "BA": "M1062 282 1072 278 1080 284 1078 294 1068 298 1060 292Z",
+  "BD": "M1490 390 1500 386 1508 392 1506 402 1496 406 1488 400Z",
+  "BE": "M1012 244 1022 242 1028 248 1024 256 1014 256 1008 250Z",
+  "BF": "M988 420 1000 416 1010 420 1014 432 1008 442 996 444 986 440 982 428Z",
+  "BG": "M1100 288 1114 284 1122 290 1118 300 1104 302 1096 296Z",
+  "BI": "M1112 508 1120 504 1128 510 1124 520 1114 522 1106 516Z",
+  "BJ": "M1004 428 1012 424 1018 430 1016 442 1006 446 998 440 998 430Z",
+  "BN": "M1604 450 1612 446 1618 452 1614 460 1606 462Z",
+  "BO": "M700 596 714 590 726 596 730 610 726 622 714 626 702 622 696 610Z",
+  "BR": "M720 560 740 550 758 556 770 568 772 584 764 596 750 602 736 600 722 594 712 582 710 568Z",
+  "BT": "M1488 368 1498 364 1504 370 1500 378 1490 380Z",
+  "BW": "M1100 592 1112 586 1122 592 1122 606 1114 616 1102 616 1094 608Z",
+  "BY": "M1100 236 1116 232 1130 236 1134 248 1126 258 1110 260 1098 254Z",
+  "BZ": "M618 400 626 396 630 404 626 414 618 414Z",
+  "CA": "M400 160 440 148 480 152 510 168 520 190 504 202 480 204 460 196 440 200 420 192 398 178Z",
+  "CD": "M1080 490 1098 482 1114 486 1122 500 1120 516 1108 524 1094 522 1082 510 1076 498Z",
+  "CF": "M1072 458 1088 452 1102 456 1108 468 1104 480 1090 484 1076 480 1068 468Z",
+  "CG": "M1060 502 1072 498 1080 504 1078 516 1066 520 1056 514Z",
+  "CH": "M1026 264 1036 260 1042 266 1038 274 1028 276 1020 270Z",
+  "CI": "M972 432 984 428 992 434 990 446 978 450 968 444Z",
+  "CL": "M690 682 698 676 706 682 706 698 700 710 692 718 686 710 684 696Z",
+  "CM": "M1042 448 1054 442 1064 448 1062 462 1050 466 1040 458Z",
+  "CN": "M1520 320 1560 308 1596 312 1620 328 1634 348 1628 368 1606 380 1580 384 1554 376 1530 360 1514 340Z",
+  "CO": "M666 468 682 462 694 468 698 482 692 494 678 498 664 492 658 480Z",
+  "CR": "M638 436 648 432 654 438 650 448 640 450Z",
+  "CU": "M640 380 658 374 672 378 676 390 666 398 650 398 638 392Z",
+  "CY": "M1158 328 1168 324 1174 330 1170 338 1160 340Z",
+  "CZ": "M1054 252 1066 248 1074 254 1070 264 1058 266 1050 260Z",
+  "DE": "M1032 236 1046 232 1056 238 1054 250 1042 256 1030 250Z",
+  "DJ": "M1192 424 1200 420 1206 426 1202 434 1194 436Z",
+  "DK": "M1032 216 1040 212 1046 218 1042 226 1034 228Z",
+  "DO": "M672 390 682 386 688 392 684 402 674 404Z",
+  "DZ": "M988 340 1008 332 1026 336 1040 348 1044 364 1036 378 1018 386 1000 386 982 394 976 406 966 408 954 398 946 388 942 372 950 358 956 344Z",
+  "EC": "M648 490 660 484 670 490 670 504 660 510 648 504Z",
+  "EG": "M1130 348 1148 342 1160 348 1162 362 1152 374 1134 376 1122 368 1120 354Z",
+  "ER": "M1170 406 1182 400 1192 406 1190 418 1178 422 1168 416Z",
+  "ES": "M974 290 992 284 1006 288 1010 302 1000 312 982 314 970 306Z",
+  "ET": "M1160 430 1178 422 1194 428 1198 444 1190 458 1172 462 1156 456 1150 442Z",
+  "FI": "M1090 184 1106 176 1120 180 1122 196 1112 208 1096 210 1084 202Z",
+  "FJ": "M1858 564 1866 560 1872 566 1868 574Z",
+  "FR": "M1002 266 1018 260 1030 266 1028 280 1016 288 1002 286 994 278Z",
+  "GA": "M1046 490 1058 486 1066 492 1062 504 1050 506 1040 500Z",
+  "GB": "M988 220 1000 214 1010 220 1008 234 996 238 986 230Z",
+  "GE": "M1208 308 1222 304 1232 310 1228 320 1214 322 1204 316Z",
+  "GH": "M984 432 996 428 1004 434 1002 448 990 452 980 446Z",
+  "GM": "M930 390 942 386 948 392 944 400 932 402Z",
+  "GN": "M942 420 954 414 962 420 960 432 948 436 938 430Z",
+  "GQ": "M1036 476 1046 472 1052 478 1048 488 1038 490Z",
+  "GR": "M1086 306 1100 300 1110 306 1108 318 1096 322 1084 316Z",
+  "GT": "M610 400 622 396 628 402 624 412 612 414Z",
+  "GW": "M940 406 952 402 958 408 954 418 942 420Z",
+  "GY": "M730 488 742 482 750 488 748 502 736 506 726 498Z",
+  "HN": "M624 406 638 402 646 408 642 418 628 420Z",
+  "HR": "M1058 274 1070 270 1078 276 1074 286 1062 288 1054 282Z",
+  "HT": "M660 386 670 382 676 388 672 398 662 400Z",
+  "HU": "M1066 264 1080 260 1090 266 1088 278 1074 282 1062 276Z",
+  "ID": "M1620 476 1650 468 1678 472 1692 488 1686 504 1658 508 1634 500 1618 488Z",
+  "IE": "M970 228 980 222 988 228 984 238 972 240Z",
+  "IL": "M1148 354 1156 350 1162 356 1158 366 1148 368Z",
+  "IN": "M1430 360 1460 348 1488 354 1502 372 1498 394 1480 408 1458 412 1438 404 1424 386 1422 366Z",
+  "IQ": "M1198 330 1216 324 1230 330 1232 346 1220 358 1202 360 1190 350 1190 336Z",
+  "IR": "M1244 318 1272 310 1298 314 1316 330 1314 350 1298 364 1274 368 1250 360 1236 346 1236 330Z",
+  "IS": "M920 188 936 180 950 184 952 198 940 206 924 204Z",
+  "IT": "M1038 278 1052 272 1062 278 1060 294 1046 300 1034 292Z",
+  "JM": "M654 396 664 392 670 398 666 406 656 408Z",
+  "JO": "M1162 346 1174 340 1182 346 1180 358 1168 362 1158 356Z",
+  "JP": "M1680 300 1696 292 1708 298 1706 314 1692 320 1678 314Z",
+  "KE": "M1158 480 1172 474 1184 480 1182 496 1168 502 1154 494Z",
+  "KG": "M1360 320 1378 314 1392 320 1390 334 1374 338 1358 332Z",
+  "KH": "M1568 420 1582 414 1592 420 1590 434 1574 438 1562 430Z",
+  "KP": "M1648 286 1662 280 1672 286 1670 300 1654 304 1642 296Z",
+  "KR": "M1658 306 1670 300 1680 306 1678 320 1662 324 1650 316Z",
+  "KW": "M1226 356 1234 352 1240 358 1236 368 1226 370Z",
+  "KZ": "M1280 270 1320 260 1358 264 1386 280 1392 300 1374 314 1344 318 1316 310 1290 296 1272 280Z",
+  "LA": "M1572 390 1586 384 1596 390 1594 406 1578 410 1566 402Z",
+  "LB": "M1158 336 1166 332 1172 338 1168 346 1158 348Z",
+  "LK": "M1472 420 1482 416 1488 422 1484 432 1474 434Z",
+  "LR": "M956 444 968 438 976 444 974 456 962 460 952 452Z",
+  "LS": "M1108 618 1116 614 1122 620 1118 628 1108 630Z",
+  "LT": "M1092 228 1104 224 1112 230 1108 240 1096 242 1088 236Z",
+  "LU": "M1020 252 1028 248 1032 254 1028 262 1020 262Z",
+  "LV": "M1094 218 1108 214 1116 220 1112 230 1098 232 1090 226Z",
+  "LY": "M1060 342 1082 334 1102 338 1116 352 1112 368 1096 378 1074 378 1056 368 1050 354Z",
+  "MA": "M964 318 980 312 994 316 998 330 990 342 972 344 960 336 958 322Z",
+  "MD": "M1116 264 1128 260 1136 266 1132 276 1118 278 1110 272Z",
+  "MG": "M1176 554 1188 546 1198 552 1196 568 1182 572 1170 564Z",
+  "MK": "M1082 298 1092 294 1098 300 1094 310 1082 312 1076 304Z",
+  "ML": "M964 390 986 382 1006 386 1016 400 1010 414 990 420 970 416 958 404Z",
+  "MM": "M1536 374 1552 366 1564 372 1562 390 1546 396 1532 388Z",
+  "MN": "M1496 272 1536 260 1572 264 1596 280 1594 298 1572 308 1540 312 1510 304 1488 288 1488 274Z",
+  "MR": "M940 370 962 362 982 366 990 380 984 394 962 400 942 394 932 380Z",
+  "MW": "M1136 542 1146 536 1154 542 1152 556 1140 560 1130 552Z",
+  "MX": "M530 340 562 328 592 332 610 348 608 366 592 376 572 376 552 366 536 354Z",
+  "MY": "M1570 444 1592 438 1608 444 1606 456 1588 460 1568 454Z",
+  "MZ": "M1140 558 1154 550 1166 556 1164 574 1148 580 1134 572Z",
+  "NA": "M1072 576 1088 568 1102 572 1104 588 1092 598 1074 596 1064 584Z",
+  "NE": "M1010 380 1030 372 1050 376 1058 390 1052 404 1030 408 1010 402 1000 390Z",
+  "NG": "M1020 430 1040 422 1058 426 1062 442 1054 456 1034 460 1016 454 1008 440Z",
+  "NI": "M632 418 646 414 654 420 650 432 636 434Z",
+  "NL": "M1014 238 1026 234 1032 240 1028 250 1016 252 1010 246Z",
+  "NO": "M1020 186 1040 176 1060 180 1068 196 1056 210 1034 214 1018 204Z",
+  "NP": "M1464 356 1488 348 1506 354 1504 366 1480 370 1460 364Z",
+  "NZ": "M1800 680 1814 672 1824 678 1820 694 1804 698 1794 690Z",
+  "OM": "M1286 378 1304 370 1318 376 1316 394 1300 402 1282 396Z",
+  "PA": "M652 442 666 438 674 444 670 454 656 456Z",
+  "PE": "M668 530 686 522 700 528 702 546 692 558 674 562 660 552 656 538Z",
+  "PG": "M1722 494 1744 486 1762 490 1764 506 1748 514 1726 512 1714 502Z",
+  "PH": "M1634 388 1650 380 1662 386 1660 402 1644 408 1630 400Z",
+  "PK": "M1374 346 1402 336 1426 342 1432 360 1422 376 1398 382 1374 374 1364 360Z",
+  "PL": "M1066 234 1086 228 1102 232 1106 246 1094 256 1072 258 1058 250 1058 238Z",
+  "PS": "M1148 352 1156 348 1160 354 1156 362 1148 364Z",
+  "PT": "M960 292 970 286 978 292 976 306 964 310 956 302Z",
+  "PY": "M726 622 740 616 750 622 750 636 738 644 724 640 716 630Z",
+  "QA": "M1248 366 1256 362 1260 368 1256 376 1248 378Z",
+  "RO": "M1096 270 1114 264 1126 270 1124 284 1108 290 1092 284Z",
+  "RS": "M1074 278 1088 272 1098 278 1096 290 1080 294 1070 288Z",
+  "RU": "M1100 160 1200 140 1400 150 1560 170 1650 200 1660 230 1620 250 1550 260 1480 250 1400 240 1320 230 1240 220 1180 210 1120 200Z",
+  "RW": "M1114 502 1122 498 1128 504 1124 514 1114 516 1108 510Z",
+  "SA": "M1200 360 1228 350 1256 354 1272 368 1268 386 1248 396 1222 398 1202 388 1196 372Z",
+  "SD": "M1126 398 1150 390 1170 394 1176 410 1170 426 1148 432 1128 428 1116 414Z",
+  "SE": "M1050 188 1064 180 1076 186 1074 204 1060 214 1046 208Z",
+  "SI": "M1052 270 1062 266 1068 272 1064 280 1054 282 1048 276Z",
+  "SK": "M1072 256 1086 252 1096 258 1092 268 1078 270 1068 264Z",
+  "SL": "M948 436 960 430 966 436 962 448 950 452 940 444Z",
+  "SN": "M930 394 946 388 956 394 952 406 936 408 924 400Z",
+  "SO": "M1184 448 1200 440 1214 446 1212 464 1196 472 1178 468 1172 454Z",
+  "SR": "M744 490 756 484 764 490 762 504 748 508 738 500Z",
+  "SS": "M1118 448 1138 440 1156 444 1158 460 1146 472 1124 474 1108 464 1106 450Z",
+  "ST": "M1030 488 1038 484 1042 490 1038 498Z",
+  "SV": "M614 410 624 406 630 412 626 420 616 422Z",
+  "SY": "M1166 316 1186 310 1200 316 1200 330 1186 338 1166 336 1158 326Z",
+  "SZ": "M1120 614 1128 610 1134 616 1130 624 1120 626Z",
+  "TD": "M1066 400 1088 392 1108 396 1114 412 1106 428 1084 432 1064 426 1056 412Z",
+  "TG": "M998 428 1006 424 1012 430 1008 442 998 446 992 438Z",
+  "TH": "M1548 396 1564 388 1576 394 1574 412 1558 418 1544 410Z",
+  "TJ": "M1352 322 1372 316 1384 322 1382 336 1364 340 1350 334Z",
+  "TL": "M1672 494 1684 490 1692 496 1688 506 1674 508Z",
+  "TM": "M1296 316 1320 308 1342 314 1346 330 1330 340 1306 342 1288 334Z",
+  "TN": "M1038 318 1050 312 1060 318 1058 332 1044 338 1032 330Z",
+  "TR": "M1140 298 1170 290 1198 294 1210 308 1204 322 1178 328 1152 324 1136 314Z",
+  "TT": "M710 450 720 446 726 452 722 460 712 462Z",
+  "TZ": "M1140 510 1158 502 1174 508 1172 526 1156 534 1136 530 1124 518Z",
+  "UA": "M1120 248 1150 240 1178 244 1190 258 1182 272 1154 278 1124 274 1108 262Z",
+  "UG": "M1130 482 1144 476 1156 482 1154 496 1138 502 1124 494Z",
+  "US": "M380 260 430 248 490 252 540 268 556 290 540 304 500 310 460 306 420 296 390 278Z",
+  "UY": "M746 678 758 672 768 678 766 692 752 698 740 690Z",
+  "UZ": "M1312 300 1338 292 1360 298 1362 314 1344 322 1318 322 1302 312Z",
+  "VE": "M694 464 712 458 726 464 728 478 716 488 698 490 684 480Z",
+  "VN": "M1582 374 1596 366 1608 372 1606 390 1590 398 1576 390Z",
+  "YE": "M1222 390 1248 382 1270 388 1272 404 1252 414 1226 412 1210 400Z",
+  "ZA": "M1082 608 1108 598 1130 604 1136 622 1122 638 1096 642 1070 632 1060 616Z",
+  "ZM": "M1100 548 1122 540 1142 546 1144 564 1128 574 1104 572 1088 560Z",
+  "ZW": "M1110 572 1130 564 1146 570 1144 588 1126 596 1106 590 1098 578Z"
+};
+
+// ─── State ────────────────────────────────────────────────────────────────────
+let advisoryData = {};
+let activeFilter = 'all';
+const tooltip = document.getElementById('tooltip');
+
+// ─── Init ─────────────────────────────────────────────────────────────────────
+async function init() {
+  try {
+    const res = await fetch(`data.json?t=${Date.now()}`);
+    const data = await res.json();
+
+    // Index by ISO2
+    data.countries.forEach(c => {
+      advisoryData[c.iso2] = c;
+    });
+
+    // Update header
+    document.getElementById('updated-label').innerHTML =
+      `Données du <strong>${data.updated}</strong>`;
+
+    // Update filter counts
+    updateCounts(data.countries);
+
+    // Build map
+    buildMap();
+
+    document.getElementById('loading').style.display = 'none';
+  } catch (e) {
+    document.getElementById('loading').innerHTML =
+      '<p style="color:#cc4444">Erreur de chargement des données.</p>';
+    console.error(e);
+  }
+}
+
+function updateCounts(countries) {
+  const counts = { 1: 0, 2: 0, 3: 0, 4: 0 };
+  countries.forEach(c => { if (counts[c.level] !== undefined) counts[c.level]++; });
+  const total = countries.length;
+
+  document.getElementById('count-all').textContent = `(${total})`;
+  document.getElementById('count-1').textContent = `(${counts[1]})`;
+  document.getElementById('count-2').textContent = `(${counts[2]})`;
+  document.getElementById('count-3').textContent = `(${counts[3]})`;
+  document.getElementById('count-4').textContent = `(${counts[4]})`;
+}
+
+function buildMap() {
+  const svg = document.getElementById('map-svg');
+
+  Object.entries(MAP_PATHS).forEach(([iso2, pathData]) => {
+    const info = advisoryData[iso2];
+    const level = info ? info.level : 0;
+
+    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+    path.setAttribute('d', pathData);
+    path.setAttribute('data-iso2', iso2);
+    path.setAttribute('data-level', level);
+    path.classList.add('country');
+
+    if (info) {
+      path.classList.add('has-data');
+      path.setAttribute('data-name', info.name);
+      path.setAttribute('data-slug', info.slug);
+
+      // Click → open detail page
+      path.addEventListener('click', () => {
+        window.open(`https://voyage.gc.ca/destinations/${info.slug}`, '_blank');
+      });
+    }
+
+    // Hover → tooltip
+    path.addEventListener('mousemove', (e) => showTooltip(e, iso2, info, level));
+    path.addEventListener('mouseleave', hideTooltip);
+
+    svg.appendChild(path);
+  });
+}
+
+function showTooltip(e, iso2, info, level) {
+  if (!info) return;
+
+  const colors = { 1: '#38a36e', 2: '#e8a800', 3: '#f07030', 4: '#cc2222', 0: '#6b8299' };
+  document.getElementById('tt-name').textContent = info.name;
+  document.getElementById('tt-dot').style.background = colors[level] || colors[0];
+  document.getElementById('tt-level-text').textContent = LEVEL_LABELS[level] || 'Aucun avertissement';
+  document.getElementById('tt-hint').textContent = level > 0 ? '→ Cliquer pour voir les détails' : '';
+
+  tooltip.style.display = 'block';
+  moveTooltip(e);
+}
+
+function moveTooltip(e) {
+  const x = e.clientX + 14;
+  const y = e.clientY - 10;
+  const tw = tooltip.offsetWidth;
+  const th = tooltip.offsetHeight;
+  tooltip.style.left = (x + tw > window.innerWidth ? x - tw - 28 : x) + 'px';
+  tooltip.style.top = (y + th > window.innerHeight ? y - th : y) + 'px';
+}
+
+document.getElementById('map-svg').addEventListener('mousemove', (e) => {
+  if (tooltip.style.display === 'block') moveTooltip(e);
+});
+
+function hideTooltip() {
+  tooltip.style.display = 'none';
+}
+
+// ─── Filters ──────────────────────────────────────────────────────────────────
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeFilter = btn.dataset.level;
+    applyFilter();
+  });
+});
+
+function applyFilter() {
+  document.querySelectorAll('.country').forEach(path => {
+    const level = path.getAttribute('data-level');
+    if (activeFilter === 'all') {
+      path.classList.remove('dimmed');
+    } else {
+      path.classList.toggle('dimmed', level !== activeFilter);
+    }
+  });
+}
+
+// ─── Start ────────────────────────────────────────────────────────────────────
+init();
+</script>
+</body>
+</html>
