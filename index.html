@@ -411,6 +411,69 @@
       margin-bottom: 16px;
     }
 
+    .info-panel-map {
+      display: block;
+      width: 100%;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      margin-bottom: 16px;
+      cursor: zoom-in;
+      transition: opacity 0.15s;
+    }
+
+    .info-panel-map:hover {
+      opacity: 0.85;
+    }
+
+    .info-panel-map[hidden] {
+      display: none;
+    }
+
+    /* Map lightbox */
+    #map-lightbox {
+      position: fixed;
+      inset: 0;
+      background: rgba(5, 10, 16, 0.92);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 200;
+      padding: 40px;
+      cursor: zoom-out;
+    }
+
+    #map-lightbox.open {
+      display: flex;
+    }
+
+    #map-lightbox img {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 10px;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+      cursor: default;
+    }
+
+    #lightbox-close {
+      position: absolute;
+      top: 20px;
+      right: 24px;
+      width: 36px;
+      height: 36px;
+      border: none;
+      background: #0d1a26cc;
+      color: var(--text);
+      font-size: 1.3rem;
+      line-height: 1;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    #lightbox-close:hover {
+      background: var(--border);
+    }
+
     .info-panel-update {
       border-top: 1px solid var(--border);
       padding-top: 14px;
@@ -452,6 +515,22 @@
 
     .info-panel-btn:hover {
       opacity: 0.85;
+    }
+
+    .info-panel-btn-secondary {
+      display: block;
+      width: 100%;
+      text-align: center;
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      font-family: inherit;
+      margin-top: 10px;
+      cursor: not-allowed;
     }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
@@ -540,12 +619,19 @@
     <span id="info-level-text"></span>
   </div>
   <div class="info-panel-regional" id="info-regional" hidden>⚠ Des avertissements régionaux s'appliquent à certaines zones de ce pays.</div>
+  <img id="info-map" class="info-panel-map" alt="Carte des niveaux de risque par région" hidden>
   <div class="info-panel-update">
     <div class="info-update-label">Dernière mise à jour</div>
     <div class="info-update-text" id="info-update-text"></div>
     <div class="info-update-date" id="info-update-date"></div>
   </div>
   <a id="info-panel-link" class="info-panel-btn" target="_blank">Voir tous les détails sur voyage.gc.ca →</a>
+  <button class="info-panel-btn-secondary" disabled title="Application en cours de développement">Planifier mon voyage (à venir)</button>
+</div>
+
+<div id="map-lightbox">
+  <button id="lightbox-close" title="Fermer">✕</button>
+  <img id="lightbox-img" alt="Carte des niveaux de risque par région (agrandie)">
 </div>
 
 <script>
@@ -790,6 +876,12 @@ function showInfoPanel(info, level) {
 
   document.getElementById('info-regional').hidden = !info.hasRegionalAdvisory;
 
+  const mapImg = document.getElementById('info-map');
+  mapImg.hidden = true;
+  mapImg.onerror = () => { mapImg.hidden = true; };
+  mapImg.onload = () => { mapImg.hidden = false; };
+  mapImg.src = `https://www.international.gc.ca/tama-sgcv_images/maps-cartes/${info.iso2}/mapfra.png`;
+
   document.getElementById('info-update-text').textContent = info.recentUpdate || '';
   document.getElementById('info-update-date').textContent = info.lastUpdateDate || '';
 
@@ -805,12 +897,42 @@ function closeInfoPanel() {
 
 document.getElementById('info-panel-close').addEventListener('click', closeInfoPanel);
 
-document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape') closeInfoPanel();
-});
-
 document.addEventListener('click', (e) => {
   if (infoPanel.classList.contains('open') && !infoPanel.contains(e.target)) {
+    closeInfoPanel();
+  }
+});
+
+// ─── Map lightbox ───────────────────────────────────────────────────────────────
+const mapLightbox = document.getElementById('map-lightbox');
+const lightboxImg = document.getElementById('lightbox-img');
+const infoMap = document.getElementById('info-map');
+
+infoMap.addEventListener('click', () => {
+  if (infoMap.hidden) return;
+  lightboxImg.src = infoMap.src;
+  mapLightbox.classList.add('open');
+});
+
+function closeLightbox() {
+  mapLightbox.classList.remove('open');
+}
+
+document.getElementById('lightbox-close').addEventListener('click', (e) => {
+  e.stopPropagation();
+  closeLightbox();
+});
+
+mapLightbox.addEventListener('click', (e) => {
+  e.stopPropagation();
+  if (e.target === mapLightbox) closeLightbox();
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key !== 'Escape') return;
+  if (mapLightbox.classList.contains('open')) {
+    closeLightbox();
+  } else {
     closeInfoPanel();
   }
 });
