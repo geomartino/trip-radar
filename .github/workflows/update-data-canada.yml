@@ -81,6 +81,8 @@ jobs:
                   'recentUpdate': entry['fra']['recent-updates'],
                   'lastUpdateDate': entry['fra']['friendly-date'],
                   'hasRegionalAdvisory': bool(entry['has-regional-advisory']),
+                  'hasAdvisoryWarning': bool(entry['has-advisory-warning']),
+                  'updateType': entry['recent-updates-type'],
               })
 
           if not countries:

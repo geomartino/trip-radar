@@ -411,6 +411,31 @@
       margin-bottom: 16px;
     }
 
+    .info-panel-warning {
+      background: #15233a;
+      border: 1px solid var(--accent);
+      color: var(--accent);
+      border-radius: 8px;
+      padding: 10px 12px;
+      font-size: 0.82rem;
+      line-height: 1.4;
+      margin-bottom: 16px;
+    }
+
+    .info-update-type {
+      display: inline-block;
+      margin-left: 6px;
+      padding: 2px 7px;
+      border-radius: 10px;
+      background: var(--border);
+      color: var(--text-muted);
+      font-size: 0.62rem;
+      text-transform: none;
+      letter-spacing: 0;
+      font-weight: 600;
+      vertical-align: middle;
+    }
+
     .info-panel-map {
       display: block;
       width: 100%;
@@ -619,9 +644,10 @@
     <span id="info-level-text"></span>
   </div>
   <div class="info-panel-regional" id="info-regional" hidden>⚠ Des avertissements régionaux s'appliquent à certaines zones de ce pays.</div>
+  <div class="info-panel-warning" id="info-warning" hidden>📢 Un avis important est en vigueur pour ce pays.</div>
   <img id="info-map" class="info-panel-map" alt="Carte des niveaux de risque par région" hidden>
   <div class="info-panel-update">
-    <div class="info-update-label">Dernière mise à jour</div>
+    <div class="info-update-label">Dernière mise à jour<span class="info-update-type" id="info-update-type"></span></div>
     <div class="info-update-text" id="info-update-text"></div>
     <div class="info-update-date" id="info-update-date"></div>
   </div>
@@ -642,6 +668,12 @@ const LEVEL_LABELS = {
   2: 'Faites preuve d\'une grande prudence',
   3: 'Évitez tout voyage non essentiel',
   4: 'Évitez tout voyage'
+};
+
+const UPDATE_TYPE_LABELS = {
+  'Editorial change': 'Changement éditorial',
+  'Regular text update': 'Mise à jour de routine',
+  'Full TAA review': 'Révision complète'
 };
 
 // ─── ISO numeric → ISO2 ──────────────────────────────────────────────────────
@@ -875,6 +907,7 @@ function showInfoPanel(info, level) {
   document.getElementById('info-level-text').textContent = LEVEL_LABELS[level] || 'Aucun avertissement';
 
   document.getElementById('info-regional').hidden = !info.hasRegionalAdvisory;
+  document.getElementById('info-warning').hidden = !info.hasAdvisoryWarning;
 
   const mapImg = document.getElementById('info-map');
   mapImg.hidden = true;
@@ -882,6 +915,7 @@ function showInfoPanel(info, level) {
   mapImg.onload = () => { mapImg.hidden = false; };
   mapImg.src = `https://www.international.gc.ca/tama-sgcv_images/maps-cartes/${info.iso2}/mapfra.png`;
 
+  document.getElementById('info-update-type').textContent = UPDATE_TYPE_LABELS[info.updateType] || '';
   document.getElementById('info-update-text').textContent = info.recentUpdate || '';
   document.getElementById('info-update-date').textContent = info.lastUpdateDate || '';
 
