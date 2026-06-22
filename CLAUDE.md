@@ -74,11 +74,18 @@ Aucun secret requis. Le workflow n'utilise aucune API externe payante.
       "name": "Nom du pays en français",
       "slug": "slug-url-voyage-gc-ca",
       "level": 1,
-      "iso2": "CODE_ISO_2"
+      "iso2": "CODE_ISO_2",
+      "recentUpdate": "Texte court décrivant la dernière modification",
+      "lastUpdateDate": "Date formatée en français (ex. 19 juin 2026 16:01 HAE)",
+      "hasRegionalAdvisory": false,
+      "hasAdvisoryWarning": false,
+      "updateType": "Editorial change"
     }
   ]
 }
 ```
+
+`recentUpdate`, `lastUpdateDate`, `hasRegionalAdvisory`, `hasAdvisoryWarning` et `updateType` viennent directement du flux JSON officiel (`fra.recent-updates`, `fra.friendly-date`, `has-regional-advisory`, `has-advisory-warning`, `recent-updates-type`) — alimentent le panneau d'info slide-in de la carte. `hasAdvisoryWarning` est un signal distinct de `hasRegionalAdvisory` (avis spécial type élections/sécurité, pas une variation de niveau par région — seulement ~9 des 230 pays ont les deux actifs). `updateType` n'est pas traduit par le flux (toujours en anglais : `Editorial change` / `Regular text update` / `Full TAA review`) — traduit côté frontend dans `index.html` (`UPDATE_TYPE_LABELS`). Pas de texte explicatif du niveau de risque ("pourquoi") dans ce flux — uniquement disponible via les pages détail HTML, volontairement non scrapées pour l'instant (~230 requêtes supplémentaires, voir discussion dans l'historique du projet).
 
 ### Niveaux de risque
 

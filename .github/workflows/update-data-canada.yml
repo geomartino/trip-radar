@@ -73,7 +73,17 @@ jobs:
                   ignored.append(name)
                   continue
 
-              countries.append({'name': name, 'slug': slug, 'level': level, 'iso2': iso2})
+              countries.append({
+                  'name': name,
+                  'slug': slug,
+                  'level': level,
+                  'iso2': iso2,
+                  'recentUpdate': entry['fra']['recent-updates'],
+                  'lastUpdateDate': entry['fra']['friendly-date'],
+                  'hasRegionalAdvisory': bool(entry['has-regional-advisory']),
+                  'hasAdvisoryWarning': bool(entry['has-advisory-warning']),
+                  'updateType': entry['recent-updates-type'],
+              })
 
           if not countries:
               print('ERREUR: Aucun pays trouvé — le format du flux JSON a peut-être changé.')

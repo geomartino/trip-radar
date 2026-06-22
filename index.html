@@ -334,6 +334,229 @@
     #map-svg.labels-visible .country-label {
       opacity: 1;
     }
+
+    /* Info panel (slide-in) */
+    #info-panel {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+      width: 340px;
+      max-width: 90vw;
+      background: var(--surface);
+      border-left: 1px solid var(--border);
+      box-shadow: -8px 0 24px rgba(0, 0, 0, 0.35);
+      transform: translateX(100%);
+      transition: transform 0.25s ease;
+      z-index: 20;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      overflow-y: auto;
+    }
+
+    #info-panel.open {
+      transform: translateX(0);
+    }
+
+    #info-panel-close {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      width: 28px;
+      height: 28px;
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      line-height: 1;
+      cursor: pointer;
+      border-radius: 6px;
+    }
+
+    #info-panel-close:hover {
+      color: var(--text);
+      background: var(--border);
+    }
+
+    .info-panel-name {
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin: 8px 30px 14px 0;
+    }
+
+    .info-panel-level {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.92rem;
+      margin-bottom: 16px;
+    }
+
+    .info-level-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .info-panel-regional {
+      background: #2a230f;
+      border: 1px solid var(--level-2-hover);
+      color: var(--level-2-hover);
+      border-radius: 8px;
+      padding: 10px 12px;
+      font-size: 0.82rem;
+      line-height: 1.4;
+      margin-bottom: 16px;
+    }
+
+    .info-panel-warning {
+      background: #15233a;
+      border: 1px solid var(--accent);
+      color: var(--accent);
+      border-radius: 8px;
+      padding: 10px 12px;
+      font-size: 0.82rem;
+      line-height: 1.4;
+      margin-bottom: 16px;
+    }
+
+    .info-update-type {
+      display: inline-block;
+      margin-left: 6px;
+      padding: 2px 7px;
+      border-radius: 10px;
+      background: var(--border);
+      color: var(--text-muted);
+      font-size: 0.62rem;
+      text-transform: none;
+      letter-spacing: 0;
+      font-weight: 600;
+      vertical-align: middle;
+    }
+
+    .info-panel-map {
+      display: block;
+      width: 100%;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--bg);
+      margin-bottom: 16px;
+      cursor: zoom-in;
+      transition: opacity 0.15s;
+    }
+
+    .info-panel-map:hover {
+      opacity: 0.85;
+    }
+
+    .info-panel-map[hidden] {
+      display: none;
+    }
+
+    /* Map lightbox */
+    #map-lightbox {
+      position: fixed;
+      inset: 0;
+      background: rgba(5, 10, 16, 0.92);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 200;
+      padding: 40px;
+      cursor: zoom-out;
+    }
+
+    #map-lightbox.open {
+      display: flex;
+    }
+
+    #map-lightbox img {
+      max-width: 100%;
+      max-height: 100%;
+      border-radius: 10px;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5);
+      cursor: default;
+    }
+
+    #lightbox-close {
+      position: absolute;
+      top: 20px;
+      right: 24px;
+      width: 36px;
+      height: 36px;
+      border: none;
+      background: #0d1a26cc;
+      color: var(--text);
+      font-size: 1.3rem;
+      line-height: 1;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    #lightbox-close:hover {
+      background: var(--border);
+    }
+
+    .info-panel-update {
+      border-top: 1px solid var(--border);
+      padding-top: 14px;
+      margin-bottom: 20px;
+    }
+
+    .info-update-label {
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-muted);
+      margin-bottom: 6px;
+    }
+
+    .info-update-text {
+      font-size: 0.88rem;
+      line-height: 1.4;
+      margin-bottom: 4px;
+    }
+
+    .info-update-date {
+      font-size: 0.76rem;
+      color: var(--text-muted);
+    }
+
+    .info-panel-btn {
+      display: block;
+      text-align: center;
+      background: var(--accent);
+      color: #fff;
+      text-decoration: none;
+      padding: 11px 16px;
+      border-radius: 8px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      margin-top: auto;
+      transition: opacity 0.15s;
+    }
+
+    .info-panel-btn:hover {
+      opacity: 0.85;
+    }
+
+    .info-panel-btn-secondary {
+      display: block;
+      width: 100%;
+      text-align: center;
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      font-family: inherit;
+      margin-top: 10px;
+      cursor: not-allowed;
+    }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/topojson-client@3/dist/topojson-client.min.js"></script>
@@ -413,6 +636,30 @@
   <div class="tt-hint" id="tt-hint"></div>
 </div>
 
+<div id="info-panel">
+  <button id="info-panel-close" title="Fermer">✕</button>
+  <div class="info-panel-name" id="info-name"></div>
+  <div class="info-panel-level">
+    <span class="info-level-dot" id="info-level-dot"></span>
+    <span id="info-level-text"></span>
+  </div>
+  <div class="info-panel-regional" id="info-regional" hidden>⚠ Des avertissements régionaux s'appliquent à certaines zones de ce pays.</div>
+  <div class="info-panel-warning" id="info-warning" hidden>📢 Un avis important est en vigueur pour ce pays.</div>
+  <img id="info-map" class="info-panel-map" alt="Carte des niveaux de risque par région" hidden>
+  <div class="info-panel-update">
+    <div class="info-update-label">Dernière mise à jour<span class="info-update-type" id="info-update-type"></span></div>
+    <div class="info-update-text" id="info-update-text"></div>
+    <div class="info-update-date" id="info-update-date"></div>
+  </div>
+  <a id="info-panel-link" class="info-panel-btn" target="_blank">Voir tous les détails sur voyage.gc.ca →</a>
+  <button class="info-panel-btn-secondary" disabled title="Application en cours de développement">Planifier mon voyage (à venir)</button>
+</div>
+
+<div id="map-lightbox">
+  <button id="lightbox-close" title="Fermer">✕</button>
+  <img id="lightbox-img" alt="Carte des niveaux de risque par région (agrandie)">
+</div>
+
 <script>
 // ─── Config ──────────────────────────────────────────────────────────────────
 
@@ -421,6 +668,12 @@ const LEVEL_LABELS = {
   2: 'Faites preuve d\'une grande prudence',
   3: 'Évitez tout voyage non essentiel',
   4: 'Évitez tout voyage'
+};
+
+const UPDATE_TYPE_LABELS = {
+  'Editorial change': 'Changement éditorial',
+  'Regular text update': 'Mise à jour de routine',
+  'Full TAA review': 'Révision complète'
 };
 
 // ─── ISO numeric → ISO2 ──────────────────────────────────────────────────────
@@ -555,8 +808,9 @@ function buildMap(world) {
       path.classList.add('has-data');
       path.setAttribute('data-name', info.name);
       path.setAttribute('data-slug', info.slug);
-      path.addEventListener('click', () => {
-        window.open(`https://voyage.gc.ca/destinations/${info.slug}`, '_blank');
+      path.addEventListener('click', (e) => {
+        e.stopPropagation();
+        showInfoPanel(info, level);
       });
 
       const centroid = pathGen.centroid(feature);
@@ -620,7 +874,7 @@ function showTooltip(e, iso2, info, level) {
   document.getElementById('tt-name').textContent = info.name;
   document.getElementById('tt-dot').style.background = colors[level] || colors[0];
   document.getElementById('tt-level-text').textContent = LEVEL_LABELS[level] || 'Aucun avertissement';
-  document.getElementById('tt-hint').textContent = level > 0 ? '→ Cliquer pour voir les détails' : '';
+  document.getElementById('tt-hint').textContent = level > 0 ? '→ Cliquer pour plus de détails' : '';
 
   tooltip.style.display = 'block';
   moveTooltip(e);
@@ -642,6 +896,80 @@ document.getElementById('map-svg').addEventListener('mousemove', (e) => {
 function hideTooltip() {
   tooltip.style.display = 'none';
 }
+
+// ─── Info panel ───────────────────────────────────────────────────────────────
+const infoPanel = document.getElementById('info-panel');
+
+function showInfoPanel(info, level) {
+  const colors = { 1: '#38a36e', 2: '#e8a800', 3: '#f07030', 4: '#cc2222' };
+  document.getElementById('info-name').textContent = info.name;
+  document.getElementById('info-level-dot').style.background = colors[level] || '#6b8299';
+  document.getElementById('info-level-text').textContent = LEVEL_LABELS[level] || 'Aucun avertissement';
+
+  document.getElementById('info-regional').hidden = !info.hasRegionalAdvisory;
+  document.getElementById('info-warning').hidden = !info.hasAdvisoryWarning;
+
+  const mapImg = document.getElementById('info-map');
+  mapImg.hidden = true;
+  mapImg.onerror = () => { mapImg.hidden = true; };
+  mapImg.onload = () => { mapImg.hidden = false; };
+  mapImg.src = `https://www.international.gc.ca/tama-sgcv_images/maps-cartes/${info.iso2}/mapfra.png`;
+
+  document.getElementById('info-update-type').textContent = UPDATE_TYPE_LABELS[info.updateType] || '';
+  document.getElementById('info-update-text').textContent = info.recentUpdate || '';
+  document.getElementById('info-update-date').textContent = info.lastUpdateDate || '';
+
+  document.getElementById('info-panel-link').href = `https://voyage.gc.ca/destinations/${info.slug}`;
+
+  infoPanel.classList.add('open');
+  hideTooltip();
+}
+
+function closeInfoPanel() {
+  infoPanel.classList.remove('open');
+}
+
+document.getElementById('info-panel-close').addEventListener('click', closeInfoPanel);
+
+document.addEventListener('click', (e) => {
+  if (infoPanel.classList.contains('open') && !infoPanel.contains(e.target)) {
+    closeInfoPanel();
+  }
+});
+
+// ─── Map lightbox ───────────────────────────────────────────────────────────────
+const mapLightbox = document.getElementById('map-lightbox');
+const lightboxImg = document.getElementById('lightbox-img');
+const infoMap = document.getElementById('info-map');
+
+infoMap.addEventListener('click', () => {
+  if (infoMap.hidden) return;
+  lightboxImg.src = infoMap.src;
+  mapLightbox.classList.add('open');
+});
+
+function closeLightbox() {
+  mapLightbox.classList.remove('open');
+}
+
+document.getElementById('lightbox-close').addEventListener('click', (e) => {
+  e.stopPropagation();
+  closeLightbox();
+});
+
+mapLightbox.addEventListener('click', (e) => {
+  e.stopPropagation();
+  if (e.target === mapLightbox) closeLightbox();
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key !== 'Escape') return;
+  if (mapLightbox.classList.contains('open')) {
+    closeLightbox();
+  } else {
+    closeInfoPanel();
+  }
+});
 
 // ─── Filters ──────────────────────────────────────────────────────────────────
 document.querySelectorAll('.filter-btn').forEach(btn => {
