@@ -74,11 +74,16 @@ Aucun secret requis. Le workflow n'utilise aucune API externe payante.
       "name": "Nom du pays en français",
       "slug": "slug-url-voyage-gc-ca",
       "level": 1,
-      "iso2": "CODE_ISO_2"
+      "iso2": "CODE_ISO_2",
+      "recentUpdate": "Texte court décrivant la dernière modification",
+      "lastUpdateDate": "Date formatée en français (ex. 19 juin 2026 16:01 HAE)",
+      "hasRegionalAdvisory": false
     }
   ]
 }
 ```
+
+`recentUpdate`, `lastUpdateDate` et `hasRegionalAdvisory` viennent directement du flux JSON officiel (`fra.recent-updates`, `fra.friendly-date`, `has-regional-advisory`) — alimentent le panneau d'info slide-in de la carte. Pas de texte explicatif du niveau de risque ("pourquoi") dans ce flux — uniquement disponible via les pages détail HTML, volontairement non scrapées pour l'instant (~230 requêtes supplémentaires, voir discussion dans l'historique du projet).
 
 ### Niveaux de risque
 
