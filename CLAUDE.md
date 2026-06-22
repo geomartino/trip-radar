@@ -1,7 +1,7 @@
 # CLAUDE.md — Trip Radar
 
 Fichier de contexte pour Claude Code / sessions futures.
-Créé le 2026-06-21. Dernière mise à jour : 2026-06-21.
+Créé le 2026-06-21. Dernière mise à jour : 2026-06-22.
 
 ---
 
@@ -11,7 +11,7 @@ Créé le 2026-06-21. Dernière mise à jour : 2026-06-21.
 
 **URL live :** https://geomartino.github.io/trip-radar/
 **Repo :** https://github.com/geomartino/trip-radar
-**Source des données :** https://voyage.gc.ca/voyager/avertissements
+**Source des données :** flux JSON officiel `data.international.gc.ca/travel-voyage/index-alpha-fra.json` (liens de détail vers voyage.gc.ca)
 
 ---
 
@@ -35,8 +35,8 @@ trip-radar/
 ### Flux de données
 ```
 GitHub Actions (tourne 1x/jour à 4h UTC / minuit EST)
-    → fetche voyage.gc.ca/voyager/avertissements (HTML brut)
-    → script Python (BeautifulSoup) parse le HTML directement
+    → fetche le flux JSON officiel data.international.gc.ca/travel-voyage/index-alpha-fra.json
+    → script Python (requests + json, pas de scraping HTML) parse le JSON directement
     → génère data.json avec pays + niveaux de risque + slugs URL
     → commit automatique dans le repo
 
@@ -68,7 +68,7 @@ Aucun secret requis. Le workflow n'utilise aucune API externe payante.
 ```json
 {
   "updated": "YYYY-MM-DD",
-  "source": "https://voyage.gc.ca/voyager/avertissements",
+  "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
       "name": "Nom du pays en français",
@@ -133,7 +133,7 @@ ex: https://voyage.gc.ca/destinations/colombie
 - **world-atlas@2** (CDN unpkg) — géométries Natural Earth 110m
 - **Fetch API** — pour charger data.json
 - **GitHub Pages** — hébergement statique gratuit
-- **GitHub Actions + Python/BeautifulSoup** — pipeline de mise à jour des données, zéro coût
+- **GitHub Actions + Python (requests)** — pipeline de mise à jour des données, zéro coût, source officielle (data.international.gc.ca)
 
 ---
 
@@ -184,11 +184,11 @@ Trois options documentées, par ordre de complexité :
 
 ## 🐛 Points d'attention
 
-1. **voyage.gc.ca peut bloquer les IPs GitHub Actions** — le workflow essaie d'abord la page FR, puis la page EN (`travel.gc.ca`) en fallback, avec 3 tentatives chacune.
-2. **Le parsing HTML peut casser** si le gouvernement change la structure de leur page — surveiller les échecs du workflow et ajuster le sélecteur BeautifulSoup (images SVG avec noms `normal-precautions`, `increased-caution`, `reconsider-travel`, `do-not-travel`).
-3. **Les slugs URL** sont extraits directement des liens `<a href="/destinations/...">` — fiables mais à vérifier si un pays ne redirige pas.
+1. **Source officielle, donc plus stable** — depuis le remplacement du scraping HTML par le flux JSON `data.international.gc.ca/travel-voyage/index-alpha-fra.json` (jeu de données *open data*, destiné à la consommation automatisée), le risque de blocage d'IP GitHub Actions est beaucoup plus faible qu'avec le scraping de la page rendue.
+2. **Le format du flux JSON peut quand même changer** — le workflow détecte une casse totale (0 pays) ou partielle (chute de plus de 30% du nombre de pays vs la veille) et échoue plutôt que de committer des données corrompues. En cas d'échec, une issue GitHub est créée/mise à jour automatiquement (et un webhook Discord notifié si `DISCORD_WEBHOOK_URL` est configuré).
+3. **Les slugs URL** viennent directement du champ `fra.url-slug` du flux JSON — fiables, plus de parsing de lien HTML.
 4. **data.json ne doit pas être édité manuellement** — il est écrasé à chaque run du workflow.
-5. **Pays sans iso2** — si un nouveau pays apparaît dans les données sans match dans `ISO2_MAP` (workflow) ou `NUM_TO_ISO2` (index.html), il s'affichera gris sur la carte. Le workflow logge un avertissement `⚠️` dans ce cas.
+5. **Territoires sans polygone propre** — le flux JSON inclut quelques entrées avec un code non standard (ex. Açores = `PT-20`) qui n'ont pas de polygone distinct dans world-atlas ; elles sont filtrées (`len(iso2) != 2`) et n'apparaissent pas dans `data.json`. Le `country-iso` du flux officiel élimine le besoin d'un mapping nom→ISO2 codé en dur (et corrige au passage deux pays mal résolus par l'ancien `ISO2_MAP` : Saint-Vincent-et-Grenadines, et la collision Espagne/Îles Canaries qui partageaient `ES`).
 
 ---
 
@@ -207,6 +207,6 @@ Trois options documentées, par ordre de complexité :
 ## 💬 Contexte de développement
 
 Ce projet a été initié dans une session Claude.ai (claude-sonnet-4-6) le 2026-06-21.
-Les décisions d'architecture ont été prises pour maximiser la gratuité (aucune API payante), la sécurité (aucune clé exposée), la simplicité (site 100% statique) et la maintenabilité (pipeline automatisé avec Python/BeautifulSoup).
+Les décisions d'architecture ont été prises pour maximiser la gratuité (aucune API payante), la sécurité (aucune clé exposée), la simplicité (site 100% statique) et la maintenabilité (pipeline automatisé en Python, basé sur le flux JSON officiel du gouvernement depuis le 2026-06-22, auparavant du scraping HTML avec BeautifulSoup).
 
 La carte a migré de polygones SVG simplifiés faits main vers D3.js + Natural Earth TopoJSON pour une qualité géographique professionnelle.

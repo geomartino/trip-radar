@@ -21,357 +21,69 @@ jobs:
           python-version: '3.12'
 
       - name: Installer les dépendances
-        run: pip install requests beautifulsoup4
+        run: pip install requests
 
       - name: Parser les avertissements de voyage
         run: |
           python3 << 'EOF'
           import requests
-          from bs4 import BeautifulSoup
           import json
           from datetime import date
           import sys
           import os
+          import time
 
-          URL = 'https://voyage.gc.ca/voyager/avertissements'
-
-          LEVEL_MAP = {
-              'normal-precautions': 1,
-              'increased-caution': 2,
-              'reconsider-travel': 3,
-              'do-not-travel': 4,
-          }
-
-          ISO2_MAP = {
-              'Afghanistan': 'AF',
-              'Afrique du Sud': 'ZA',
-              'Albanie': 'AL',
-              'Algérie': 'DZ',
-              'Allemagne': 'DE',
-              'Andorre': 'AD',
-              'Angola': 'AO',
-              'Antigua-et-Barbuda': 'AG',
-              'Arabie saoudite': 'SA',
-              'Argentine': 'AR',
-              'Arménie': 'AM',
-              'Australie': 'AU',
-              'Autriche': 'AT',
-              'Azerbaïdjan': 'AZ',
-              'Bahamas': 'BS',
-              'Bahreïn': 'BH',
-              'Bangladesh': 'BD',
-              'Barbade': 'BB',
-              'Bélarus': 'BY',
-              'Belgique': 'BE',
-              'Belize': 'BZ',
-              'Bénin': 'BJ',
-              'Bhoutan': 'BT',
-              'Bolivie': 'BO',
-              'Bosnie-Herzégovine': 'BA',
-              'Botswana': 'BW',
-              'Brésil': 'BR',
-              'Brunéi': 'BN',
-              'Bulgarie': 'BG',
-              'Burkina Faso': 'BF',
-              'Burundi': 'BI',
-              'Cabo Verde': 'CV',
-              'Cambodge': 'KH',
-              'Cameroun': 'CM',
-              'Chili': 'CL',
-              'Chine': 'CN',
-              'Chypre': 'CY',
-              'Colombie': 'CO',
-              'Comores': 'KM',
-              'Congo (République démocratique du)': 'CD',
-              'Congo (République du)': 'CG',
-              'Corée du Nord': 'KP',
-              'Corée du Sud': 'KR',
-              'Costa Rica': 'CR',
-              "Côte d'Ivoire": 'CI',
-              'Croatie': 'HR',
-              'Cuba': 'CU',
-              'Danemark': 'DK',
-              'Djibouti': 'DJ',
-              'Dominique': 'DM',
-              'Égypte': 'EG',
-              'El Salvador': 'SV',
-              'Émirats arabes unis': 'AE',
-              'Équateur': 'EC',
-              'Érythrée': 'ER',
-              'Espagne': 'ES',
-              'Estonie': 'EE',
-              'Éthiopie': 'ET',
-              'Fidji': 'FJ',
-              'Finlande': 'FI',
-              'France': 'FR',
-              'Gabon': 'GA',
-              'Gambie': 'GM',
-              'Géorgie': 'GE',
-              'Ghana': 'GH',
-              'Grèce': 'GR',
-              'Grenade': 'GD',
-              'Guatemala': 'GT',
-              'Guinée': 'GN',
-              'Guinée-Bissau': 'GW',
-              'Guinée équatoriale': 'GQ',
-              'Guyana': 'GY',
-              'Haïti': 'HT',
-              'Honduras': 'HN',
-              'Hongrie': 'HU',
-              'Inde': 'IN',
-              'Indonésie': 'ID',
-              'Irak': 'IQ',
-              'Iran': 'IR',
-              'Irlande': 'IE',
-              'Islande': 'IS',
-              'Israël': 'IL',
-              'Italie': 'IT',
-              'Jamaïque': 'JM',
-              'Japon': 'JP',
-              'Jordanie': 'JO',
-              'Kazakhstan': 'KZ',
-              'Kenya': 'KE',
-              'Kirghizistan': 'KG',
-              'Kiribati': 'KI',
-              'Kosovo': 'XK',
-              'Koweït': 'KW',
-              'Laos': 'LA',
-              'Lesotho': 'LS',
-              'Lettonie': 'LV',
-              'Liban': 'LB',
-              'Libéria': 'LR',
-              'Libye': 'LY',
-              'Liechtenstein': 'LI',
-              'Lituanie': 'LT',
-              'Luxembourg': 'LU',
-              'Macédoine du Nord': 'MK',
-              'Madagascar': 'MG',
-              'Malaisie': 'MY',
-              'Malawi': 'MW',
-              'Maldives': 'MV',
-              'Mali': 'ML',
-              'Malte': 'MT',
-              'Maroc': 'MA',
-              'Îles Marshall': 'MH',
-              'Maurice': 'MU',
-              'Mauritanie': 'MR',
-              'Mexique': 'MX',
-              'Micronésie': 'FM',
-              'Moldova': 'MD',
-              'Monaco': 'MC',
-              'Mongolie': 'MN',
-              'Monténégro': 'ME',
-              'Mozambique': 'MZ',
-              'Myanmar': 'MM',
-              'Namibie': 'NA',
-              'Nauru': 'NR',
-              'Népal': 'NP',
-              'Nicaragua': 'NI',
-              'Niger': 'NE',
-              'Nigéria': 'NG',
-              'Norvège': 'NO',
-              'Nouvelle-Zélande': 'NZ',
-              'Oman': 'OM',
-              'Ouganda': 'UG',
-              'Ouzbékistan': 'UZ',
-              'Pakistan': 'PK',
-              'Palaos': 'PW',
-              'Panama': 'PA',
-              'Papouasie-Nouvelle-Guinée': 'PG',
-              'Paraguay': 'PY',
-              'Pays-Bas': 'NL',
-              'Pérou': 'PE',
-              'Philippines': 'PH',
-              'Pologne': 'PL',
-              'Portugal': 'PT',
-              'Qatar': 'QA',
-              'République centrafricaine': 'CF',
-              'République dominicaine': 'DO',
-              'République tchèque': 'CZ',
-              'Roumanie': 'RO',
-              'Royaume-Uni': 'GB',
-              'Russie': 'RU',
-              'Rwanda': 'RW',
-              'Saint-Christophe-et-Niévès': 'KN',
-              'Sainte-Lucie': 'LC',
-              'Saint-Marin': 'SM',
-              'Saint-Vincent-et-les-Grenadines': 'VC',
-              'Îles Salomon': 'SB',
-              'Samoa': 'WS',
-              'São Tomé-et-Príncipe': 'ST',
-              'Sénégal': 'SN',
-              'Serbie': 'RS',
-              'Seychelles': 'SC',
-              'Sierra Leone': 'SL',
-              'Singapour': 'SG',
-              'Slovaquie': 'SK',
-              'Slovénie': 'SI',
-              'Somalie': 'SO',
-              'Soudan': 'SD',
-              'Soudan du Sud': 'SS',
-              'Sri Lanka': 'LK',
-              'Suède': 'SE',
-              'Suisse': 'CH',
-              'Suriname': 'SR',
-              'Syrie': 'SY',
-              'Tadjikistan': 'TJ',
-              'Tanzanie': 'TZ',
-              'Tchad': 'TD',
-              'Thaïlande': 'TH',
-              'Timor-Leste': 'TL',
-              'Togo': 'TG',
-              'Tonga': 'TO',
-              'Trinité-et-Tobago': 'TT',
-              'Tunisie': 'TN',
-              'Turkménistan': 'TM',
-              'Turquie': 'TR',
-              'Türkiye': 'TR',
-              'Tuvalu': 'TV',
-              'Ukraine': 'UA',
-              'Uruguay': 'UY',
-              'Vanuatu': 'VU',
-              'Venezuela': 'VE',
-              'Viêt Nam': 'VN',
-              'Vietnam': 'VN',
-              'Yémen': 'YE',
-              'Zambie': 'ZM',
-              'Zimbabwe': 'ZW',
-              # Noms alternatifs / orthographes récentes
-              'Eswatini': 'SZ',
-              'Iraq': 'IQ',
-              'Israël et la Palestine': 'IL',
-              'République du Congo (Brazzaville)': 'CG',
-              'République démocratique du Congo (Kinshasa)': 'CD',
-              'Saint-Kitts-et-Nevis': 'KN',
-              'Salvador': 'SV',
-              'Tchéquie': 'CZ',
-              'Taïwan': 'TW',
-              'Timor-Leste (Timor oriental)': 'TL',
-              "Micronésie (États fédérés de)": 'FM',
-              'Micronésie (EFM)': 'FM',
-              'Sao Tomé-et-Principe': 'ST',
-              'États-Unis': 'US',
-              # Territoires
-              'Anguilla': 'AI',
-              'Antarctique': 'AQ',
-              'Aruba': 'AW',
-              'Açores': 'PT',
-              'Bermudes': 'BM',
-              'Bonaire': 'BQ',
-              'Curaçao': 'CW',
-              'Gibraltar': 'GI',
-              'Groenland': 'GL',
-              'Guadeloupe': 'GP',
-              'Guam': 'GU',
-              'Guyane française': 'GF',
-              'Hong Kong': 'HK',
-              'La Réunion': 'RE',
-              'Macao': 'MO',
-              'Martinique': 'MQ',
-              'Mayotte': 'YT',
-              'Montserrat': 'MS',
-              'Niue': 'NU',
-              'Nouvelle-Calédonie': 'NC',
-              'Polynésie française': 'PF',
-              'Porto Rico': 'PR',
-              'Saint-Barthélemy': 'BL',
-              'Saint-Martin': 'MF',
-              'Saint-Pierre-et-Miquelon': 'PM',
-              'Samoa américaines': 'AS',
-              'Sint Maarten': 'SX',
-              'Tokelau': 'TK',
-              'Îles Caïmans': 'KY',
-              'Îles Canaries': 'ES',
-              'Îles Cook': 'CK',
-              'Îles Falkland': 'FK',
-              'Îles Mariannes du Nord': 'MP',
-              'Îles Turks et Caicos': 'TC',
-              'Îles Vierges américaines': 'VI',
-              'Îles Vierges britanniques': 'VG',
-          }
-
-          URLS = [
-              'https://voyage.gc.ca/voyager/avertissements',
-              'https://travel.gc.ca/travelling/advisories',
-          ]
+          URL = 'https://data.international.gc.ca/travel-voyage/index-alpha-fra.json'
 
           HEADERS = {
               'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
-              'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-              'Accept-Language': 'fr-CA,fr;q=0.9,en-CA;q=0.8,en;q=0.7',
-              'Accept-Encoding': 'gzip, deflate, br',
-              'Connection': 'keep-alive',
-              'Upgrade-Insecure-Requests': '1',
+              'Accept': 'application/json',
           }
 
-          import time
-
           resp = None
-          for attempt_url in URLS:
-              for attempt in range(3):
-                  try:
-                      print(f'Fetching {attempt_url} (tentative {attempt+1}/3)...')
-                      session = requests.Session()
-                      resp = session.get(attempt_url, headers=HEADERS, timeout=60)
-                      resp.raise_for_status()
-                      URL = attempt_url
-                      print(f'✅ Connexion réussie ({resp.status_code})')
-                      break
-                  except Exception as e:
-                      print(f'⚠️  Échec: {e}')
-                      if attempt < 2:
-                          time.sleep(10)
-              if resp and resp.ok:
+          for attempt in range(3):
+              try:
+                  print(f'Fetching {URL} (tentative {attempt+1}/3)...')
+                  resp = requests.get(URL, headers=HEADERS, timeout=60)
+                  resp.raise_for_status()
+                  print(f'✅ Connexion réussie ({resp.status_code})')
                   break
+              except Exception as e:
+                  print(f'⚠️  Échec: {e}')
+                  if attempt < 2:
+                      time.sleep(10)
 
           if not resp or not resp.ok:
-              print('ERREUR: Impossible de contacter voyage.gc.ca après toutes les tentatives.')
+              print('ERREUR: Impossible de contacter le flux JSON officiel après toutes les tentatives.')
               sys.exit(1)
 
-          is_french = 'voyage.gc.ca' in URL
-
-          soup = BeautifulSoup(resp.text, 'html.parser')
+          entries = resp.json()['data']
           countries = []
-          unknown = []
+          ignored = []
 
-          for link in soup.find_all('a', href=lambda h: h and '/destinations/' in h):
-              slug = link['href'].split('/destinations/')[-1].strip('/')
-              name = link.get_text(strip=True)
-              if not name or not slug:
+          for entry in entries.values():
+              iso2 = entry['country-iso']
+              name = entry['fra']['name']
+              slug = entry['fra']['url-slug']
+              level = entry['advisory-state'] + 1
+
+              # Les territoires (ex. Açores = "PT-20") n'ont pas de polygone distinct
+              # sur la carte mondiale (résolution pays) — on les ignore.
+              if len(iso2) != 2:
+                  ignored.append(name)
                   continue
-
-              # Cherche le niveau dans la ligne/cellule parente
-              row = link.find_parent('tr') or link.find_parent('li') or link.find_parent('div')
-              level = 0
-              if row:
-                  img = row.find('img', src=True)
-                  if img:
-                      src = img['src']
-                      for key, lvl in LEVEL_MAP.items():
-                          if key in src:
-                              level = lvl
-                              break
-
-              if level == 0:
-                  continue
-
-              # Si on a fetché la page anglaise, on cherche le nom français via le lien alternatif
-              # mais on garde le slug (identique en FR et EN) pour retrouver le nom dans ISO2_MAP
-              iso2 = ISO2_MAP.get(name, '')
-              if not iso2:
-                  unknown.append(name)
 
               countries.append({'name': name, 'slug': slug, 'level': level, 'iso2': iso2})
 
           if not countries:
-              print('ERREUR: Aucun pays trouvé — la structure HTML a peut-être changé.')
+              print('ERREUR: Aucun pays trouvé — le format du flux JSON a peut-être changé.')
               sys.exit(1)
 
           if os.path.exists('data.json'):
               with open('data.json', encoding='utf-8') as f:
                   prev_count = len(json.load(f).get('countries', []))
               if prev_count and len(countries) < prev_count * 0.7:
-                  print(f'ERREUR: Chute suspecte du nombre de pays ({len(countries)} vs {prev_count} précédemment) — la structure HTML a peut-être changé.')
+                  print(f'ERREUR: Chute suspecte du nombre de pays ({len(countries)} vs {prev_count} précédemment) — le format du flux JSON a peut-être changé.')
                   sys.exit(1)
 
           countries.sort(key=lambda x: x['name'])
@@ -386,8 +98,8 @@ jobs:
               json.dump(output, f, ensure_ascii=False, indent=2)
 
           print(f'✅ data.json généré avec {len(countries)} pays')
-          if unknown:
-              print(f'⚠️  Pays sans code ISO2 ({len(unknown)}): {", ".join(unknown)}')
+          if ignored:
+              print(f'ℹ️  Territoires ignorés (pas de polygone propre) ({len(ignored)}): {", ".join(ignored)}')
           EOF
 
       - name: Commit data.json
