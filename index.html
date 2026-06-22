@@ -305,8 +305,34 @@
       border-color: var(--text-muted);
     }
 
+    .map-ctrl-btn.active {
+      color: var(--accent);
+      border-color: var(--accent);
+    }
+
     .map-ctrl-sep {
       height: 8px;
+    }
+
+    /* Country name labels (permanent display mode) */
+    .country-label {
+      font-size: 6px;
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      fill: #eef3f8;
+      text-anchor: middle;
+      dominant-baseline: central;
+      pointer-events: none;
+      paint-order: stroke fill;
+      stroke: #06101a;
+      stroke-width: 2px;
+      stroke-linejoin: round;
+      opacity: 0;
+      transition: opacity 0.15s ease;
+      user-select: none;
+    }
+
+    #map-svg.labels-visible .country-label {
+      opacity: 1;
     }
   </style>
   <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
@@ -360,6 +386,8 @@
     <button class="map-ctrl-btn" id="btn-zoom-out" title="Zoom arrière">−</button>
     <div class="map-ctrl-sep"></div>
     <button class="map-ctrl-btn" id="btn-reset" title="Vue globale">⊙</button>
+    <div class="map-ctrl-sep"></div>
+    <button class="map-ctrl-btn" id="btn-toggle-labels" title="Afficher les noms des pays en permanence">Aa</button>
   </div>
 
   <div class="legend">
@@ -434,6 +462,7 @@ const NUM_TO_ISO2 = {
 // ─── State ────────────────────────────────────────────────────────────────────
 let advisoryData = {};
 let activeFilter = 'all';
+let labelsVisible = localStorage.getItem('tripradar-labels-visible') === 'true';
 const tooltip = document.getElementById('tooltip');
 
 // ─── Init ─────────────────────────────────────────────────────────────────────
@@ -505,6 +534,8 @@ function buildMap(world) {
 
   // Pays
   const countries = topojson.feature(world, world.objects.countries);
+  const labelsGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+  labelsGroup.setAttribute('id', 'country-labels');
 
   countries.features.forEach(feature => {
     const iso2 = NUM_TO_ISO2[String(feature.id).padStart(3, '0')] || '';
@@ -527,6 +558,16 @@ function buildMap(world) {
       path.addEventListener('click', () => {
         window.open(`https://voyage.gc.ca/destinations/${info.slug}`, '_blank');
       });
+
+      const centroid = pathGen.centroid(feature);
+      if (centroid && !isNaN(centroid[0]) && !isNaN(centroid[1])) {
+        const label = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+        label.setAttribute('x', centroid[0]);
+        label.setAttribute('y', centroid[1]);
+        label.classList.add('country-label');
+        label.textContent = info.name;
+        labelsGroup.appendChild(label);
+      }
     }
 
     path.addEventListener('mousemove', (e) => showTooltip(e, iso2, info, level));
@@ -534,6 +575,9 @@ function buildMap(world) {
 
     g.appendChild(path);
   });
+
+  // Labels par-dessus tous les pays pour éviter qu'un pays voisin les recouvre
+  g.appendChild(labelsGroup);
 
   // Zoom & pan
   mapSvgD3 = d3.select(svg);
@@ -555,6 +599,18 @@ function buildMap(world) {
   document.getElementById('btn-reset').addEventListener('click', () => {
     mapSvgD3.transition().duration(400).call(mapZoom.transform, d3.zoomIdentity);
   });
+
+  applyLabelsVisibility();
+  document.getElementById('btn-toggle-labels').addEventListener('click', () => {
+    labelsVisible = !labelsVisible;
+    localStorage.setItem('tripradar-labels-visible', labelsVisible);
+    applyLabelsVisibility();
+  });
+}
+
+function applyLabelsVisibility() {
+  document.getElementById('map-svg').classList.toggle('labels-visible', labelsVisible);
+  document.getElementById('btn-toggle-labels').classList.toggle('active', labelsVisible);
 }
 
 function showTooltip(e, iso2, info, level) {
