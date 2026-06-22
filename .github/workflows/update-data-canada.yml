@@ -31,6 +31,7 @@ jobs:
           import json
           from datetime import date
           import sys
+          import os
 
           URL = 'https://voyage.gc.ca/voyager/avertissements'
 
@@ -366,6 +367,13 @@ jobs:
               print('ERREUR: Aucun pays trouvé — la structure HTML a peut-être changé.')
               sys.exit(1)
 
+          if os.path.exists('data.json'):
+              with open('data.json', encoding='utf-8') as f:
+                  prev_count = len(json.load(f).get('countries', []))
+              if prev_count and len(countries) < prev_count * 0.7:
+                  print(f'ERREUR: Chute suspecte du nombre de pays ({len(countries)} vs {prev_count} précédemment) — la structure HTML a peut-être changé.')
+                  sys.exit(1)
+
           countries.sort(key=lambda x: x['name'])
 
           output = {
@@ -391,3 +399,44 @@ jobs:
           git add data.json
           git diff --staged --quiet || git commit -m "🗺️ Mise à jour des avertissements — $(date +'%Y-%m-%d')"
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+
+      - name: Créer ou mettre à jour l'issue d'échec
+        if: failure()
+        id: create_issue
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          EXISTING=$(gh issue list --repo "${{ github.repository }}" --search "Échec de la mise à jour des avertissements in:title" --state open --json number --jq '.[0].number // empty')
+          BODY=$(printf 'Le workflow de mise à jour des données a échoué le %s.\n\nVoir les logs : %s' "$(date -u +'%Y-%m-%d %H:%M UTC')" "$RUN_URL")
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --repo "${{ github.repository }}" --body "$BODY"
+            echo "issue_url=${{ github.server_url }}/${{ github.repository }}/issues/$EXISTING" >> "$GITHUB_OUTPUT"
+          else
+            URL=$(gh issue create --repo "${{ github.repository }}" --title "⚠️ Échec de la mise à jour des avertissements de voyage" --body "$BODY")
+            echo "issue_url=$URL" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Notifier Discord
+        if: failure()
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          ISSUE_URL: ${{ steps.create_issue.outputs.issue_url }}
+        run: |
+          if [ -z "$DISCORD_WEBHOOK_URL" ]; then
+            echo "Aucun webhook Discord configuré (secret DISCORD_WEBHOOK_URL absent) — notification ignorée."
+            exit 0
+          fi
+          PAYLOAD=$(jq -n --arg url "$ISSUE_URL" '{content: ("⚠️ **Trip Radar** — la mise à jour des avertissements de voyage a échoué.\n" + $url)}')
+          curl -sf -X POST "$DISCORD_WEBHOOK_URL" -H "Content-Type: application/json" -d "$PAYLOAD"
+
+      - name: Fermer l'issue si redevenu stable
+        if: success()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          EXISTING=$(gh issue list --repo "${{ github.repository }}" --search "Échec de la mise à jour des avertissements in:title" --state open --json number --jq '.[0].number // empty')
+          if [ -n "$EXISTING" ]; then
+            gh issue comment "$EXISTING" --repo "${{ github.repository }}" --body "✅ Résolu — la mise à jour du $(date -u +'%Y-%m-%d') s'est déroulée normalement."
+            gh issue close "$EXISTING" --repo "${{ github.repository }}"
+          fi
