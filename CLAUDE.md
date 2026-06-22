@@ -59,7 +59,9 @@ Navigateur de l'utilisateur
 
 ## 🔑 Secrets & config
 
-Aucun secret requis. Le workflow n'utilise aucune API externe payante.
+Aucun secret requis pour le fonctionnement de base. Le workflow n'utilise aucune API externe payante.
+
+- **`DISCORD_WEBHOOK_URL`** (optionnel) — si configuré (`gh secret set DISCORD_WEBHOOK_URL`), notifie un webhook Discord en cas d'échec du workflow de mise à jour des données. Nécessite un accès **admin** sur le repo pour être ajouté (pas seulement *write*) — voir Points d'attention.
 
 ---
 
@@ -118,6 +120,19 @@ ex: https://voyage.gc.ca/destinations/colombie
   - `data-slug` : slug URL voyage.gc.ca
 - **Zoom/Pan** via `d3.zoom()` — molette, clic-glisser, boutons +/−/⊙
 - Mapping codes numériques ISO → ISO2 dans `NUM_TO_ISO2` (dans `index.html`)
+- **Noms de pays permanents** — bouton "Aa" dans les contrôles de la carte, bascule la classe `.labels-visible` sur `#map-svg` (labels positionnés au centroïde de chaque pays, groupe `#country-labels` rendu par-dessus tous les pays). Préférence persistée dans `localStorage` (`tripradar-labels-visible`).
+
+---
+
+## 🪪 Panneau d'info (slide-in)
+
+Cliquer sur un pays avec données ouvre `#info-panel` (slide-in depuis la droite) au lieu d'ouvrir directement voyage.gc.ca :
+
+- Nom, niveau de risque coloré, badge orange si `hasRegionalAdvisory`, badge bleu si `hasAdvisoryWarning` (signal distinct — avis spécial type élections/sécurité, pas une variation régionale)
+- **Carte régionale officielle** — image PNG du gouvernement à `international.gc.ca/tama-sgcv_images/maps-cartes/{iso2}/mapfra.png` (chemin non documenté/déduit par inspection, donc masquée proprement via `onerror` si elle casse un jour). Cliquable → lightbox plein écran (`#map-lightbox`)
+- Section "dernière mise à jour" (`recentUpdate` + `lastUpdateDate`) avec le type de changement traduit (`updateType` via `UPDATE_TYPE_LABELS`)
+- Bouton vers voyage.gc.ca pour les détails complets + bouton désactivé "Planifier mon voyage (à venir)" en prévision de l'intégration avec trip-planner
+- Fermeture par ✕, clic extérieur, ou Échap (gère aussi la fermeture du lightbox en priorité si les deux sont ouverts)
 
 ---
 
@@ -149,10 +164,12 @@ ex: https://voyage.gc.ca/destinations/colombie
 - [x] Carte mondiale précise (Natural Earth) colorée par niveau de risque
 - [x] Zoom molette + pan clic-glisser + boutons +/−/⊙
 - [x] Tooltip au survol (nom du pays + niveau)
-- [x] Clic → ouvre la page détail sur voyage.gc.ca
+- [x] Noms de pays affichables en permanence (bouton "Aa", persisté en localStorage)
+- [x] Clic → panneau d'info slide-in (niveau, badges régional/avis important, carte régionale officielle + lightbox, dernière mise à jour) avec lien vers la page détail complète sur voyage.gc.ca
 - [x] Filtres par niveau (Tous / Niveau 1 / 2 / 3 / 4) avec compteurs
 - [x] Effet "dimming" des pays non sélectionnés lors d'un filtre
-- [x] Mise à jour automatique quotidienne via GitHub Actions (4h UTC)
+- [x] Mise à jour automatique quotidienne via GitHub Actions (4h UTC), source JSON officielle
+- [x] Détection de casse du pipeline (chute suspecte du nombre de pays) → issue GitHub auto-créée/fermée, notification Discord optionnelle
 - [x] Date de dernière mise à jour affichée dans le header
 
 ---
