@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24",
+  "updated": "2026-06-25",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -8,7 +8,7 @@
       "level": 4,
       "iso2": "AF",
       "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 11:29 HAE",
+      "lastUpdateDate": "24 juin 2026 11:23 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -326,8 +326,8 @@
       "slug": "brunei",
       "level": 1,
       "iso2": "BN",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 11:49 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "24 juin 2026 14:24 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -370,8 +370,8 @@
       "slug": "burundi",
       "level": 3,
       "iso2": "BI",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 13:35 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "24 juin 2026 07:47 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -425,8 +425,8 @@
       "slug": "cameroun",
       "level": 2,
       "iso2": "CM",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:13 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "24 juin 2026 17:02 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -447,8 +447,8 @@
       "slug": "chine",
       "level": 2,
       "iso2": "CN",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 14:06 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "24 juin 2026 15:15 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -480,8 +480,8 @@
       "slug": "comores",
       "level": 2,
       "iso2": "KM",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:30 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "24 juin 2026 08:15 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -502,8 +502,8 @@
       "slug": "coree-sud",
       "level": 1,
       "iso2": "KR",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 12:17 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "24 juin 2026 08:17 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -513,8 +513,8 @@
       "slug": "costa-rica",
       "level": 2,
       "iso2": "CR",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 10:39 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "24 juin 2026 08:08 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -711,8 +711,8 @@
       "slug": "grenade",
       "level": 1,
       "iso2": "GD",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "18 juin 2026 12:20 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "24 juin 2026 08:10 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -843,8 +843,8 @@
       "slug": "haiti",
       "level": 4,
       "iso2": "HT",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 16:28 HAE",
+      "recentUpdate": "Section Sécurité – mise à jour de l’information à travers la section",
+      "lastUpdateDate": "24 juin 2026 15:26 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -921,7 +921,7 @@
       "level": 4,
       "iso2": "IQ",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "19 juin 2026 14:54 HAE",
+      "lastUpdateDate": "24 juin 2026 15:13 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -953,8 +953,8 @@
       "slug": "israel-et-palestine",
       "level": 4,
       "iso2": "IL",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 14:07 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "24 juin 2026 11:29 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -986,8 +986,8 @@
       "slug": "japon",
       "level": 1,
       "iso2": "JP",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 14:47 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "24 juin 2026 16:43 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1008,8 +1008,8 @@
       "slug": "kazakhstan",
       "level": 1,
       "iso2": "KZ",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 12:29 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "24 juin 2026 08:21 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1030,8 +1030,8 @@
       "slug": "kirghizistan",
       "level": 2,
       "iso2": "KG",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 13:34 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "24 juin 2026 08:12 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1118,8 +1118,8 @@
       "slug": "liban",
       "level": 4,
       "iso2": "LB",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 13:38 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "24 juin 2026 11:33 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1129,8 +1129,8 @@
       "slug": "libye",
       "level": 4,
       "iso2": "LY",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 14:20 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "24 juin 2026 11:46 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1547,8 +1547,8 @@
       "slug": "ouganda",
       "level": 3,
       "iso2": "UG",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 16:16 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "24 juin 2026 07:50 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1668,8 +1668,8 @@
       "slug": "puerto-rico",
       "level": 1,
       "iso2": "PR",
-      "recentUpdate": "Section Sécurité – mise à jour de l’information sur les pannes d’électricité et ajout d’information sur les pénuries d’eau",
-      "lastUpdateDate": "19 juin 2026 14:53 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – retrait des renseignements à propos d’une alerte au tsunami en vigueur pour les zones côtières de Porto Rico",
+      "lastUpdateDate": "24 juin 2026 19:22 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1690,8 +1690,8 @@
       "slug": "perou",
       "level": 2,
       "iso2": "PE",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 10:59 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "24 juin 2026 08:26 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1789,8 +1789,8 @@
       "slug": "congo-kinshasa",
       "level": 4,
       "iso2": "CD",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:35 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "24 juin 2026 07:48 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1998,8 +1998,8 @@
       "slug": "somalie",
       "level": 4,
       "iso2": "SO",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:34 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "24 juin 2026 12:10 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -2009,8 +2009,8 @@
       "slug": "soudan",
       "level": 4,
       "iso2": "SD",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "26 mai 2026 12:50 HAE",
+      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
+      "lastUpdateDate": "24 juin 2026 11:13 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -2020,8 +2020,8 @@
       "slug": "sudan-du-sud",
       "level": 4,
       "iso2": "SS",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:37 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "24 juin 2026 08:51 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -2054,7 +2054,7 @@
       "level": 1,
       "iso2": "SR",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "19 juin 2026 13:37 HAE",
+      "lastUpdateDate": "24 juin 2026 08:28 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2075,11 +2075,11 @@
       "slug": "syrie",
       "level": 4,
       "iso2": "SY",
-      "recentUpdate": "Section Exigences d’entrée et de sortie – ajout d'information sur de possibles mesures en réponse à l’éclosion de maladie Ebola",
-      "lastUpdateDate": "26 mai 2026 13:56 HAE",
+      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
+      "lastUpdateDate": "24 juin 2026 11:39 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Sénégal",
@@ -2108,8 +2108,8 @@
       "slug": "tanzanie",
       "level": 2,
       "iso2": "TZ",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:43 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "24 juin 2026 07:54 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2208,7 +2208,7 @@
       "level": 2,
       "iso2": "TT",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "19 juin 2026 15:18 HAE",
+      "lastUpdateDate": "24 juin 2026 08:31 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2229,8 +2229,8 @@
       "slug": "turkmenistan",
       "level": 2,
       "iso2": "TM",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:23 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "24 juin 2026 08:34 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2262,8 +2262,8 @@
       "slug": "ukraine",
       "level": 4,
       "iso2": "UA",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "26 mai 2026 12:50 HAE",
+      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
+      "lastUpdateDate": "24 juin 2026 11:52 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -2295,8 +2295,8 @@
       "slug": "venezuela",
       "level": 4,
       "iso2": "VE",
-      "recentUpdate": "Section Sécurité – retrait de l’information sur la fermeture des postes frontaliers avec la Colombie",
-      "lastUpdateDate": "22 juin 2026 11:44 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur les séismes près de la côte du Venezuela",
+      "lastUpdateDate": "24 juin 2026 20:45 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Regular text update"
@@ -2339,8 +2339,8 @@
       "slug": "zimbabwe",
       "level": 2,
       "iso2": "ZW",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 16:24 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "24 juin 2026 08:39 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2504,22 +2504,22 @@
       "slug": "iles-vierges-americaines",
       "level": 1,
       "iso2": "VI",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "19 juin 2026 11:52 HAE",
+      "recentUpdate": "Catastrophes naturelles et climat – retrait de l'information sur une alerte au tsunami en vigueur",
+      "lastUpdateDate": "24 juin 2026 19:24 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Îles Vierges britanniques",
       "slug": "iles-vierges-britanniques",
       "level": 1,
       "iso2": "VG",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "18 juin 2026 11:51 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l'information sur une alerte au tsunami en vigueur",
+      "lastUpdateDate": "24 juin 2026 19:26 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     }
   ]
 }
