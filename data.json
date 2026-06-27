@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25",
+  "updated": "2026-06-27",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -18,11 +18,11 @@
       "slug": "afrique-du-sud",
       "level": 2,
       "iso2": "ZA",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 14:13 HAE",
+      "recentUpdate": "Section sécurité – ajout d’information sur les attaques xénophobes et les manifestations",
+      "lastUpdateDate": "25 juin 2026 13:49 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Albanie",
@@ -115,13 +115,13 @@
     {
       "name": "Arabie saoudite",
       "slug": "arabie-saoudite",
-      "level": 3,
+      "level": 2,
       "iso2": "SA",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:46 HAE",
+      "recentUpdate": "Section Niveau de risque – faites preuve d’une grande prudence en Arabie saoudite; Section Sécurité – mise à jour de l’information sur les tensions au Moyen-Orient",
+      "lastUpdateDate": "25 juin 2026 16:24 HAE",
       "hasRegionalAdvisory": true,
-      "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "hasAdvisoryWarning": false,
+      "updateType": "National advisory decreased"
     },
     {
       "name": "Argentine",
@@ -203,13 +203,13 @@
     {
       "name": "Bahreïn",
       "slug": "bahrein",
-      "level": 4,
+      "level": 3,
       "iso2": "BH",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 13:34 HAE",
+      "recentUpdate": "Section Niveau de risque – évitez tout voyage non essentiel à Bahreïn; Section Sécurité – mise à jour de l’information sur les tensions au Moyen-Orient",
+      "lastUpdateDate": "25 juin 2026 16:21 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "National advisory decreased"
     },
     {
       "name": "Bangladesh",
@@ -426,7 +426,7 @@
       "level": 2,
       "iso2": "CM",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "24 juin 2026 17:02 HAE",
+      "lastUpdateDate": "25 juin 2026 11:39 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -514,7 +514,7 @@
       "level": 2,
       "iso2": "CR",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "24 juin 2026 08:08 HAE",
+      "lastUpdateDate": "25 juin 2026 11:06 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -601,11 +601,11 @@
       "slug": "espagne",
       "level": 2,
       "iso2": "ES",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 12:58 HAE",
+      "recentUpdate": "Section Sécurité – mise à jour de l’information sur les crimes violents et les activités aquatiques",
+      "lastUpdateDate": "25 juin 2026 15:12 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Estonie",
@@ -887,8 +887,8 @@
       "slug": "inde",
       "level": 2,
       "iso2": "IN",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 14:33 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "25 juin 2026 12:10 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -909,22 +909,22 @@
       "slug": "iran",
       "level": 4,
       "iso2": "IR",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:27 HAE",
+      "recentUpdate": "Section Sécurité – mise à jour de l’information sur les tensions au Moyen-Orient",
+      "lastUpdateDate": "25 juin 2026 16:29 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Iraq",
       "slug": "iraq",
       "level": 4,
       "iso2": "IQ",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "24 juin 2026 15:13 HAE",
+      "recentUpdate": "Section Niveau de risque – évitez tout voyage en Iraq; Section Sécurité – mise à jour de l’information sur les tensions au Moyen-Orient",
+      "lastUpdateDate": "25 juin 2026 16:24 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Irlande",
@@ -951,13 +951,13 @@
     {
       "name": "Israël et la Palestine",
       "slug": "israel-et-palestine",
-      "level": 4,
+      "level": 3,
       "iso2": "IL",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "24 juin 2026 11:29 HAE",
-      "hasRegionalAdvisory": false,
+      "recentUpdate": "Section Niveau de risque – évitez tout voyage non essentiel en Israël; Section Sécurité – mise à jour de l’information sur les tensions au Moyen-Orient",
+      "lastUpdateDate": "25 juin 2026 16:27 HAE",
+      "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "National advisory decreased"
     },
     {
       "name": "Italie",
@@ -995,13 +995,13 @@
     {
       "name": "Jordanie",
       "slug": "jordanie",
-      "level": 3,
+      "level": 2,
       "iso2": "JO",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 12:13 HAE",
+      "recentUpdate": "Section Niveau de risque – faites preuve d'une grande prudence en Jordanie; Section Sécurité – mise à jour de l’information sur les tensions au Moyen-Orient",
+      "lastUpdateDate": "25 juin 2026 16:25 HAE",
       "hasRegionalAdvisory": true,
-      "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "hasAdvisoryWarning": false,
+      "updateType": "National advisory removed"
     },
     {
       "name": "Kazakhstan",
@@ -1061,13 +1061,13 @@
     {
       "name": "Koweït",
       "slug": "koweit",
-      "level": 4,
+      "level": 3,
       "iso2": "KW",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 12:35 HAE",
-      "hasRegionalAdvisory": false,
+      "recentUpdate": "Section Niveau de risque – évitez tout voyage non essentiel au Koweït; Section Sécurité – mise à jour de l’information sur les tensions au Moyen-Orient",
+      "lastUpdateDate": "25 juin 2026 16:25 HAE",
+      "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "National advisory decreased"
     },
     {
       "name": "La Réunion",
@@ -1118,11 +1118,11 @@
       "slug": "liban",
       "level": 4,
       "iso2": "LB",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "24 juin 2026 11:33 HAE",
+      "recentUpdate": "Section Niveau de risque – évitez tout voyage au Liban; Section Sécurité – mise à jour de l’information sur les tensions au Moyen-Orient",
+      "lastUpdateDate": "25 juin 2026 16:26 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Libye",
@@ -1534,13 +1534,13 @@
     {
       "name": "Oman",
       "slug": "oman",
-      "level": 3,
+      "level": 2,
       "iso2": "OM",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:48 HAE",
+      "recentUpdate": "Section Niveau de risque – faites preuve d’une grande prudence à Oman; Section Sécurité – mise à jour de l’information sur les tensions au Moyen-Orient",
+      "lastUpdateDate": "25 juin 2026 16:23 HAE",
       "hasRegionalAdvisory": false,
-      "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "hasAdvisoryWarning": false,
+      "updateType": "National advisory decreased"
     },
     {
       "name": "Ouganda",
@@ -1602,11 +1602,11 @@
       "slug": "papouasie-nouvelle-guinee",
       "level": 3,
       "iso2": "PG",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "19 juin 2026 15:43 HAE",
+      "recentUpdate": "Section Sécurité – ajout d’information sur les perturbations de l’approvisionnement en eau à Port Moresby",
+      "lastUpdateDate": "26 juin 2026 12:09 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Paraguay",
@@ -1635,11 +1635,11 @@
       "slug": "philippines",
       "level": 2,
       "iso2": "PH",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 12:23 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur le tremblement de terre à Sarangani",
+      "lastUpdateDate": "26 juin 2026 09:22 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Pologne",
@@ -1699,13 +1699,13 @@
     {
       "name": "Qatar",
       "slug": "qatar",
-      "level": 4,
+      "level": 2,
       "iso2": "QA",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:35 HAE",
+      "recentUpdate": "Section Niveau de risque – faites preuve d’une grande prudence au Qatar; Section Sécurité – mise à jour de l’information sur les tensions au Moyen-Orient",
+      "lastUpdateDate": "25 juin 2026 16:26 HAE",
       "hasRegionalAdvisory": false,
-      "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "hasAdvisoryWarning": false,
+      "updateType": "National advisory decreased"
     },
     {
       "name": "Roumanie",
@@ -1943,11 +1943,11 @@
       "slug": "sierra-leone",
       "level": 2,
       "iso2": "SL",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:25 HAE",
+      "recentUpdate": "Section d'entrée et de sortie – ajout d’information sur l’exigence de remplir un formulaire de déclaration de santé",
+      "lastUpdateDate": "25 juin 2026 11:02 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Singapour",
@@ -2075,11 +2075,11 @@
       "slug": "syrie",
       "level": 4,
       "iso2": "SY",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "24 juin 2026 11:39 HAE",
+      "recentUpdate": "Section Niveau de risque – évitez tout voyage en Syrie; Section Sécurité – mise à jour de l’information sur les tensions au Moyen-Orient",
+      "lastUpdateDate": "25 juin 2026 16:28 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Sénégal",
@@ -2295,8 +2295,8 @@
       "slug": "venezuela",
       "level": 4,
       "iso2": "VE",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur les séismes près de la côte du Venezuela",
-      "lastUpdateDate": "24 juin 2026 20:45 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur les séismes à proximité de Caracas",
+      "lastUpdateDate": "25 juin 2026 15:26 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Regular text update"
@@ -2317,11 +2317,11 @@
       "slug": "yemen",
       "level": 4,
       "iso2": "YE",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:26 HAE",
+      "recentUpdate": "Section Niveau de risque – évitez tout voyage au Yémen; Section Sécurité – mise à jour de l’information sur les tensions au Moyen-Orient",
+      "lastUpdateDate": "25 juin 2026 16:30 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Zambie",
@@ -2359,13 +2359,13 @@
     {
       "name": "Émirats arabes unis",
       "slug": "emirats-arabes-unis",
-      "level": 4,
+      "level": 2,
       "iso2": "AE",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 13:40 HAE",
+      "recentUpdate": "Section Niveau de risque – faites preuve d’une grande prudence au Émirats arabes unis; Section Sécurité – mise à jour de l’information sur les tensions au Moyen-Orient",
+      "lastUpdateDate": "25 juin 2026 16:24 HAE",
       "hasRegionalAdvisory": false,
-      "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "hasAdvisoryWarning": false,
+      "updateType": "National advisory removed"
     },
     {
       "name": "Équateur",
@@ -2416,8 +2416,8 @@
       "slug": "iles-canaries",
       "level": 1,
       "iso2": "IC",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 12:45 HAE",
+      "recentUpdate": "Section Sécurité – mise à jour de l’information sur les crimes violents et les activités aquatiques",
+      "lastUpdateDate": "25 juin 2026 15:17 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
