@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29",
+  "updated": "2026-06-30",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -503,7 +503,7 @@
       "level": 1,
       "iso2": "KR",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "24 juin 2026 08:17 HAE",
+      "lastUpdateDate": "29 juin 2026 13:31 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -514,7 +514,7 @@
       "level": 2,
       "iso2": "CR",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "25 juin 2026 11:06 HAE",
+      "lastUpdateDate": "29 juin 2026 13:30 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -953,11 +953,11 @@
       "slug": "israel-et-palestine",
       "level": 3,
       "iso2": "IL",
-      "recentUpdate": "Section Niveau de risque – évitez tout voyage non essentiel en Israël; Section Sécurité – mise à jour de l’information sur les tensions au Moyen-Orient",
-      "lastUpdateDate": "25 juin 2026 16:27 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "29 juin 2026 13:40 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
-      "updateType": "National advisory decreased"
+      "updateType": "Editorial change"
     },
     {
       "name": "Italie",
@@ -1514,8 +1514,8 @@
       "slug": "nouvelle-zelande",
       "level": 1,
       "iso2": "NZ",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 13:36 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "29 juin 2026 13:33 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1899,7 +1899,7 @@
       "slug": "samoa-americaines",
       "level": 1,
       "iso2": "AS",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – Conseils de santé aux voyageurs concernant la dengue ont été retiré",
       "lastUpdateDate": "22 juin 2026 10:20 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
@@ -1976,8 +1976,8 @@
       "slug": "slovaquie",
       "level": 1,
       "iso2": "SK",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 11:06 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "29 juin 2026 13:38 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2284,11 +2284,11 @@
       "slug": "vanuatu",
       "level": 1,
       "iso2": "VU",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "19 juin 2026 17:50 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "29 juin 2026 11:49 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Venezuela",
