@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30",
+  "updated": "2026-07-01",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -327,7 +327,7 @@
       "level": 1,
       "iso2": "BN",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "24 juin 2026 14:24 HAE",
+      "lastUpdateDate": "30 juin 2026 12:08 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -469,11 +469,11 @@
       "slug": "colombie",
       "level": 2,
       "iso2": "CO",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 16:18 HAE",
+      "recentUpdate": "Section Sécurité – retrait de l’information sur les élections",
+      "lastUpdateDate": "30 juin 2026 10:15 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Comores",
@@ -1470,8 +1470,8 @@
       "slug": "nigeria",
       "level": 3,
       "iso2": "NG",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:12 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "30 juin 2026 09:07 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -2031,8 +2031,8 @@
       "slug": "sri-lanka",
       "level": 2,
       "iso2": "LK",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 13:11 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "30 juin 2026 12:45 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2042,8 +2042,8 @@
       "slug": "suisse",
       "level": 1,
       "iso2": "CH",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 13:10 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "30 juin 2026 12:35 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2251,11 +2251,11 @@
       "slug": "turkiye",
       "level": 2,
       "iso2": "TR",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 13:49 HAE",
+      "recentUpdate": "Section sécurité – ajout d'information sur le sommet de l'OTAN à Ankara et des intoxications aux pesticides chimiques",
+      "lastUpdateDate": "30 juin 2026 11:45 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Ukraine",
