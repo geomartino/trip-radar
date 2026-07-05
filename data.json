@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02",
+  "updated": "2026-07-05",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -7,8 +7,8 @@
       "slug": "afghanistan",
       "level": 4,
       "iso2": "AF",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "24 juin 2026 11:23 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "2 juillet 2026 14:24 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -73,8 +73,8 @@
       "slug": "angola",
       "level": 2,
       "iso2": "AO",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 13:15 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "2 juillet 2026 10:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -139,8 +139,8 @@
       "slug": "armenie",
       "level": 1,
       "iso2": "AM",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 11:44 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "2 juillet 2026 13:43 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -327,7 +327,7 @@
       "level": 1,
       "iso2": "BN",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "30 juin 2026 12:08 HAE",
+      "lastUpdateDate": "2 juillet 2026 14:01 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -381,11 +381,11 @@
       "slug": "belarus",
       "level": 4,
       "iso2": "BY",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 12:21 HAE",
+      "recentUpdate": "Section Lois et coutumes – ajout d’information sur le service militaire obligatoire; mise à jour de l’information sur la double citoyenneté",
+      "lastUpdateDate": "2 juillet 2026 14:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Bénin",
@@ -1404,8 +1404,8 @@
       "slug": "mozambique",
       "level": 2,
       "iso2": "MZ",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:00 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "2 juillet 2026 10:14 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1547,8 +1547,8 @@
       "slug": "ouganda",
       "level": 3,
       "iso2": "UG",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "24 juin 2026 07:50 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "2 juillet 2026 10:39 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1789,8 +1789,8 @@
       "slug": "congo-kinshasa",
       "level": 4,
       "iso2": "CD",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "24 juin 2026 07:48 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "2 juillet 2026 10:22 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
