@@ -542,6 +542,27 @@
       opacity: 0.85;
     }
 
+    .info-panel-btn-flights {
+      display: block;
+      text-align: center;
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      text-decoration: none;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-top: 10px;
+      transition: all 0.15s;
+    }
+
+    .info-panel-btn-flights:hover {
+      background: rgba(61, 142, 240, 0.08);
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
     .info-panel-btn-secondary {
       display: block;
       width: 100%;
@@ -652,6 +673,7 @@
     <div class="info-update-date" id="info-update-date"></div>
   </div>
   <a id="info-panel-link" class="info-panel-btn" target="_blank">Voir tous les détails sur voyage.gc.ca →</a>
+  <a id="info-flights-link" class="info-panel-btn-flights" href="#" target="_blank" rel="noopener noreferrer">✈ Rechercher des vols sur Google Flights →</a>
   <button class="info-panel-btn-secondary" disabled title="Application en cours de développement">Planifier mon voyage (à venir)</button>
 </div>
 
@@ -920,6 +942,7 @@ function showInfoPanel(info, level) {
   document.getElementById('info-update-date').textContent = info.lastUpdateDate || '';
 
   document.getElementById('info-panel-link').href = `https://voyage.gc.ca/destinations/${info.slug}`;
+  document.getElementById('info-flights-link').href = `https://www.google.com/travel/flights?q=vols+vers+${encodeURIComponent(info.name)}`;
 
   infoPanel.classList.add('open');
   hideTooltip();
