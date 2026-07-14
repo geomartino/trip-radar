@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11",
+  "updated": "2026-07-14",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -7,8 +7,8 @@
       "slug": "afghanistan",
       "level": 4,
       "iso2": "AF",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "2 juillet 2026 14:24 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -18,11 +18,11 @@
       "slug": "afrique-du-sud",
       "level": 2,
       "iso2": "ZA",
-      "recentUpdate": "Section sécurité – ajout d’information sur les attaques xénophobes et les manifestations",
-      "lastUpdateDate": "25 juin 2026 13:49 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 16:07 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Albanie",
@@ -40,8 +40,8 @@
       "slug": "algerie",
       "level": 2,
       "iso2": "DZ",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 11:40 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "9 juillet 2026 13:38 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -51,11 +51,11 @@
       "slug": "allemagne",
       "level": 2,
       "iso2": "DE",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 14:46 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Andorre",
@@ -73,8 +73,8 @@
       "slug": "angola",
       "level": 2,
       "iso2": "AO",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "2 juillet 2026 10:16 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -95,8 +95,8 @@
       "slug": "antarctique",
       "level": 2,
       "iso2": "AQ",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 11:54 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "11 juillet 2026 16:23 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -139,8 +139,8 @@
       "slug": "armenie",
       "level": 1,
       "iso2": "AM",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "2 juillet 2026 13:43 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -161,8 +161,8 @@
       "slug": "australie",
       "level": 1,
       "iso2": "AU",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 11:46 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "7 juillet 2026 08:09 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -172,8 +172,8 @@
       "slug": "autriche",
       "level": 1,
       "iso2": "AT",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 14:07 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -183,8 +183,8 @@
       "slug": "azerbaidjan",
       "level": 2,
       "iso2": "AZ",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 11:52 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -227,30 +227,30 @@
       "slug": "barbade",
       "level": 1,
       "iso2": "BB",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "18 juin 2026 12:02 HAE",
+      "recentUpdate": "Section Lois et coutumes – mise à jour de l’information sur la conduite automobile",
+      "lastUpdateDate": "9 juillet 2026 12:07 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Belgique",
       "slug": "belgique",
       "level": 2,
       "iso2": "BE",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 14:22 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Belize",
       "slug": "belize",
       "level": 2,
       "iso2": "BZ",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 16:15 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -282,11 +282,11 @@
       "slug": "bolivie",
       "level": 2,
       "iso2": "BO",
-      "recentUpdate": "Section Sécurité – mise à jour de l’information sur l’état d’urgence; Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire;",
-      "lastUpdateDate": "23 juin 2026 15:01 HAE",
+      "recentUpdate": "Section Niveaux de risque – retrait de l’avertissement d’éviter tout voyage non essentiel dans le département de La Paz; mise à jour de l’information sur les niveaux de risque en Bolivie et dans la région du Chapare; Section Sécurité – mise à jour de l’information sur l’état d’urgence",
+      "lastUpdateDate": "10 juillet 2026 15:30 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Regional advisory removed"
     },
     {
       "name": "Bonaire",
@@ -338,7 +338,7 @@
       "level": 2,
       "iso2": "BR",
       "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 11:35 HAE",
+      "lastUpdateDate": "11 juillet 2026 16:01 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -348,11 +348,11 @@
       "slug": "bulgarie",
       "level": 1,
       "iso2": "BG",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 12:52 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Burkina Faso",
@@ -392,8 +392,8 @@
       "slug": "benin",
       "level": 2,
       "iso2": "BJ",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 13:22 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -414,8 +414,8 @@
       "slug": "cambodge",
       "level": 2,
       "iso2": "KH",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 11:52 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "7 juillet 2026 09:34 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -425,8 +425,8 @@
       "slug": "cameroun",
       "level": 2,
       "iso2": "CM",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "25 juin 2026 11:39 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -436,11 +436,11 @@
       "slug": "chili",
       "level": 2,
       "iso2": "CL",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 16:19 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "7 juillet 2026 13:38 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Chine",
@@ -456,24 +456,24 @@
     {
       "name": "Chypre",
       "slug": "chypre",
-      "level": 2,
+      "level": 1,
       "iso2": "CY",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 14:30 HAE",
-      "hasRegionalAdvisory": false,
+      "recentUpdate": "Section Niveaux de risque – prenez des mesures de sécurité normales à Chypre (avec avertissement régional)",
+      "lastUpdateDate": "6 juillet 2026 15:50 HAE",
+      "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regional advisory added"
     },
     {
       "name": "Colombie",
       "slug": "colombie",
       "level": 2,
       "iso2": "CO",
-      "recentUpdate": "Section Sécurité – retrait de l’information sur les élections",
-      "lastUpdateDate": "30 juin 2026 10:15 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "9 juillet 2026 15:12 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Comores",
@@ -491,8 +491,8 @@
       "slug": "coree-nord",
       "level": 4,
       "iso2": "KP",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 14:55 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -513,30 +513,30 @@
       "slug": "costa-rica",
       "level": 2,
       "iso2": "CR",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juin 2026 13:30 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur les inondations",
+      "lastUpdateDate": "10 juillet 2026 16:34 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Croatie",
       "slug": "croatie",
       "level": 1,
       "iso2": "HR",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 13:54 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Cuba",
       "slug": "cuba",
       "level": 3,
       "iso2": "CU",
-      "recentUpdate": "Dernière mise à jour : Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 12:17 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "7 juillet 2026 09:34 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -568,11 +568,11 @@
       "slug": "danemark",
       "level": 2,
       "iso2": "DK",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 14:05 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Djibouti",
@@ -601,8 +601,8 @@
       "slug": "espagne",
       "level": 2,
       "iso2": "ES",
-      "recentUpdate": "Section Sécurité – mise à jour de l’information sur les crimes violents et les activités aquatiques",
-      "lastUpdateDate": "25 juin 2026 15:12 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -612,11 +612,11 @@
       "slug": "estonie",
       "level": 1,
       "iso2": "EE",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 14:08 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Eswatini",
@@ -645,30 +645,30 @@
       "slug": "finlande",
       "level": 1,
       "iso2": "FI",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 14:39 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "France",
       "slug": "france",
       "level": 2,
       "iso2": "FR",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "19 juin 2026 16:05 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Gabon",
       "slug": "gabon",
       "level": 2,
       "iso2": "GA",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 11:19 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -711,8 +711,8 @@
       "slug": "grenade",
       "level": 1,
       "iso2": "GD",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "24 juin 2026 08:10 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -733,11 +733,11 @@
       "slug": "grece",
       "level": 1,
       "iso2": "GR",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 14:16 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Guadeloupe",
@@ -755,19 +755,19 @@
       "slug": "guam",
       "level": 1,
       "iso2": "GU",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "19 juin 2026 17:54 HAE",
+      "recentUpdate": "Section Niveaux de risque – prenez des mesures de sécurité normales à Guam; Section Catastrophes naturelles et climat – retrait de l’information sur le typhon Bavi",
+      "lastUpdateDate": "7 juillet 2026 17:06 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "National advisory removed"
     },
     {
       "name": "Guatemala",
       "slug": "guatemala",
       "level": 2,
       "iso2": "GT",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 16:26 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -777,8 +777,8 @@
       "slug": "guinee",
       "level": 2,
       "iso2": "GN",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 11:31 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -788,8 +788,8 @@
       "slug": "guinee-equatoriale",
       "level": 2,
       "iso2": "GQ",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:43 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -799,8 +799,8 @@
       "slug": "guinee-bissau",
       "level": 2,
       "iso2": "GW",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 11:37 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -810,8 +810,8 @@
       "slug": "guyana",
       "level": 2,
       "iso2": "GY",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "19 juin 2026 13:28 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -843,8 +843,8 @@
       "slug": "haiti",
       "level": 4,
       "iso2": "HT",
-      "recentUpdate": "Section Sécurité – mise à jour de l’information à travers la section",
-      "lastUpdateDate": "24 juin 2026 15:26 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -854,8 +854,8 @@
       "slug": "honduras",
       "level": 2,
       "iso2": "HN",
-      "recentUpdate": "Dernière mise à jour : Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 13:27 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -876,22 +876,22 @@
       "slug": "hongrie",
       "level": 1,
       "iso2": "HU",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 14:18 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Inde",
       "slug": "inde",
       "level": 2,
       "iso2": "IN",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "25 juin 2026 12:10 HAE",
+      "recentUpdate": "Section Exigences d'entrée et de sortie – mise à jour de l’information sur la double citoyenneté",
+      "lastUpdateDate": "13 juillet 2026 11:19 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Indonésie",
@@ -909,22 +909,22 @@
       "slug": "iran",
       "level": 4,
       "iso2": "IR",
-      "recentUpdate": "Section Sécurité – mise à jour de l’information sur les tensions au Moyen-Orient",
-      "lastUpdateDate": "25 juin 2026 16:29 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Iraq",
       "slug": "iraq",
       "level": 4,
       "iso2": "IQ",
-      "recentUpdate": "Section Niveau de risque – évitez tout voyage en Iraq; Section Sécurité – mise à jour de l’information sur les tensions au Moyen-Orient",
-      "lastUpdateDate": "25 juin 2026 16:24 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Irlande",
@@ -942,11 +942,11 @@
       "slug": "islande",
       "level": 1,
       "iso2": "IS",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:07 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Israël et la Palestine",
@@ -964,11 +964,11 @@
       "slug": "italie",
       "level": 2,
       "iso2": "IT",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 11:53 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Jamaïque",
@@ -976,7 +976,7 @@
       "level": 2,
       "iso2": "JM",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "19 juin 2026 11:43 HAE",
+      "lastUpdateDate": "7 juillet 2026 14:55 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -986,11 +986,11 @@
       "slug": "japon",
       "level": 1,
       "iso2": "JP",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "24 juin 2026 16:43 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur le typhon Bavi",
+      "lastUpdateDate": "13 juillet 2026 11:38 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Jordanie",
@@ -1008,8 +1008,8 @@
       "slug": "kazakhstan",
       "level": 1,
       "iso2": "KZ",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "24 juin 2026 08:21 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1020,18 +1020,18 @@
       "level": 2,
       "iso2": "KE",
       "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 11:45 HAE",
+      "lastUpdateDate": "13 juillet 2026 12:04 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Kirghizistan",
       "slug": "kirghizistan",
       "level": 2,
       "iso2": "KG",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "24 juin 2026 08:12 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1085,8 +1085,8 @@
       "slug": "laos",
       "level": 2,
       "iso2": "LA",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:05 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1107,11 +1107,11 @@
       "slug": "lettonie",
       "level": 1,
       "iso2": "LV",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 14:35 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Liban",
@@ -1129,8 +1129,8 @@
       "slug": "libye",
       "level": 4,
       "iso2": "LY",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "24 juin 2026 11:46 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1140,8 +1140,8 @@
       "slug": "liberia",
       "level": 2,
       "iso2": "LR",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 11:53 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1151,33 +1151,33 @@
       "slug": "liechtenstein",
       "level": 1,
       "iso2": "LI",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 14:46 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Lituanie",
       "slug": "lituanie",
       "level": 1,
       "iso2": "LT",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 11:56 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Luxembourg",
       "slug": "luxembourg",
       "level": 1,
       "iso2": "LU",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 11:58 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Macao",
@@ -1217,8 +1217,8 @@
       "slug": "malaisie",
       "level": 1,
       "iso2": "MY",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 16:09 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "7 juillet 2026 09:39 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1239,8 +1239,8 @@
       "slug": "maldives",
       "level": 2,
       "iso2": "MV",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:57 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "7 juillet 2026 09:34 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1250,8 +1250,8 @@
       "slug": "mali",
       "level": 4,
       "iso2": "ML",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 14:07 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1261,11 +1261,11 @@
       "slug": "malte",
       "level": 1,
       "iso2": "MT",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 14:48 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Maroc",
@@ -1316,8 +1316,8 @@
       "slug": "mayotte",
       "level": 2,
       "iso2": "YT",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 12:59 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "13 juillet 2026 11:15 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1361,7 +1361,7 @@
       "level": 1,
       "iso2": "MC",
       "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 14:55 HAE",
+      "lastUpdateDate": "3 juillet 2026 10:55 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1371,22 +1371,22 @@
       "slug": "mongolie",
       "level": 1,
       "iso2": "MN",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:21 HAE",
+      "recentUpdate": "Section Exigences d'entrée et de sortie – ajout d’information sur les déplacements interprovinciaux",
+      "lastUpdateDate": "8 juillet 2026 16:52 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Montserrat",
       "slug": "montserrat",
       "level": 1,
       "iso2": "MS",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "19 juin 2026 10:48 HAE",
+      "recentUpdate": "Section Exigences d’entrée et de sortie – ajout d’information sur le formulaire d’immigration et des douanes en ligne; Section Lois et coutumes – mise à jour de l’information sur la conduite automobile",
+      "lastUpdateDate": "7 juillet 2026 11:25 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Monténégro",
@@ -1404,19 +1404,19 @@
       "slug": "mozambique",
       "level": 2,
       "iso2": "MZ",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "2 juillet 2026 10:14 HAE",
+      "recentUpdate": "Section Exigences d’entrée et de sortie – mise à jour de l’information sur les enfants et les voyages",
+      "lastUpdateDate": "13 juillet 2026 15:24 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Myanmar",
       "slug": "myanmar",
       "level": 4,
       "iso2": "MM",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 13:54 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1426,8 +1426,8 @@
       "slug": "namibie",
       "level": 2,
       "iso2": "NA",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:06 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 11:54 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1448,8 +1448,8 @@
       "slug": "nicaragua",
       "level": 2,
       "iso2": "NI",
-      "recentUpdate": "Dernière mise à jour : Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 13:37 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1492,19 +1492,19 @@
       "slug": "norvege",
       "level": 1,
       "iso2": "NO",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 13:20 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Nouvelle-Calédonie",
       "slug": "nouvelle-caledonie",
       "level": 2,
       "iso2": "NC",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "19 juin 2026 16:15 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "7 juillet 2026 09:34 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1547,19 +1547,19 @@
       "slug": "ouganda",
       "level": 3,
       "iso2": "UG",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "2 juillet 2026 10:39 HAE",
+      "recentUpdate": "Santé – Ajout d’une alerte de surveillance de l’éclosion concernant la maladie à virus de Marburg en Ouganda",
+      "lastUpdateDate": "2 juillet 2026 15:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Ouzbékistan",
       "slug": "ouzbekistan",
       "level": 1,
       "iso2": "UZ",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:23 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1569,8 +1569,8 @@
       "slug": "pakistan",
       "level": 2,
       "iso2": "PK",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 13:14 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1624,19 +1624,19 @@
       "slug": "pays-bas",
       "level": 2,
       "iso2": "NL",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:00 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Philippines",
       "slug": "philippines",
       "level": 2,
       "iso2": "PH",
-      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur le tremblement de terre à Sarangani",
-      "lastUpdateDate": "26 juin 2026 09:22 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "7 juillet 2026 09:02 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1646,11 +1646,11 @@
       "slug": "pologne",
       "level": 1,
       "iso2": "PL",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 12:46 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": ""
     },
     {
       "name": "Polynésie française",
@@ -1679,11 +1679,11 @@
       "slug": "portugal",
       "level": 1,
       "iso2": "PT",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:05 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Pérou",
@@ -1701,22 +1701,22 @@
       "slug": "qatar",
       "level": 2,
       "iso2": "QA",
-      "recentUpdate": "Section Niveau de risque – faites preuve d’une grande prudence au Qatar; Section Sécurité – mise à jour de l’information sur les tensions au Moyen-Orient",
-      "lastUpdateDate": "25 juin 2026 16:26 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "9 juillet 2026 13:39 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "National advisory decreased"
+      "updateType": "Editorial change"
     },
     {
       "name": "Roumanie",
       "slug": "roumanie",
       "level": 1,
       "iso2": "RO",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:07 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Royaume-Uni",
@@ -1756,8 +1756,8 @@
       "slug": "republique-centrafricaine",
       "level": 4,
       "iso2": "CF",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:16 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1767,8 +1767,8 @@
       "slug": "republique-dominicaine",
       "level": 2,
       "iso2": "DO",
-      "recentUpdate": "Dernière mise à jour : Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 12:24 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1778,8 +1778,8 @@
       "slug": "congo-brazzaville",
       "level": 2,
       "iso2": "CG",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:15 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1790,7 +1790,7 @@
       "level": 4,
       "iso2": "CD",
       "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "2 juillet 2026 10:22 HAE",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1811,8 +1811,8 @@
       "slug": "saint-kitts-et-nevis",
       "level": 1,
       "iso2": "KN",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "19 juin 2026 10:59 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1877,8 +1877,8 @@
       "slug": "salvador",
       "level": 2,
       "iso2": "SV",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 16:23 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1888,8 +1888,8 @@
       "slug": "samoa",
       "level": 1,
       "iso2": "WS",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "19 juin 2026 15:48 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "7 juillet 2026 09:34 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1943,11 +1943,11 @@
       "slug": "sierra-leone",
       "level": 2,
       "iso2": "SL",
-      "recentUpdate": "Section d'entrée et de sortie – ajout d’information sur l’exigence de remplir un formulaire de déclaration de santé",
-      "lastUpdateDate": "25 juin 2026 11:02 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Singapour",
@@ -1977,29 +1977,29 @@
       "level": 1,
       "iso2": "SK",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juin 2026 13:38 HAE",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Slovénie",
       "slug": "slovenie",
       "level": 1,
       "iso2": "SI",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 10:59 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Somalie",
       "slug": "somalie",
       "level": 4,
       "iso2": "SO",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "24 juin 2026 12:10 HAE",
+      "recentUpdate": "Santé – changement mineur",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -2009,8 +2009,8 @@
       "slug": "soudan",
       "level": 4,
       "iso2": "SD",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "24 juin 2026 11:13 HAE",
+      "recentUpdate": "Santé – changement mineur",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -2020,8 +2020,8 @@
       "slug": "sudan-du-sud",
       "level": 4,
       "iso2": "SS",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "24 juin 2026 08:51 HAE",
+      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
+      "lastUpdateDate": "13 juillet 2026 14:44 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -2031,8 +2031,8 @@
       "slug": "sri-lanka",
       "level": 2,
       "iso2": "LK",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "30 juin 2026 12:45 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2043,18 +2043,18 @@
       "level": 1,
       "iso2": "CH",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "30 juin 2026 12:35 HAE",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Suriname",
       "slug": "suriname",
       "level": 1,
       "iso2": "SR",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "24 juin 2026 08:28 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2064,22 +2064,22 @@
       "slug": "suede",
       "level": 2,
       "iso2": "SE",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 13:17 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Syrie",
       "slug": "syrie",
       "level": 4,
       "iso2": "SY",
-      "recentUpdate": "Section Niveau de risque – évitez tout voyage en Syrie; Section Sécurité – mise à jour de l’information sur les tensions au Moyen-Orient",
-      "lastUpdateDate": "25 juin 2026 16:28 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Sénégal",
@@ -2097,8 +2097,8 @@
       "slug": "tadjikistan",
       "level": 2,
       "iso2": "TJ",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:16 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2108,30 +2108,30 @@
       "slug": "tanzanie",
       "level": 2,
       "iso2": "TZ",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "24 juin 2026 07:54 HAE",
+      "recentUpdate": "Section Sécurité – retrait de l’information sur de possibles manifestations aux alentours de la Journée Saba Saba",
+      "lastUpdateDate": "8 juillet 2026 10:01 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Taïwan",
       "slug": "taiwan",
       "level": 1,
       "iso2": "TW",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 12:54 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur le typhon Bavi",
+      "lastUpdateDate": "13 juillet 2026 11:39 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Tchad",
       "slug": "tchad",
       "level": 3,
       "iso2": "TD",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 15:18 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -2141,33 +2141,33 @@
       "slug": "tchequie",
       "level": 1,
       "iso2": "CZ",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 13:58 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Thaïlande",
       "slug": "thailande",
       "level": 2,
       "iso2": "TH",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 13:00 HAE",
+      "recentUpdate": "Section Sécurité – retrait de l’information sur l’intoxication aux pesticides",
+      "lastUpdateDate": "7 juillet 2026 09:13 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Timor-Leste (Timor oriental)",
       "slug": "timor-leste-timor-oriental",
       "level": 2,
       "iso2": "TL",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "19 juin 2026 16:24 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "7 juillet 2026 09:03 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Togo",
@@ -2196,8 +2196,8 @@
       "slug": "tonga",
       "level": 1,
       "iso2": "TO",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "19 juin 2026 16:28 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "7 juillet 2026 09:34 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2229,8 +2229,8 @@
       "slug": "turkmenistan",
       "level": 2,
       "iso2": "TM",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "24 juin 2026 08:34 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2251,11 +2251,11 @@
       "slug": "turkiye",
       "level": 2,
       "iso2": "TR",
-      "recentUpdate": "Section sécurité – ajout d'information sur le sommet de l'OTAN à Ankara et des intoxications aux pesticides chimiques",
-      "lastUpdateDate": "30 juin 2026 11:45 HAE",
+      "recentUpdate": "Section Sécurité – retrait de l'information sur le sommet de l'OTAN à Ankara",
+      "lastUpdateDate": "10 juillet 2026 11:05 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Ukraine",
@@ -2285,29 +2285,29 @@
       "level": 1,
       "iso2": "VU",
       "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "29 juin 2026 11:49 HAE",
+      "lastUpdateDate": "7 juillet 2026 09:38 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Venezuela",
       "slug": "venezuela",
       "level": 4,
       "iso2": "VE",
-      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur les séismes à proximité de Caracas",
-      "lastUpdateDate": "25 juin 2026 15:26 HAE",
+      "recentUpdate": "Santé – changement mineur",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Vietnam",
       "slug": "vietnam",
       "level": 2,
       "iso2": "VN",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 14:57 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "7 juillet 2026 09:34 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2317,19 +2317,19 @@
       "slug": "yemen",
       "level": 4,
       "iso2": "YE",
-      "recentUpdate": "Section Niveau de risque – évitez tout voyage au Yémen; Section Sécurité – mise à jour de l’information sur les tensions au Moyen-Orient",
-      "lastUpdateDate": "25 juin 2026 16:30 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Zambie",
       "slug": "zambie",
       "level": 1,
       "iso2": "ZM",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 11:45 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2372,8 +2372,8 @@
       "slug": "equateur",
       "level": 2,
       "iso2": "EC",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 16:21 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2395,7 +2395,7 @@
       "level": 1,
       "iso2": "US",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "19 juin 2026 11:08 HAE",
+      "lastUpdateDate": "9 juillet 2026 13:36 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2406,18 +2406,18 @@
       "level": 3,
       "iso2": "ET",
       "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 16:08 HAE",
+      "lastUpdateDate": "13 juillet 2026 12:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Îles Canaries",
       "slug": "iles-canaries",
       "level": 1,
       "iso2": "IC",
-      "recentUpdate": "Section Sécurité – mise à jour de l’information sur les crimes violents et les activités aquatiques",
-      "lastUpdateDate": "25 juin 2026 15:17 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2460,11 +2460,11 @@
       "slug": "mariannes-du-nord-iles",
       "level": 1,
       "iso2": "MP",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "19 juin 2026 17:57 HAE",
-      "hasRegionalAdvisory": false,
+      "recentUpdate": "Sections Niveaux de risque et Catastrophes naturelles et climat – mise à jour de l’information sur le super typhon Bavi",
+      "lastUpdateDate": "7 juillet 2026 17:02 HAE",
+      "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "National advisory decreased"
     },
     {
       "name": "Îles Marshall",
