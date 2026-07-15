@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14",
+  "updated": "2026-07-15",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -41,7 +41,7 @@
       "level": 2,
       "iso2": "DZ",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "9 juillet 2026 13:38 HAE",
+      "lastUpdateDate": "14 juillet 2026 10:19 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -117,11 +117,11 @@
       "slug": "arabie-saoudite",
       "level": 2,
       "iso2": "SA",
-      "recentUpdate": "Section Niveau de risque – faites preuve d’une grande prudence en Arabie saoudite; Section Sécurité – mise à jour de l’information sur les tensions au Moyen-Orient",
-      "lastUpdateDate": "25 juin 2026 16:24 HAE",
+      "recentUpdate": "Section Niveaux de risque – évitez tout voyage non essentiel à l'aéroport international d'Abha",
+      "lastUpdateDate": "14 juillet 2026 15:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "National advisory decreased"
+      "updateType": "Regional advisory added"
     },
     {
       "name": "Argentine",
@@ -348,8 +348,8 @@
       "slug": "bulgarie",
       "level": 1,
       "iso2": "BG",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
+      "recentUpdate": "Section Lois et coutumes – mise à jour de l’information sur l’argent",
+      "lastUpdateDate": "14 juillet 2026 15:42 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1470,11 +1470,11 @@
       "slug": "nigeria",
       "level": 3,
       "iso2": "NG",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "30 juin 2026 09:07 HAE",
+      "recentUpdate": "Section Exigences d’entrée et de sortie – ajout d’information sur le formulaire de déclaration sanitaire",
+      "lastUpdateDate": "14 juillet 2026 10:49 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Niue",
@@ -1790,7 +1790,7 @@
       "level": 4,
       "iso2": "CD",
       "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
+      "lastUpdateDate": "14 juillet 2026 09:25 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -2043,10 +2043,10 @@
       "level": 1,
       "iso2": "CH",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
+      "lastUpdateDate": "14 juillet 2026 10:18 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Suriname",
