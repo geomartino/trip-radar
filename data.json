@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15",
+  "updated": "2026-07-16",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -436,8 +436,8 @@
       "slug": "chili",
       "level": 2,
       "iso2": "CL",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "7 juillet 2026 13:38 HAE",
+      "recentUpdate": "Section catastrophes naturelles et climat – ajout d’information sur des conditions météorologiques extrêmes",
+      "lastUpdateDate": "15 juillet 2026 13:33 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -646,7 +646,7 @@
       "level": 1,
       "iso2": "FI",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
+      "lastUpdateDate": "15 juillet 2026 06:57 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -700,11 +700,11 @@
       "slug": "gibraltar",
       "level": 1,
       "iso2": "GI",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 13:09 HAE",
+      "recentUpdate": "Révision approfondie et mise à jour de l'ensemble du contenu",
+      "lastUpdateDate": "15 juillet 2026 11:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Full TAA review"
     },
     {
       "name": "Grenade",
@@ -899,7 +899,7 @@
       "level": 2,
       "iso2": "ID",
       "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "19 juin 2026 15:20 HAE",
+      "lastUpdateDate": "15 juillet 2026 07:01 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2163,7 +2163,7 @@
       "slug": "timor-leste-timor-oriental",
       "level": 2,
       "iso2": "TL",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – Conseils de santé aux voyageurs concernant la dengue ont été retiré",
       "lastUpdateDate": "7 juillet 2026 09:03 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
