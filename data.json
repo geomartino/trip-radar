@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16",
+  "updated": "2026-07-18",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -115,21 +115,21 @@
     {
       "name": "Arabie saoudite",
       "slug": "arabie-saoudite",
-      "level": 2,
+      "level": 3,
       "iso2": "SA",
-      "recentUpdate": "Section Niveaux de risque – évitez tout voyage non essentiel à l'aéroport international d'Abha",
-      "lastUpdateDate": "14 juillet 2026 15:16 HAE",
+      "recentUpdate": "Section Niveaux de risque – Évitez tout voyage non essential en Arabie saoudite",
+      "lastUpdateDate": "17 juillet 2026 18:43 HAE",
       "hasRegionalAdvisory": true,
-      "hasAdvisoryWarning": false,
-      "updateType": "Regional advisory added"
+      "hasAdvisoryWarning": true,
+      "updateType": "National advisory increased"
     },
     {
       "name": "Argentine",
       "slug": "argentine",
       "level": 1,
       "iso2": "AR",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 16:13 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "16 juillet 2026 13:42 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -139,8 +139,8 @@
       "slug": "armenie",
       "level": 1,
       "iso2": "AM",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "16 juillet 2026 13:46 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -162,7 +162,7 @@
       "level": 1,
       "iso2": "AU",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "7 juillet 2026 08:09 HAE",
+      "lastUpdateDate": "17 juillet 2026 10:28 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -448,7 +448,7 @@
       "level": 2,
       "iso2": "CN",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "24 juin 2026 15:15 HAE",
+      "lastUpdateDate": "17 juillet 2026 07:35 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -766,11 +766,11 @@
       "slug": "guatemala",
       "level": 2,
       "iso2": "GT",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur un tremblement de terre",
+      "lastUpdateDate": "17 juillet 2026 15:59 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Guinée",
@@ -898,8 +898,8 @@
       "slug": "indonesie",
       "level": 2,
       "iso2": "ID",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "15 juillet 2026 07:01 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "16 juillet 2026 13:39 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -986,8 +986,8 @@
       "slug": "japon",
       "level": 1,
       "iso2": "JP",
-      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur le typhon Bavi",
-      "lastUpdateDate": "13 juillet 2026 11:38 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur les canicules",
+      "lastUpdateDate": "16 juillet 2026 12:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -995,13 +995,13 @@
     {
       "name": "Jordanie",
       "slug": "jordanie",
-      "level": 2,
+      "level": 3,
       "iso2": "JO",
-      "recentUpdate": "Section Niveau de risque – faites preuve d'une grande prudence en Jordanie; Section Sécurité – mise à jour de l’information sur les tensions au Moyen-Orient",
-      "lastUpdateDate": "25 juin 2026 16:25 HAE",
+      "recentUpdate": "Section Niveaux de risque – Évitez tout voyage non-essentiel en Jordanie",
+      "lastUpdateDate": "17 juillet 2026 18:41 HAE",
       "hasRegionalAdvisory": true,
-      "hasAdvisoryWarning": false,
-      "updateType": "National advisory removed"
+      "hasAdvisoryWarning": true,
+      "updateType": "National advisory increased"
     },
     {
       "name": "Kazakhstan",
@@ -1327,11 +1327,11 @@
       "slug": "mexique",
       "level": 2,
       "iso2": "MX",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 10:45 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur un tremblement de terre",
+      "lastUpdateDate": "17 juillet 2026 15:49 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Micronésie (EFM)",
@@ -1503,7 +1503,7 @@
       "slug": "nouvelle-caledonie",
       "level": 2,
       "iso2": "NC",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – changement mineur",
       "lastUpdateDate": "7 juillet 2026 09:34 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
@@ -1514,8 +1514,8 @@
       "slug": "nouvelle-zelande",
       "level": 1,
       "iso2": "NZ",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juin 2026 13:33 HAE",
+      "recentUpdate": "Catastrophes naturelles et climat - retrait de l'information sur l'avertissement de tsunami",
+      "lastUpdateDate": "16 juillet 2026 07:48 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1534,13 +1534,13 @@
     {
       "name": "Oman",
       "slug": "oman",
-      "level": 2,
+      "level": 3,
       "iso2": "OM",
-      "recentUpdate": "Section Niveau de risque – faites preuve d’une grande prudence à Oman; Section Sécurité – mise à jour de l’information sur les tensions au Moyen-Orient",
-      "lastUpdateDate": "25 juin 2026 16:23 HAE",
+      "recentUpdate": "Section niveau de risque - Évitez tout voyage non essentiel à Oman",
+      "lastUpdateDate": "17 juillet 2026 18:44 HAE",
       "hasRegionalAdvisory": false,
-      "hasAdvisoryWarning": false,
-      "updateType": "National advisory decreased"
+      "hasAdvisoryWarning": true,
+      "updateType": "National advisory increased"
     },
     {
       "name": "Ouganda",
@@ -1569,11 +1569,11 @@
       "slug": "pakistan",
       "level": 2,
       "iso2": "PK",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
+      "recentUpdate": "Section Exigences d'entrée et de sortie – ajout d’information sur la double citoyenneté",
+      "lastUpdateDate": "16 juillet 2026 13:23 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Palaos",
@@ -1613,8 +1613,8 @@
       "slug": "paraguay",
       "level": 2,
       "iso2": "PY",
-      "recentUpdate": "Dernière mise à jour : Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 13:51 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "17 juillet 2026 10:29 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1699,12 +1699,12 @@
     {
       "name": "Qatar",
       "slug": "qatar",
-      "level": 2,
+      "level": 3,
       "iso2": "QA",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "9 juillet 2026 13:39 HAE",
+      "recentUpdate": "Section Niveau de risque – Évitez tout voyage non essentiel au Qatar",
+      "lastUpdateDate": "17 juillet 2026 19:24 HAE",
       "hasRegionalAdvisory": false,
-      "hasAdvisoryWarning": false,
+      "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
     },
     {
@@ -2119,11 +2119,11 @@
       "slug": "taiwan",
       "level": 1,
       "iso2": "TW",
-      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur le typhon Bavi",
-      "lastUpdateDate": "13 juillet 2026 11:39 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "16 juillet 2026 13:40 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Tchad",
@@ -2142,7 +2142,7 @@
       "level": 1,
       "iso2": "CZ",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
+      "lastUpdateDate": "16 juillet 2026 14:32 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -2284,7 +2284,7 @@
       "slug": "vanuatu",
       "level": 1,
       "iso2": "VU",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Ajout de conseils de santé aux voyageurs concernant la dengue",
       "lastUpdateDate": "7 juillet 2026 09:38 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
@@ -2359,13 +2359,13 @@
     {
       "name": "Émirats arabes unis",
       "slug": "emirats-arabes-unis",
-      "level": 2,
+      "level": 3,
       "iso2": "AE",
-      "recentUpdate": "Section Niveau de risque – faites preuve d’une grande prudence au Émirats arabes unis; Section Sécurité – mise à jour de l’information sur les tensions au Moyen-Orient",
-      "lastUpdateDate": "25 juin 2026 16:24 HAE",
+      "recentUpdate": "Section Niveau de risque - Évitez tout voyage non essentiel aux Émirats arabes unis",
+      "lastUpdateDate": "17 juillet 2026 18:45 HAE",
       "hasRegionalAdvisory": false,
-      "hasAdvisoryWarning": false,
-      "updateType": "National advisory removed"
+      "hasAdvisoryWarning": true,
+      "updateType": "National advisory increased"
     },
     {
       "name": "Équateur",
@@ -2394,11 +2394,11 @@
       "slug": "etats-unis",
       "level": 1,
       "iso2": "US",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "9 juillet 2026 13:36 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "17 juillet 2026 13:04 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Éthiopie",
