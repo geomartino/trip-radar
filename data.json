@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19",
+  "updated": "2026-07-20",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -997,11 +997,11 @@
       "slug": "jordanie",
       "level": 3,
       "iso2": "JO",
-      "recentUpdate": "Section Niveaux de risque – Évitez tout voyage non-essentiel en Jordanie",
-      "lastUpdateDate": "17 juillet 2026 18:41 HAE",
+      "recentUpdate": "Section Sécurité – ajout d’information sur une alerte de sécurité américaine recommandant de ne pas se rendre à l’aéroport international ni au port maritime d’Aqaba",
+      "lastUpdateDate": "19 juillet 2026 17:41 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
-      "updateType": "National advisory increased"
+      "updateType": "Regular text update"
     },
     {
       "name": "Kazakhstan",
