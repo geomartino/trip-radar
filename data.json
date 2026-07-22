@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20",
+  "updated": "2026-07-22",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -205,11 +205,11 @@
       "slug": "bahrein",
       "level": 3,
       "iso2": "BH",
-      "recentUpdate": "Section Niveau de risque – évitez tout voyage non essentiel à Bahreïn; Section Sécurité – mise à jour de l’information sur les tensions au Moyen-Orient",
-      "lastUpdateDate": "25 juin 2026 16:21 HAE",
+      "recentUpdate": "Section Sécurité – ajout d’information sur une alerte de sécurité des États-Unis",
+      "lastUpdateDate": "20 juillet 2026 10:43 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "National advisory decreased"
+      "updateType": "Regular text update"
     },
     {
       "name": "Bangladesh",
@@ -282,11 +282,11 @@
       "slug": "bolivie",
       "level": 2,
       "iso2": "BO",
-      "recentUpdate": "Section Niveaux de risque – retrait de l’avertissement d’éviter tout voyage non essentiel dans le département de La Paz; mise à jour de l’information sur les niveaux de risque en Bolivie et dans la région du Chapare; Section Sécurité – mise à jour de l’information sur l’état d’urgence",
-      "lastUpdateDate": "10 juillet 2026 15:30 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "20 juillet 2026 16:39 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regional advisory removed"
+      "updateType": "Editorial change"
     },
     {
       "name": "Bonaire",
@@ -436,8 +436,8 @@
       "slug": "chili",
       "level": 2,
       "iso2": "CL",
-      "recentUpdate": "Section catastrophes naturelles et climat – ajout d’information sur des conditions météorologiques extrêmes",
-      "lastUpdateDate": "15 juillet 2026 13:33 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur les conditions météorologiques extrêmes",
+      "lastUpdateDate": "21 juillet 2026 16:55 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -766,8 +766,8 @@
       "slug": "guatemala",
       "level": 2,
       "iso2": "GT",
-      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur un tremblement de terre",
-      "lastUpdateDate": "17 juillet 2026 15:59 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur le tremblement de terre de 17 juillet",
+      "lastUpdateDate": "20 juillet 2026 13:44 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1239,7 +1239,7 @@
       "slug": "maldives",
       "level": 2,
       "iso2": "MV",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – changement mineur",
       "lastUpdateDate": "7 juillet 2026 09:34 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
@@ -1327,11 +1327,11 @@
       "slug": "mexique",
       "level": 2,
       "iso2": "MX",
-      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur un tremblement de terre",
-      "lastUpdateDate": "17 juillet 2026 15:49 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "21 juillet 2026 14:12 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Micronésie (EFM)",
@@ -1415,8 +1415,8 @@
       "slug": "myanmar",
       "level": 4,
       "iso2": "MM",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "20 juillet 2026 08:36 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1877,11 +1877,11 @@
       "slug": "salvador",
       "level": 2,
       "iso2": "SV",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
+      "recentUpdate": "Exigences d'entrée et de sortie – mise à jour de l’information sur les enfants en voyage",
+      "lastUpdateDate": "21 juillet 2026 13:58 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Samoa",
@@ -2031,8 +2031,8 @@
       "slug": "sri-lanka",
       "level": 2,
       "iso2": "LK",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "8 juillet 2026 09:16 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "21 juillet 2026 08:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2394,8 +2394,8 @@
       "slug": "etats-unis",
       "level": 1,
       "iso2": "US",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "17 juillet 2026 13:04 HAE",
+      "recentUpdate": "Section Sécurité – retrait de l’information sur la Coupe du Monde de la FIFA 2026; Section Exigences d’entrée et de sortie – mise à jour de la section; Catastrophes naturelles et climat – retrait de l'information sur les inondations au Texas",
+      "lastUpdateDate": "20 juillet 2026 14:01 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
