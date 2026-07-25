@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24",
+  "updated": "2026-07-25",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -436,8 +436,8 @@
       "slug": "chili",
       "level": 2,
       "iso2": "CL",
-      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur les conditions météorologiques extrêmes",
-      "lastUpdateDate": "21 juillet 2026 16:55 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur les conditions météorologiques extrêmes",
+      "lastUpdateDate": "24 juillet 2026 10:39 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -447,11 +447,11 @@
       "slug": "chine",
       "level": 2,
       "iso2": "CN",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "17 juillet 2026 07:35 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur le typhon Noul",
+      "lastUpdateDate": "24 juillet 2026 16:37 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Chypre",
@@ -601,11 +601,11 @@
       "slug": "espagne",
       "level": 2,
       "iso2": "ES",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "22 juillet 2026 14:05 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur des feux de forêt",
+      "lastUpdateDate": "24 juillet 2026 05:01 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Estonie",
@@ -734,10 +734,10 @@
       "level": 1,
       "iso2": "GR",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "13 juillet 2026 14:53 HAE",
+      "lastUpdateDate": "24 juillet 2026 12:40 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Guadeloupe",
@@ -766,8 +766,8 @@
       "slug": "guatemala",
       "level": 2,
       "iso2": "GT",
-      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur le tremblement de terre de 17 juillet",
-      "lastUpdateDate": "20 juillet 2026 13:44 HAE",
+      "recentUpdate": "Section sécurité – retrait de l’information sur l’état de prévention",
+      "lastUpdateDate": "24 juillet 2026 10:38 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -865,11 +865,11 @@
       "slug": "hong-kong",
       "level": 2,
       "iso2": "HK",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "22 juillet 2026 07:27 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur le typhon Noul",
+      "lastUpdateDate": "24 juillet 2026 16:44 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Hongrie",
