@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-28",
+  "updated": "2026-07-29",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -447,8 +447,8 @@
       "slug": "chine",
       "level": 2,
       "iso2": "CN",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur le typhon Noul",
-      "lastUpdateDate": "24 juillet 2026 16:37 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur le typhon Noul",
+      "lastUpdateDate": "28 juillet 2026 11:27 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -865,8 +865,8 @@
       "slug": "hong-kong",
       "level": 2,
       "iso2": "HK",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur le typhon Noul",
-      "lastUpdateDate": "24 juillet 2026 16:44 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur le typhon Noul",
+      "lastUpdateDate": "28 juillet 2026 04:48 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -986,8 +986,8 @@
       "slug": "japon",
       "level": 1,
       "iso2": "JP",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur les canicules",
-      "lastUpdateDate": "16 juillet 2026 12:53 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur un tremblement de terre près de Kyushu et retrait de l’information sur la menace au tsunami",
+      "lastUpdateDate": "28 juillet 2026 09:59 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1008,7 +1008,7 @@
       "slug": "kazakhstan",
       "level": 1,
       "iso2": "KZ",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – changement mineur",
       "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
@@ -1306,7 +1306,7 @@
       "level": 3,
       "iso2": "MR",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "27 juillet 2026 08:41 HAE",
+      "lastUpdateDate": "28 juillet 2026 10:40 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1558,7 +1558,7 @@
       "slug": "ouzbekistan",
       "level": 1,
       "iso2": "UZ",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – changement mineur",
       "lastUpdateDate": "8 juillet 2026 09:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
@@ -1570,7 +1570,7 @@
       "level": 2,
       "iso2": "PK",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "22 juillet 2026 09:02 HAE",
+      "lastUpdateDate": "28 juillet 2026 11:32 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1734,8 +1734,8 @@
       "slug": "russie",
       "level": 4,
       "iso2": "RU",
-      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "23 juin 2026 12:51 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "28 juillet 2026 13:36 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
