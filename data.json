@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30",
+  "updated": "2026-08-01",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -173,7 +173,7 @@
       "level": 1,
       "iso2": "AT",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "31 juillet 2026 10:48 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -338,7 +338,7 @@
       "level": 2,
       "iso2": "BR",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "30 juillet 2026 11:38 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -535,11 +535,11 @@
       "slug": "cuba",
       "level": 3,
       "iso2": "CU",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "recentUpdate": "Section Sécurité – Ajout d'information sur les crimes opportunistes",
+      "lastUpdateDate": "30 juillet 2026 14:24 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Curaçao",
@@ -866,10 +866,10 @@
       "level": 2,
       "iso2": "HK",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "31 juillet 2026 10:26 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Hongrie",
@@ -987,10 +987,10 @@
       "level": 1,
       "iso2": "JP",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "31 juillet 2026 11:31 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Jordanie",
@@ -1614,7 +1614,7 @@
       "level": 2,
       "iso2": "PY",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "30 juillet 2026 15:31 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
