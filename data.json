@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05",
+  "updated": "2026-08-06",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -128,11 +128,11 @@
       "slug": "argentine",
       "level": 1,
       "iso2": "AR",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "5 août 2026 08:58 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Arménie",
@@ -338,7 +338,7 @@
       "level": 2,
       "iso2": "BR",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "30 juillet 2026 11:38 HAE",
+      "lastUpdateDate": "5 août 2026 08:25 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -415,7 +415,7 @@
       "level": 2,
       "iso2": "KH",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "5 août 2026 08:26 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -426,7 +426,7 @@
       "level": 2,
       "iso2": "CM",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "5 août 2026 10:05 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -469,11 +469,11 @@
       "slug": "colombie",
       "level": 2,
       "iso2": "CO",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "recentUpdate": "Section Sécurité – ajout d’information sur la cérémonie d'investiture présidentielle; Section catastrophes naturelles et climat – ajout d’information sur le volcan Puracé",
+      "lastUpdateDate": "5 août 2026 15:54 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Comores",
@@ -601,8 +601,8 @@
       "slug": "espagne",
       "level": 2,
       "iso2": "ES",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information les feux de forêt",
+      "lastUpdateDate": "5 août 2026 13:27 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -733,11 +733,11 @@
       "slug": "grece",
       "level": 1,
       "iso2": "GR",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information les feux de forêt",
+      "lastUpdateDate": "5 août 2026 16:10 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Guadeloupe",
@@ -1196,7 +1196,7 @@
       "level": 1,
       "iso2": "MK",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "4 août 2026 09:28 HAE",
+      "lastUpdateDate": "5 août 2026 08:28 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1306,7 +1306,7 @@
       "level": 3,
       "iso2": "MR",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "5 août 2026 10:48 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1371,8 +1371,8 @@
       "slug": "mongolie",
       "level": 1,
       "iso2": "MN",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "recentUpdate": "Section Sécurité – ajout d’information sur les pénuries de carburant",
+      "lastUpdateDate": "5 août 2026 12:00 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1757,7 +1757,7 @@
       "level": 4,
       "iso2": "CF",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "5 août 2026 10:13 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -2119,11 +2119,11 @@
       "slug": "taiwan",
       "level": 1,
       "iso2": "TW",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "recentUpdate": "Section Sécurité – ajout d’information sur les exercices de résilience urbaine",
+      "lastUpdateDate": "5 août 2026 16:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Tchad",
@@ -2131,7 +2131,7 @@
       "level": 3,
       "iso2": "TD",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "5 août 2026 10:20 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -2153,10 +2153,10 @@
       "level": 2,
       "iso2": "TH",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "5 août 2026 08:59 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Timor-Leste (Timor oriental)",
