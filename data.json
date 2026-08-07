@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-06",
+  "updated": "2026-08-07",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -117,8 +117,8 @@
       "slug": "arabie-saoudite",
       "level": 3,
       "iso2": "SA",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "recentUpdate": "Section Lois et coutume – ajout d’information sur la réglementation relative aux drones",
+      "lastUpdateDate": "6 août 2026 15:58 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
       "updateType": "Regular text update"
@@ -205,11 +205,11 @@
       "slug": "bahrein",
       "level": 4,
       "iso2": "BH",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "recentUpdate": "Section Lois et coutume – ajout d’information sur la réglementation relative aux drones",
+      "lastUpdateDate": "6 août 2026 16:05 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "National advisory increased"
+      "updateType": "Regular text update"
     },
     {
       "name": "Bangladesh",
@@ -502,11 +502,11 @@
       "slug": "coree-sud",
       "level": 1,
       "iso2": "KR",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur les canicules",
+      "lastUpdateDate": "6 août 2026 14:44 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Costa Rica",
@@ -1063,11 +1063,11 @@
       "slug": "koweit",
       "level": 4,
       "iso2": "KW",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "recentUpdate": "Section Lois et coutume – ajout d’information sur la réglementation relative aux drones",
+      "lastUpdateDate": "6 août 2026 16:07 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "National advisory increased"
+      "updateType": "Regular text update"
     },
     {
       "name": "La Réunion",
@@ -1207,7 +1207,7 @@
       "level": 2,
       "iso2": "MG",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "6 août 2026 10:17 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1228,11 +1228,11 @@
       "slug": "malawi",
       "level": 2,
       "iso2": "MW",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "recentUpdate": "Section Exigences d’entrée et de sortie – ajout d’information sur le formulaire de déclaration sanitaire",
+      "lastUpdateDate": "6 août 2026 14:43 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Maldives",
@@ -1295,7 +1295,7 @@
       "level": 1,
       "iso2": "MU",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "6 août 2026 10:31 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1371,11 +1371,11 @@
       "slug": "mongolie",
       "level": 1,
       "iso2": "MN",
-      "recentUpdate": "Section Sécurité – ajout d’information sur les pénuries de carburant",
-      "lastUpdateDate": "5 août 2026 12:00 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "6 août 2026 15:36 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Montserrat",
@@ -1471,7 +1471,7 @@
       "level": 3,
       "iso2": "NG",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "6 août 2026 13:24 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
       "updateType": "Regular text update"
@@ -1536,8 +1536,8 @@
       "slug": "oman",
       "level": 3,
       "iso2": "OM",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "recentUpdate": "Section Lois et coutume – ajout d’information sur la réglementation relative aux drones",
+      "lastUpdateDate": "6 août 2026 16:02 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Regular text update"
@@ -1701,8 +1701,8 @@
       "slug": "qatar",
       "level": 3,
       "iso2": "QA",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "recentUpdate": "Section Lois et coutume – ajout d’information sur la réglementation relative aux drones",
+      "lastUpdateDate": "6 août 2026 15:49 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Regular text update"
@@ -1790,7 +1790,7 @@
       "level": 4,
       "iso2": "CD",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "6 août 2026 08:22 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
