@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07",
+  "updated": "2026-08-08",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -986,8 +986,8 @@
       "slug": "japon",
       "level": 1,
       "iso2": "JP",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur le typhon; retrait de l’information sur le tremblement de terre près de Kyushu",
-      "lastUpdateDate": "3 août 2026 15:48 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l'information sur le typhon Dolphin",
+      "lastUpdateDate": "7 août 2026 12:00 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1372,7 +1372,7 @@
       "level": 1,
       "iso2": "MN",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "6 août 2026 15:36 HAE",
+      "lastUpdateDate": "7 août 2026 15:51 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2020,8 +2020,8 @@
       "slug": "sudan-du-sud",
       "level": 4,
       "iso2": "SS",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
+      "lastUpdateDate": "7 août 2026 10:23 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Regular text update"
