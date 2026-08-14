@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-13",
+  "updated": "2026-08-14",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -338,7 +338,7 @@
       "level": 2,
       "iso2": "BR",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "5 août 2026 08:25 HAE",
+      "lastUpdateDate": "13 août 2026 14:21 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -601,8 +601,8 @@
       "slug": "espagne",
       "level": 2,
       "iso2": "ES",
-      "recentUpdate": "Section d’Exigences d’entrée et de sortie – mise à jour de l’information sur le Système européen d’information et d’autorisation concernant les voyages (ETIAS)",
-      "lastUpdateDate": "11 août 2026 09:10 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information les feux de forêt",
+      "lastUpdateDate": "13 août 2026 13:24 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -899,7 +899,7 @@
       "level": 2,
       "iso2": "ID",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "13 août 2026 08:14 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1218,7 +1218,7 @@
       "level": 1,
       "iso2": "MY",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "13 août 2026 06:17 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1251,7 +1251,7 @@
       "level": 4,
       "iso2": "ML",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "12 août 2026 11:32 HAE",
+      "lastUpdateDate": "13 août 2026 09:55 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1547,11 +1547,11 @@
       "slug": "ouganda",
       "level": 3,
       "iso2": "UG",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "13 août 2026 09:33 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Ouzbékistan",
@@ -2021,7 +2021,7 @@
       "level": 4,
       "iso2": "SS",
       "recentUpdate": "Section Besoin d'aide? – mise à jour de l'information sur l'aide consulaire",
-      "lastUpdateDate": "7 août 2026 10:23 HAE",
+      "lastUpdateDate": "13 août 2026 08:33 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Regular text update"
@@ -2394,11 +2394,11 @@
       "slug": "etats-unis",
       "level": 1,
       "iso2": "US",
-      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur les incendies dans le comté de Spokane",
-      "lastUpdateDate": "12 août 2026 14:20 HAE",
+      "recentUpdate": "Section Niveaux de risque – Évitez tout voyage non essentiel dans le comté d’Hawaï; Section Catastrophes naturelles et climat – ajout d’information sur la tempête tropicale Lala",
+      "lastUpdateDate": "13 août 2026 16:40 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Regional advisory added"
     },
     {
       "name": "Éthiopie",
