@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14",
+  "updated": "2026-08-15",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -282,11 +282,11 @@
       "slug": "bolivie",
       "level": 2,
       "iso2": "BO",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "10 août 2026 10:04 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "14 août 2026 14:03 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Bonaire",
@@ -426,10 +426,10 @@
       "level": 2,
       "iso2": "CM",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "5 août 2026 10:05 HAE",
+      "lastUpdateDate": "14 août 2026 09:06 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Chili",
@@ -469,11 +469,11 @@
       "slug": "colombie",
       "level": 2,
       "iso2": "CO",
-      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur les fermetures d’aéroports",
-      "lastUpdateDate": "12 août 2026 13:02 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "14 août 2026 14:05 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Comores",
@@ -502,11 +502,11 @@
       "slug": "coree-sud",
       "level": 1,
       "iso2": "KR",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur les canicules",
-      "lastUpdateDate": "6 août 2026 14:44 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "14 août 2026 14:46 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Costa Rica",
@@ -766,8 +766,8 @@
       "slug": "guatemala",
       "level": 2,
       "iso2": "GT",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur l’éruption du volcan Fuego",
-      "lastUpdateDate": "4 août 2026 16:43 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur le volcan Fuego",
+      "lastUpdateDate": "14 août 2026 11:26 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -899,7 +899,7 @@
       "level": 2,
       "iso2": "ID",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "13 août 2026 08:14 HAE",
+      "lastUpdateDate": "14 août 2026 14:19 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -964,8 +964,8 @@
       "slug": "italie",
       "level": 2,
       "iso2": "IT",
-      "recentUpdate": "Section d’Exigences d’entrée et de sortie – mise à jour de l’information sur le Système européen d’information et d’autorisation concernant les voyages (ETIAS)",
-      "lastUpdateDate": "11 août 2026 09:10 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur les perturbations de vols en raison de l’éruption de l’Etna",
+      "lastUpdateDate": "14 août 2026 13:50 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -986,11 +986,11 @@
       "slug": "japon",
       "level": 1,
       "iso2": "JP",
-      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur le typhon Dolphin",
-      "lastUpdateDate": "11 août 2026 11:58 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "14 août 2026 15:54 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Jordanie",
@@ -1261,8 +1261,8 @@
       "slug": "malte",
       "level": 1,
       "iso2": "MT",
-      "recentUpdate": "Section d’Exigences d’entrée et de sortie – mise à jour de l’information sur le Système européen d’information et d’autorisation concernant les voyages (ETIAS)",
-      "lastUpdateDate": "11 août 2026 09:10 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur les perturbations de vols en raison de l’éruption de l’Etna",
+      "lastUpdateDate": "14 août 2026 14:10 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1327,11 +1327,11 @@
       "slug": "mexique",
       "level": 2,
       "iso2": "MX",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "11 août 2026 14:44 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "14 août 2026 13:58 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Micronésie (EFM)",
@@ -1768,7 +1768,7 @@
       "level": 2,
       "iso2": "DO",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "14 août 2026 13:59 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2119,8 +2119,8 @@
       "slug": "taiwan",
       "level": 1,
       "iso2": "TW",
-      "recentUpdate": "Section Sécurité – ajout d’information sur les exercices de résilience urbaine",
-      "lastUpdateDate": "5 août 2026 16:16 HAE",
+      "recentUpdate": "Section Sécurité – retrait de l'information sur les exercices de résilience urbaine",
+      "lastUpdateDate": "14 août 2026 10:57 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -2153,7 +2153,7 @@
       "level": 2,
       "iso2": "TH",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "5 août 2026 08:59 HAE",
+      "lastUpdateDate": "14 août 2026 14:25 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2328,8 +2328,8 @@
       "slug": "zambie",
       "level": 1,
       "iso2": "ZM",
-      "recentUpdate": "Section Sécurité – ajout d’information sur les élections générales",
-      "lastUpdateDate": "12 août 2026 11:45 HAE",
+      "recentUpdate": "Section Sécurité – mise à jour de l’information sur les élections générales",
+      "lastUpdateDate": "14 août 2026 16:19 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
