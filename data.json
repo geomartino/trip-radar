@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15",
+  "updated": "2026-08-16",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -898,11 +898,11 @@
       "slug": "indonesie",
       "level": 2,
       "iso2": "ID",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "14 août 2026 14:19 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur les tremblements de terre en Indonésie",
+      "lastUpdateDate": "15 août 2026 11:29 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Iran",
