@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16",
+  "updated": "2026-08-17",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -2394,11 +2394,11 @@
       "slug": "etats-unis",
       "level": 1,
       "iso2": "US",
-      "recentUpdate": "Section Niveaux de risque – Évitez tout voyage non essentiel dans le comté d’Hawaï; Section Catastrophes naturelles et climat – ajout d’information sur la tempête tropicale Lala",
-      "lastUpdateDate": "13 août 2026 16:40 HAE",
+      "recentUpdate": "Section Niveaux de risque – retrait de l’avertissement régional concernant le comté d’Hawaï; Section Catastrophes naturelles et climat – retrait de l’information sur la tempête tropicale Lala",
+      "lastUpdateDate": "16 août 2026 19:46 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regional advisory added"
+      "updateType": "Regional advisory removed"
     },
     {
       "name": "Éthiopie",
