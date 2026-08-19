@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-18",
+  "updated": "2026-08-19",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -964,8 +964,8 @@
       "slug": "italie",
       "level": 2,
       "iso2": "IT",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur les perturbations de vols en raison de l’éruption de l’Etna",
-      "lastUpdateDate": "14 août 2026 13:50 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur les perturbations de vols en raison de l’éruption de l’Etna",
+      "lastUpdateDate": "18 août 2026 15:06 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1261,8 +1261,8 @@
       "slug": "malte",
       "level": 1,
       "iso2": "MT",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur les perturbations de vols en raison de l’éruption de l’Etna",
-      "lastUpdateDate": "14 août 2026 14:10 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l'information sur les perturbations de vols en raison de l’éruption de l’Etna",
+      "lastUpdateDate": "18 août 2026 14:38 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
