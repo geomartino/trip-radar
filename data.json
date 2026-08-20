@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-19",
+  "updated": "2026-08-20",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -437,10 +437,10 @@
       "level": 2,
       "iso2": "CL",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "19 août 2026 15:44 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Chine",
@@ -2339,11 +2339,11 @@
       "slug": "zimbabwe",
       "level": 2,
       "iso2": "ZW",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "recentUpdate": "Section Sécurité – ajout d’information sur les traversiers",
+      "lastUpdateDate": "19 août 2026 15:50 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Égypte",
@@ -2494,7 +2494,7 @@
       "level": 2,
       "iso2": "TC",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "19 août 2026 16:48 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
