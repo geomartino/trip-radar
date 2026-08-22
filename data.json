@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21",
+  "updated": "2026-08-22",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -128,8 +128,8 @@
       "slug": "argentine",
       "level": 1,
       "iso2": "AR",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "11 août 2026 13:32 HAE",
+      "recentUpdate": "Santé – Conseils de santé aux voyageurs concernant le chikungunya a été retiré ",
+      "lastUpdateDate": "21 août 2026 14:41 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -203,13 +203,13 @@
     {
       "name": "Bahreïn",
       "slug": "bahrein",
-      "level": 4,
+      "level": 3,
       "iso2": "BH",
-      "recentUpdate": "Section Lois et coutume – ajout d’information sur la réglementation relative aux drones",
-      "lastUpdateDate": "6 août 2026 16:05 HAE",
+      "recentUpdate": "Section Niveau de risque – évitez tout voyage non essentiel à Bahreïn",
+      "lastUpdateDate": "21 août 2026 10:13 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Regular text update"
+      "updateType": "National advisory decreased"
     },
     {
       "name": "Bangladesh",
@@ -272,7 +272,7 @@
       "level": 1,
       "iso2": "BT",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "21 août 2026 14:39 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -283,7 +283,7 @@
       "level": 2,
       "iso2": "BO",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "14 août 2026 14:03 HAE",
+      "lastUpdateDate": "21 août 2026 14:38 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -305,7 +305,7 @@
       "level": 2,
       "iso2": "BA",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "21 août 2026 14:30 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -327,7 +327,7 @@
       "level": 1,
       "iso2": "BN",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "21 août 2026 14:35 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -348,11 +348,11 @@
       "slug": "bulgarie",
       "level": 1,
       "iso2": "BG",
-      "recentUpdate": "Section d’Exigences d’entrée et de sortie – mise à jour de l’information sur le Système européen d’information et d’autorisation concernant les voyages (ETIAS)",
-      "lastUpdateDate": "11 août 2026 09:10 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "21 août 2026 14:33 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Burkina Faso",
@@ -502,11 +502,11 @@
       "slug": "coree-sud",
       "level": 1,
       "iso2": "KR",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "14 août 2026 14:46 HAE",
+      "recentUpdate": "Révision approfondie et mise à jour de l'ensemble du contenu",
+      "lastUpdateDate": "21 août 2026 14:28 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Full TAA review"
     },
     {
       "name": "Costa Rica",
@@ -591,7 +591,7 @@
       "level": 1,
       "iso2": "DM",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "21 août 2026 14:45 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -601,11 +601,11 @@
       "slug": "espagne",
       "level": 2,
       "iso2": "ES",
-      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information les feux de forêt",
-      "lastUpdateDate": "13 août 2026 13:24 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "21 août 2026 08:35 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Estonie",
@@ -712,7 +712,7 @@
       "level": 1,
       "iso2": "GD",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "21 août 2026 14:55 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -766,11 +766,11 @@
       "slug": "guatemala",
       "level": 2,
       "iso2": "GT",
-      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur le volcan Fuego",
-      "lastUpdateDate": "14 août 2026 11:26 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "21 août 2026 14:57 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Guinée",
@@ -855,7 +855,7 @@
       "level": 2,
       "iso2": "HN",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "21 août 2026 14:59 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1009,7 +1009,7 @@
       "level": 1,
       "iso2": "KZ",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "21 août 2026 15:10 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1019,11 +1019,11 @@
       "slug": "kenya",
       "level": 2,
       "iso2": "KE",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "20 août 2026 11:25 HAE",
+      "recentUpdate": "Section Niveaux de risque – retrait de l’avertissement d’éviter tout voyage non essentiel dans les quartiers d’Eastleigh et de Pangani à Nairobi; Section Sécurité – mise à jour de l’information sur les crimes mineurs",
+      "lastUpdateDate": "21 août 2026 13:25 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regional advisory modified"
     },
     {
       "name": "Kirghizistan",
@@ -1042,7 +1042,7 @@
       "level": 1,
       "iso2": "KI",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "21 août 2026 15:08 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1061,13 +1061,13 @@
     {
       "name": "Koweït",
       "slug": "koweit",
-      "level": 4,
+      "level": 3,
       "iso2": "KW",
-      "recentUpdate": "Section Lois et coutume – ajout d’information sur la réglementation relative aux drones",
-      "lastUpdateDate": "6 août 2026 16:07 HAE",
-      "hasRegionalAdvisory": false,
+      "recentUpdate": "Section Niveau de risque – évitez tout voyage non essentiel au Koweït",
+      "lastUpdateDate": "21 août 2026 10:06 HAE",
+      "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
-      "updateType": "Regular text update"
+      "updateType": "National advisory decreased"
     },
     {
       "name": "La Réunion",
@@ -1240,7 +1240,7 @@
       "level": 2,
       "iso2": "MV",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "21 août 2026 15:29 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1273,7 +1273,7 @@
       "level": 2,
       "iso2": "MA",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "21 août 2026 15:15 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1372,7 +1372,7 @@
       "level": 1,
       "iso2": "MN",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "7 août 2026 15:51 HAE",
+      "lastUpdateDate": "21 août 2026 15:26 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1449,7 +1449,7 @@
       "level": 2,
       "iso2": "NI",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "21 août 2026 15:32 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1592,7 +1592,7 @@
       "level": 1,
       "iso2": "PA",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "21 août 2026 15:37 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1614,7 +1614,7 @@
       "level": 2,
       "iso2": "PY",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "30 juillet 2026 15:31 HAE",
+      "lastUpdateDate": "21 août 2026 16:41 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1712,11 +1712,11 @@
       "slug": "roumanie",
       "level": 1,
       "iso2": "RO",
-      "recentUpdate": "Section d’Exigences d’entrée et de sortie – mise à jour de l’information sur le Système européen d’information et d’autorisation concernant les voyages (ETIAS)",
-      "lastUpdateDate": "11 août 2026 09:10 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "21 août 2026 15:41 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Royaume-Uni",
@@ -1823,7 +1823,7 @@
       "level": 1,
       "iso2": "SM",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "21 août 2026 15:46 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1867,7 +1867,7 @@
       "level": 1,
       "iso2": "LC",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "21 août 2026 15:12 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2108,8 +2108,8 @@
       "slug": "tanzanie",
       "level": 2,
       "iso2": "TZ",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "20 août 2026 11:25 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "21 août 2026 16:08 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2153,7 +2153,7 @@
       "level": 2,
       "iso2": "TH",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "14 août 2026 14:25 HAE",
+      "lastUpdateDate": "21 août 2026 15:50 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2164,10 +2164,10 @@
       "level": 2,
       "iso2": "TL",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "21 août 2026 15:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Togo",
@@ -2230,7 +2230,7 @@
       "level": 2,
       "iso2": "TM",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "21 août 2026 15:55 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2241,7 +2241,7 @@
       "level": 1,
       "iso2": "TV",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "21 août 2026 16:06 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2284,11 +2284,11 @@
       "slug": "vanuatu",
       "level": 1,
       "iso2": "VU",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "10 août 2026 08:54 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "21 août 2026 16:12 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Venezuela",
@@ -2329,7 +2329,7 @@
       "level": 1,
       "iso2": "ZM",
       "recentUpdate": "Section Sécurité – mise à jour de l’information sur les élections générales",
-      "lastUpdateDate": "14 août 2026 16:19 HAE",
+      "lastUpdateDate": "21 août 2026 13:28 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -2351,7 +2351,7 @@
       "level": 2,
       "iso2": "EG",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "21 août 2026 14:51 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2373,7 +2373,7 @@
       "level": 2,
       "iso2": "EC",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "10 août 2026 17:19 HAE",
+      "lastUpdateDate": "21 août 2026 14:48 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
