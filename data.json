@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-24",
+  "updated": "2026-08-25",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -888,10 +888,10 @@
       "level": 2,
       "iso2": "IN",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "24 août 2026 09:55 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Indonésie",
@@ -986,8 +986,8 @@
       "slug": "japon",
       "level": 1,
       "iso2": "JP",
-      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur des typhons",
-      "lastUpdateDate": "17 août 2026 16:21 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur le typhon Saudel",
+      "lastUpdateDate": "24 août 2026 13:05 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1745,8 +1745,8 @@
       "slug": "rwanda",
       "level": 1,
       "iso2": "RW",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "20 août 2026 11:25 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "24 août 2026 10:39 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
