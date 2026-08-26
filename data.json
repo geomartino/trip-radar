@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-25",
+  "updated": "2026-08-26",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -370,11 +370,11 @@
       "slug": "burundi",
       "level": 3,
       "iso2": "BI",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "20 août 2026 11:25 HAE",
+      "recentUpdate": "Révision approfondie et mise à jour de l'ensemble du contenu",
+      "lastUpdateDate": "25 août 2026 13:47 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Full TAA review"
     },
     {
       "name": "Bélarus",
@@ -656,11 +656,11 @@
       "slug": "france",
       "level": 2,
       "iso2": "FR",
-      "recentUpdate": "Section d’Exigences d’entrée et de sortie – mise à jour de l’information sur le Système européen d’information et d’autorisation concernant les voyages (ETIAS)",
-      "lastUpdateDate": "11 août 2026 09:10 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "25 août 2026 15:02 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Gabon",
@@ -1316,7 +1316,7 @@
       "slug": "mayotte",
       "level": 2,
       "iso2": "YT",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – Conseils de santé aux voyageurs concernant le chikungunya a été retiré ",
       "lastUpdateDate": "11 août 2026 13:35 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
@@ -1327,11 +1327,11 @@
       "slug": "mexique",
       "level": 2,
       "iso2": "MX",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "14 août 2026 13:58 HAE",
+      "recentUpdate": "Section Sécurité – ajout d’information sur une alerte de sécurité des États-Unis",
+      "lastUpdateDate": "25 août 2026 11:28 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Micronésie (EFM)",
@@ -2394,11 +2394,11 @@
       "slug": "etats-unis",
       "level": 1,
       "iso2": "US",
-      "recentUpdate": "Section Niveaux de risque – retrait de l’avertissement régional concernant le comté d’Hawaï; Section Catastrophes naturelles et climat – retrait de l’information sur la tempête tropicale Lala",
-      "lastUpdateDate": "16 août 2026 19:46 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur des feux au Nevada",
+      "lastUpdateDate": "25 août 2026 16:07 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regional advisory removed"
+      "updateType": "Regular text update"
     },
     {
       "name": "Éthiopie",
