@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26",
+  "updated": "2026-08-27",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -447,8 +447,8 @@
       "slug": "chine",
       "level": 2,
       "iso2": "CN",
-      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur le typhon Noul",
-      "lastUpdateDate": "11 août 2026 10:48 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur d’importantes inondations et une coulée de boue dans la région frontalière entre la Chine et le Népal",
+      "lastUpdateDate": "26 août 2026 11:28 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -866,7 +866,7 @@
       "level": 2,
       "iso2": "HK",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "31 juillet 2026 10:26 HAE",
+      "lastUpdateDate": "26 août 2026 14:07 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -954,7 +954,7 @@
       "level": 3,
       "iso2": "IL",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "10 août 2026 11:35 HAE",
+      "lastUpdateDate": "26 août 2026 10:26 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1327,8 +1327,8 @@
       "slug": "mexique",
       "level": 2,
       "iso2": "MX",
-      "recentUpdate": "Section Sécurité – ajout d’information sur une alerte de sécurité des États-Unis",
-      "lastUpdateDate": "25 août 2026 11:28 HAE",
+      "recentUpdate": "Section Sécurité – retrait de l’information sur une alerte de sécurité des États-Unis",
+      "lastUpdateDate": "26 août 2026 10:23 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1525,11 +1525,11 @@
       "slug": "nepal",
       "level": 2,
       "iso2": "NP",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur d’importantes inondations et une coulée de boue dans la région frontalière entre la Chine et le Népal",
+      "lastUpdateDate": "26 août 2026 13:42 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Oman",
