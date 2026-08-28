@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27",
+  "updated": "2026-08-28",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -19,7 +19,7 @@
       "level": 2,
       "iso2": "ZA",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "lastUpdateDate": "27 août 2026 10:20 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -447,8 +447,8 @@
       "slug": "chine",
       "level": 2,
       "iso2": "CN",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur d’importantes inondations et une coulée de boue dans la région frontalière entre la Chine et le Népal",
-      "lastUpdateDate": "26 août 2026 11:28 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur d’importantes inondations et coulées de boue dans la région frontalière entre la Chine et le Népal",
+      "lastUpdateDate": "27 août 2026 13:48 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -832,11 +832,11 @@
       "slug": "georgie",
       "level": 1,
       "iso2": "GE",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "29 juillet 2026 14:31 HAE",
+      "recentUpdate": "Section Lois et coutumes – mise à jour de l’information sur la conduite automobile",
+      "lastUpdateDate": "27 août 2026 15:15 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Haïti",
@@ -1525,8 +1525,8 @@
       "slug": "nepal",
       "level": 2,
       "iso2": "NP",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur d’importantes inondations et une coulée de boue dans la région frontalière entre la Chine et le Népal",
-      "lastUpdateDate": "26 août 2026 13:42 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur d’importantes inondations et coulées de boue dans la région frontalière entre le Népal et la Chine",
+      "lastUpdateDate": "27 août 2026 13:46 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1746,7 +1746,7 @@
       "level": 1,
       "iso2": "RW",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "24 août 2026 10:39 HAE",
+      "lastUpdateDate": "27 août 2026 11:38 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2109,7 +2109,7 @@
       "level": 2,
       "iso2": "TZ",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "21 août 2026 16:08 HAE",
+      "lastUpdateDate": "27 août 2026 08:17 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
