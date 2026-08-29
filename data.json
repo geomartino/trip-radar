@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28",
+  "updated": "2026-08-29",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -162,7 +162,7 @@
       "level": 1,
       "iso2": "AU",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "10 août 2026 15:53 HAE",
+      "lastUpdateDate": "28 août 2026 12:50 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -986,8 +986,8 @@
       "slug": "japon",
       "level": 1,
       "iso2": "JP",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur le typhon Saudel",
-      "lastUpdateDate": "24 août 2026 13:05 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur le typhon Saudel",
+      "lastUpdateDate": "28 août 2026 12:15 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1547,11 +1547,11 @@
       "slug": "ouganda",
       "level": 3,
       "iso2": "UG",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "20 août 2026 11:25 HAE",
+      "recentUpdate": "Section Niveaux de risque – prolongation de la date de fin des mesures frontalières canadiennes liées à Ebola pour les voyageurs en provenance de l’Ouganda",
+      "lastUpdateDate": "28 août 2026 15:31 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Ouzbékistan",
@@ -1789,11 +1789,11 @@
       "slug": "congo-kinshasa",
       "level": 4,
       "iso2": "CD",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "20 août 2026 11:25 HAE",
+      "recentUpdate": "Section Niveau de risque – prolongation de la date de fin des mesures frontalières canadiennes liées à Ebola pour les voyageurs en provenance de la République démocratique du Congo",
+      "lastUpdateDate": "28 août 2026 15:27 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Saint-Barthélemy",
@@ -2020,11 +2020,11 @@
       "slug": "sudan-du-sud",
       "level": 4,
       "iso2": "SS",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "20 août 2026 11:25 HAE",
+      "recentUpdate": "Section Niveau de risque – prolongation de la date de fin des mesures frontalières canadiennes liées à Ebola pour les voyageurs en provenance du Soudan du Sud",
+      "lastUpdateDate": "28 août 2026 15:36 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Sri Lanka",
