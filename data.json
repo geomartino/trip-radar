@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02",
+  "updated": "2026-09-03",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -128,11 +128,11 @@
       "slug": "argentine",
       "level": 1,
       "iso2": "AR",
-      "recentUpdate": "Santé – Conseils de santé aux voyageurs concernant le chikungunya a été retiré ",
-      "lastUpdateDate": "21 août 2026 14:41 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "2 septembre 2026 13:58 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Arménie",
@@ -888,7 +888,7 @@
       "level": 2,
       "iso2": "IN",
       "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "1 septembre 2026 09:10 HAE",
+      "lastUpdateDate": "2 septembre 2026 09:22 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -986,8 +986,8 @@
       "slug": "japon",
       "level": 1,
       "iso2": "JP",
-      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur le typhon Saudel",
-      "lastUpdateDate": "28 août 2026 12:15 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur le typhon Saudel",
+      "lastUpdateDate": "2 septembre 2026 11:55 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1162,11 +1162,11 @@
       "slug": "lituanie",
       "level": 1,
       "iso2": "LT",
-      "recentUpdate": "Section d’Exigences d’entrée et de sortie – mise à jour de l’information sur le Système européen d’information et d’autorisation concernant les voyages (ETIAS)",
-      "lastUpdateDate": "11 août 2026 09:10 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "2 septembre 2026 09:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Luxembourg",
@@ -1537,7 +1537,7 @@
       "level": 3,
       "iso2": "OM",
       "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "1 septembre 2026 09:05 HAE",
+      "lastUpdateDate": "2 septembre 2026 09:21 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1977,7 +1977,7 @@
       "level": 1,
       "iso2": "SK",
       "recentUpdate": "Section d’Exigences d’entrée et de sortie – mise à jour de l’information sur le Système européen d’information et d’autorisation concernant les voyages (ETIAS)",
-      "lastUpdateDate": "11 août 2026 09:10 HAE",
+      "lastUpdateDate": "2 septembre 2026 10:07 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -2086,8 +2086,8 @@
       "slug": "senegal",
       "level": 2,
       "iso2": "SN",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "1 septembre 2026 09:05 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "2 septembre 2026 14:21 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2295,11 +2295,11 @@
       "slug": "venezuela",
       "level": 4,
       "iso2": "VE",
-      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur les séismes à proximité de Caracas",
-      "lastUpdateDate": "1 septembre 2026 15:52 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "2 septembre 2026 09:21 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Vietnam",
@@ -2339,11 +2339,11 @@
       "slug": "zimbabwe",
       "level": 2,
       "iso2": "ZW",
-      "recentUpdate": "Section Sécurité – ajout d’information sur les traversiers",
-      "lastUpdateDate": "19 août 2026 15:50 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "2 septembre 2026 09:22 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Égypte",
@@ -2372,11 +2372,11 @@
       "slug": "equateur",
       "level": 2,
       "iso2": "EC",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "21 août 2026 14:48 HAE",
+      "recentUpdate": "Section catastrophes naturelles et climat – mise à jour de l’information sur El Niño",
+      "lastUpdateDate": "2 septembre 2026 15:29 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Érythrée",
@@ -2394,8 +2394,8 @@
       "slug": "etats-unis",
       "level": 1,
       "iso2": "US",
-      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur une veille aux crues soudaines pour le nord et le centre de l’Arizona",
-      "lastUpdateDate": "1 septembre 2026 14:09 HAE",
+      "recentUpdate": "Section sécurité – ajout d’information sur une fusillade à Minneapolis",
+      "lastUpdateDate": "2 septembre 2026 19:38 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
