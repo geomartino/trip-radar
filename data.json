@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03",
+  "updated": "2026-09-04",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -337,8 +337,8 @@
       "slug": "bresil",
       "level": 2,
       "iso2": "BR",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "1 septembre 2026 09:05 HAE",
+      "recentUpdate": "Santé – changement mineur",
+      "lastUpdateDate": "3 septembre 2026 07:32 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -459,7 +459,7 @@
       "level": 1,
       "iso2": "CY",
       "recentUpdate": "Section d’Exigences d’entrée et de sortie – mise à jour de l’information sur le Système européen d’information et d’autorisation concernant les voyages (ETIAS)",
-      "lastUpdateDate": "11 août 2026 09:10 HAE",
+      "lastUpdateDate": "3 septembre 2026 09:26 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regional advisory added"
@@ -734,7 +734,7 @@
       "level": 1,
       "iso2": "GR",
       "recentUpdate": "Section d’Exigences d’entrée et de sortie – mise à jour de l’information sur le Système européen d’information et d’autorisation concernant les voyages (ETIAS)",
-      "lastUpdateDate": "11 août 2026 09:10 HAE",
+      "lastUpdateDate": "3 septembre 2026 08:59 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -755,7 +755,7 @@
       "slug": "guam",
       "level": 1,
       "iso2": "GU",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – changement mineur",
       "lastUpdateDate": "1 septembre 2026 09:05 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
@@ -986,8 +986,8 @@
       "slug": "japon",
       "level": 1,
       "iso2": "JP",
-      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur le typhon Saudel",
-      "lastUpdateDate": "2 septembre 2026 11:55 HAE",
+      "recentUpdate": "Section Sécurité – mise à jour de l’information sur la sécurité routière",
+      "lastUpdateDate": "3 septembre 2026 13:07 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -2394,8 +2394,8 @@
       "slug": "etats-unis",
       "level": 1,
       "iso2": "US",
-      "recentUpdate": "Section sécurité – ajout d’information sur une fusillade à Minneapolis",
-      "lastUpdateDate": "2 septembre 2026 19:38 HAE",
+      "recentUpdate": "Section Sécurité – retrait de l’information sur une fusillade à Minneapolis",
+      "lastUpdateDate": "3 septembre 2026 10:17 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
