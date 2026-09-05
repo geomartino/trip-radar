@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04",
+  "updated": "2026-09-05",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -337,11 +337,11 @@
       "slug": "bresil",
       "level": 2,
       "iso2": "BR",
-      "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "3 septembre 2026 07:32 HAE",
+      "recentUpdate": "Section Niveaux de risque – retrait de l'avertissement d'éviter tout voyage non essentiel à moins de 20 km de la frontière avec l'Argentine",
+      "lastUpdateDate": "4 septembre 2026 11:11 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regional advisory decreased"
     },
     {
       "name": "Bulgarie",
@@ -469,11 +469,11 @@
       "slug": "colombie",
       "level": 2,
       "iso2": "CO",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "14 août 2026 14:05 HAE",
+      "recentUpdate": "Section catastrophes naturelles et climat – mise à jour de l’information sur les fermetures d’aéroports",
+      "lastUpdateDate": "4 septembre 2026 10:33 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Comores",
@@ -2394,8 +2394,8 @@
       "slug": "etats-unis",
       "level": 1,
       "iso2": "US",
-      "recentUpdate": "Section Sécurité – retrait de l’information sur une fusillade à Minneapolis",
-      "lastUpdateDate": "3 septembre 2026 10:17 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur des feux au Nevada",
+      "lastUpdateDate": "4 septembre 2026 13:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
