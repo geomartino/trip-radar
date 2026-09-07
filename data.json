@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-06",
+  "updated": "2026-09-07",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -898,11 +898,11 @@
       "slug": "indonesie",
       "level": 2,
       "iso2": "ID",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "1 septembre 2026 09:05 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur les perturbations de vols en raison de l’éruption du mont Anak Krakatau",
+      "lastUpdateDate": "6 septembre 2026 02:00 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Iran",
