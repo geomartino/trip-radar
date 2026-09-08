@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07",
+  "updated": "2026-09-08",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -2394,11 +2394,11 @@
       "slug": "etats-unis",
       "level": 1,
       "iso2": "US",
-      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur des feux au Nevada",
-      "lastUpdateDate": "4 septembre 2026 13:53 HAE",
-      "hasRegionalAdvisory": false,
+      "recentUpdate": "Section niveaux de risque – évitez tout voyage non essentiel dans le comté de Kauai et le monument marin national de Papahanaumokuakea; Section catastrophes naturelles et climat – ajout d’informations sur l’ouragan Lowell",
+      "lastUpdateDate": "7 septembre 2026 14:25 HAE",
+      "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Regional advisory added"
     },
     {
       "name": "Éthiopie",
