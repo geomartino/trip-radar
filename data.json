@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11",
+  "updated": "2026-09-12",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -337,11 +337,11 @@
       "slug": "bresil",
       "level": 2,
       "iso2": "BR",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "9 septembre 2026 09:13 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur El Niño",
+      "lastUpdateDate": "11 septembre 2026 09:25 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Bulgarie",
@@ -359,7 +359,7 @@
       "slug": "burkina-faso",
       "level": 4,
       "iso2": "BF",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé - Retrait des conseils de santé aux voyageurs concernant la polio",
       "lastUpdateDate": "9 septembre 2026 10:24 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
@@ -392,8 +392,8 @@
       "slug": "benin",
       "level": 2,
       "iso2": "BJ",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "9 septembre 2026 10:13 HAE",
+      "recentUpdate": "Santé – changement mineur",
+      "lastUpdateDate": "11 septembre 2026 09:26 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -469,11 +469,11 @@
       "slug": "colombie",
       "level": 2,
       "iso2": "CO",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "9 septembre 2026 09:13 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur El Niño",
+      "lastUpdateDate": "11 septembre 2026 09:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Comores",
@@ -1327,11 +1327,11 @@
       "slug": "mexique",
       "level": 2,
       "iso2": "MX",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "9 septembre 2026 09:13 HAE",
+      "recentUpdate": "Section Niveaux de risque – avertissement régional pour Mazamitla et la zone autour du Lac Chapala levé",
+      "lastUpdateDate": "11 septembre 2026 13:26 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regional advisory modified"
     },
     {
       "name": "Micronésie (EFM)",
@@ -1613,11 +1613,11 @@
       "slug": "paraguay",
       "level": 2,
       "iso2": "PY",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "9 septembre 2026 09:13 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur El Niño",
+      "lastUpdateDate": "11 septembre 2026 09:30 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Pays-Bas",
@@ -1690,11 +1690,11 @@
       "slug": "perou",
       "level": 2,
       "iso2": "PE",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "9 septembre 2026 09:13 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur El Niño",
+      "lastUpdateDate": "11 septembre 2026 10:09 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Qatar",
