@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12",
+  "updated": "2026-09-13",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -95,8 +95,8 @@
       "slug": "antarctique",
       "level": 2,
       "iso2": "AQ",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "9 septembre 2026 14:12 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "12 septembre 2026 16:44 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1042,7 +1042,7 @@
       "level": 1,
       "iso2": "KI",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "9 septembre 2026 14:22 HAE",
+      "lastUpdateDate": "12 septembre 2026 16:01 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1514,7 +1514,7 @@
       "slug": "nouvelle-zelande",
       "level": 1,
       "iso2": "NZ",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – changement mineur",
       "lastUpdateDate": "9 septembre 2026 09:13 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
