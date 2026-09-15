@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14",
+  "updated": "2026-09-15",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -414,8 +414,8 @@
       "slug": "cambodge",
       "level": 2,
       "iso2": "KH",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "9 septembre 2026 09:13 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "14 septembre 2026 11:56 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -964,11 +964,11 @@
       "slug": "italie",
       "level": 2,
       "iso2": "IT",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "9 septembre 2026 09:13 HAE",
+      "recentUpdate": "Dernière mise à jour : Section Catastrophes naturelles et climat – ajout d’information sur les perturbations de vols en raison de l’éruption de l’Etna",
+      "lastUpdateDate": "14 septembre 2026 10:35 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Jamaïque",
@@ -986,11 +986,11 @@
       "slug": "japon",
       "level": 1,
       "iso2": "JP",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "9 septembre 2026 09:13 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l'information sur les alertes liées aux fortes pluies et aux glissements de terrain dans la préfecture d’Aichi",
+      "lastUpdateDate": "14 septembre 2026 08:51 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Jordanie",
@@ -1042,7 +1042,7 @@
       "level": 1,
       "iso2": "KI",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "12 septembre 2026 16:01 HAE",
+      "lastUpdateDate": "14 septembre 2026 12:01 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1052,11 +1052,11 @@
       "slug": "kosovo",
       "level": 1,
       "iso2": "XK",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "9 septembre 2026 09:13 HAE",
+      "recentUpdate": "Section sécurité – ajout d’information sur des manifestations à venir",
+      "lastUpdateDate": "14 septembre 2026 14:15 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Koweït",
@@ -1701,11 +1701,11 @@
       "slug": "qatar",
       "level": 3,
       "iso2": "QA",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "9 septembre 2026 09:13 HAE",
+      "recentUpdate": "Section Exigences d’entrée et de sortie – mise à jour de l’information sur les interdictions d’entrée",
+      "lastUpdateDate": "14 septembre 2026 13:34 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Roumanie",
@@ -2152,7 +2152,7 @@
       "slug": "thailande",
       "level": 2,
       "iso2": "TH",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – changement mineur",
       "lastUpdateDate": "9 septembre 2026 09:13 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
@@ -2493,11 +2493,11 @@
       "slug": "iles-turks-et-caicos",
       "level": 2,
       "iso2": "TC",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "9 septembre 2026 09:13 HAE",
+      "recentUpdate": "Section Sécurité – retrait de l’information sur les manifestations et les pénuries d’eau",
+      "lastUpdateDate": "14 septembre 2026 11:30 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Îles Vierges américaines",
