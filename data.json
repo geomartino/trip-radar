@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17",
+  "updated": "2026-09-18",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -117,11 +117,11 @@
       "slug": "arabie-saoudite",
       "level": 3,
       "iso2": "SA",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "15 septembre 2026 15:38 HAE",
+      "recentUpdate": "Section Niveaux de risque – Évitez tout voyage dans les provinces d’Asir, de Jazan et de Najran; Section Sécurité – mise à jour de l’information sur le Hadj",
+      "lastUpdateDate": "17 septembre 2026 09:34 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regional advisory added"
     },
     {
       "name": "Argentine",
@@ -436,8 +436,8 @@
       "slug": "chili",
       "level": 2,
       "iso2": "CL",
-      "recentUpdate": "Section Sécurité – mise à jour de l’information sur le parc national Torres del Paine",
-      "lastUpdateDate": "9 septembre 2026 14:47 HAE",
+      "recentUpdate": "Section Sécurité – retrait de l’information sur le parc national Torres del Paine",
+      "lastUpdateDate": "17 septembre 2026 15:34 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -448,7 +448,7 @@
       "level": 2,
       "iso2": "CN",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "9 septembre 2026 10:03 HAE",
+      "lastUpdateDate": "17 septembre 2026 10:49 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -997,11 +997,11 @@
       "slug": "jordanie",
       "level": 3,
       "iso2": "JO",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "9 septembre 2026 09:13 HAE",
+      "recentUpdate": "Section sécurité – retrait de l’information sur une alerte de sécurité américaine; Section Lois et coutumes – ajout d’information sur des drones et le service militaire obligatoire pour les personnes ayant la double citoyenneté",
+      "lastUpdateDate": "17 septembre 2026 15:37 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Kazakhstan",
@@ -1063,8 +1063,8 @@
       "slug": "koweit",
       "level": 3,
       "iso2": "KW",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "9 septembre 2026 09:13 HAE",
+      "recentUpdate": "Santé – changement mineur",
+      "lastUpdateDate": "17 septembre 2026 08:32 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1151,7 +1151,7 @@
       "slug": "liechtenstein",
       "level": 1,
       "iso2": "LI",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – changement mineur",
       "lastUpdateDate": "9 septembre 2026 09:13 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
@@ -1327,11 +1327,11 @@
       "slug": "mexique",
       "level": 2,
       "iso2": "MX",
-      "recentUpdate": "Section Niveaux de risque – avertissement régional pour Mazamitla et la zone autour du Lac Chapala levé",
-      "lastUpdateDate": "11 septembre 2026 13:26 HAE",
+      "recentUpdate": "Section Sécurité – ajout d’information sur les applications de rencontres en ligne",
+      "lastUpdateDate": "17 septembre 2026 16:54 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regional advisory modified"
+      "updateType": "Regular text update"
     },
     {
       "name": "Micronésie (EFM)",
@@ -1526,7 +1526,7 @@
       "level": 2,
       "iso2": "NP",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "15 septembre 2026 09:45 HAE",
+      "lastUpdateDate": "17 septembre 2026 10:29 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2042,8 +2042,8 @@
       "slug": "suisse",
       "level": 1,
       "iso2": "CH",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "9 septembre 2026 09:13 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "17 septembre 2026 09:20 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2207,11 +2207,11 @@
       "slug": "trinite-et-tobago",
       "level": 2,
       "iso2": "TT",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "9 septembre 2026 09:13 HAE",
+      "recentUpdate": "Section Sécurité – retrait de l’information sur l’état d’urgence",
+      "lastUpdateDate": "17 septembre 2026 10:17 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Tunisie",
@@ -2372,11 +2372,11 @@
       "slug": "equateur",
       "level": 2,
       "iso2": "EC",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "9 septembre 2026 09:13 HAE",
+      "recentUpdate": "Sécurité – mise à jour de l’information sur l’état d’exception",
+      "lastUpdateDate": "17 septembre 2026 16:02 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Érythrée",
