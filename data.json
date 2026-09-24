@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23",
+  "updated": "2026-09-24",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -162,7 +162,7 @@
       "level": 1,
       "iso2": "AU",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "22 septembre 2026 12:06 HAE",
+      "lastUpdateDate": "23 septembre 2026 09:48 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -469,8 +469,8 @@
       "slug": "colombie",
       "level": 2,
       "iso2": "CO",
-      "recentUpdate": "Section catastrophes naturelles et climat – ajout d’information sur des feux de forêt près de Villa de Leyva",
-      "lastUpdateDate": "21 septembre 2026 11:50 HAE",
+      "recentUpdate": "Section Sécurité - ajout d'information sur des émeutes à Santa Marta et des perturbations sur la Troncal del Caribe (route 90)",
+      "lastUpdateDate": "23 septembre 2026 17:06 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1052,8 +1052,8 @@
       "slug": "kosovo",
       "level": 1,
       "iso2": "XK",
-      "recentUpdate": "Section sécurité – ajout d’information sur des manifestations à venir",
-      "lastUpdateDate": "14 septembre 2026 14:15 HAE",
+      "recentUpdate": "Section Sécurité – mise à jour de l’information sur les manifestations",
+      "lastUpdateDate": "23 septembre 2026 11:50 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1833,8 +1833,8 @@
       "slug": "saint-martin",
       "level": 1,
       "iso2": "MF",
-      "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "9 septembre 2026 09:13 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "23 septembre 2026 09:47 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1966,7 +1966,7 @@
       "level": 1,
       "iso2": "SX",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "15 septembre 2026 15:09 HAE",
+      "lastUpdateDate": "23 septembre 2026 07:09 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2208,7 +2208,7 @@
       "level": 2,
       "iso2": "TT",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "22 septembre 2026 14:53 HAE",
+      "lastUpdateDate": "23 septembre 2026 09:46 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
