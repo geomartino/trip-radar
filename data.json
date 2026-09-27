@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26",
+  "updated": "2026-09-27",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -1327,11 +1327,11 @@
       "slug": "mexique",
       "level": 2,
       "iso2": "MX",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur l’ouragan Polo",
-      "lastUpdateDate": "25 septembre 2026 15:08 HAE",
+      "recentUpdate": "Section Niveaux de risque – évitez tout voyage non essentiel en Basse-Californie du Sud, de Punta Eugenia à Santa Fe; Section Catastrophes naturelles et climat – mise à jour de l’information sur l’ouragan Polo",
+      "lastUpdateDate": "26 septembre 2026 01:43 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Regional advisory added"
     },
     {
       "name": "Micronésie (EFM)",
