@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27",
+  "updated": "2026-09-28",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -282,8 +282,8 @@
       "slug": "bolivie",
       "level": 2,
       "iso2": "BO",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "27 septembre 2026 01:39 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1327,11 +1327,11 @@
       "slug": "mexique",
       "level": 2,
       "iso2": "MX",
-      "recentUpdate": "Section Niveaux de risque – évitez tout voyage non essentiel en Basse-Californie du Sud, de Punta Eugenia à Santa Fe; Section Catastrophes naturelles et climat – mise à jour de l’information sur l’ouragan Polo",
-      "lastUpdateDate": "26 septembre 2026 01:43 HAE",
+      "recentUpdate": "Section Niveaux de risque – évitez tout voyage non essentiel vers la côte nord-ouest du Mexique continental, de Bahía de Kino à Topolobampo; Section Catastrophes naturelles et climat – mise à jour de l’information sur l’ouragan Polo",
+      "lastUpdateDate": "27 septembre 2026 22:06 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regional advisory added"
+      "updateType": "Regional advisory modified"
     },
     {
       "name": "Micronésie (EFM)",
