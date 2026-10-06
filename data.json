@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05",
+  "updated": "2026-10-06",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -30,7 +30,7 @@
       "level": 1,
       "iso2": "AL",
       "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "lastUpdateDate": "5 octobre 2026 13:42 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -128,8 +128,8 @@
       "slug": "argentine",
       "level": 1,
       "iso2": "AR",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "5 octobre 2026 12:14 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -337,8 +337,8 @@
       "slug": "bresil",
       "level": 2,
       "iso2": "BR",
-      "recentUpdate": "Section Sécurité – ajout d’information sur une alerte de sécurité des États-Unis",
-      "lastUpdateDate": "2 octobre 2026 13:00 HAE",
+      "recentUpdate": "Section Sécurité – retrait de l’information sur une alerte de sécurité des États-Unis, mise à jour de l’information sur les élections générales",
+      "lastUpdateDate": "5 octobre 2026 12:27 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -447,8 +447,8 @@
       "slug": "chine",
       "level": 2,
       "iso2": "CN",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "1 octobre 2026 11:35 HAE",
+      "recentUpdate": "Santé – changement mineur",
+      "lastUpdateDate": "5 octobre 2026 14:26 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -524,8 +524,8 @@
       "slug": "croatie",
       "level": 1,
       "iso2": "HR",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Santé – changement mineur",
+      "lastUpdateDate": "5 octobre 2026 08:06 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -536,10 +536,10 @@
       "level": 3,
       "iso2": "CU",
       "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "1 octobre 2026 11:07 HAE",
+      "lastUpdateDate": "5 octobre 2026 09:49 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Curaçao",
@@ -568,8 +568,8 @@
       "slug": "danemark",
       "level": 2,
       "iso2": "DK",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Santé – changement mineur",
+      "lastUpdateDate": "5 octobre 2026 13:29 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -657,7 +657,7 @@
       "level": 2,
       "iso2": "FR",
       "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "2 octobre 2026 09:22 HAE",
+      "lastUpdateDate": "5 octobre 2026 07:02 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -722,7 +722,7 @@
       "slug": "groenland",
       "level": 1,
       "iso2": "GL",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – changement mineur",
       "lastUpdateDate": "24 septembre 2026 08:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
@@ -733,11 +733,11 @@
       "slug": "grece",
       "level": 1,
       "iso2": "GR",
-      "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur les feux de forêt, mise à jour de l’information sur les tempêtes saisonnières et inondations",
+      "lastUpdateDate": "5 octobre 2026 10:21 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Guadeloupe",
@@ -788,7 +788,7 @@
       "slug": "guinee-equatoriale",
       "level": 2,
       "iso2": "GQ",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – changement mineur",
       "lastUpdateDate": "24 septembre 2026 08:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
@@ -920,8 +920,8 @@
       "slug": "iraq",
       "level": 4,
       "iso2": "IQ",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "5 octobre 2026 16:11 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -987,7 +987,7 @@
       "level": 1,
       "iso2": "JP",
       "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur la tempête tropicale Surigae",
-      "lastUpdateDate": "1 octobre 2026 07:27 HAE",
+      "lastUpdateDate": "5 octobre 2026 06:51 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -997,8 +997,8 @@
       "slug": "jordanie",
       "level": 3,
       "iso2": "JO",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Santé – changement mineur",
+      "lastUpdateDate": "5 octobre 2026 14:48 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1052,7 +1052,7 @@
       "slug": "kosovo",
       "level": 1,
       "iso2": "XK",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – changement mineur",
       "lastUpdateDate": "24 septembre 2026 08:53 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
@@ -1129,8 +1129,8 @@
       "slug": "libye",
       "level": 4,
       "iso2": "LY",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "5 octobre 2026 16:18 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1471,7 +1471,7 @@
       "level": 3,
       "iso2": "NG",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "2 octobre 2026 12:28 HAE",
+      "lastUpdateDate": "5 octobre 2026 14:30 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1724,7 +1724,7 @@
       "level": 2,
       "iso2": "GB",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "25 septembre 2026 14:50 HAE",
+      "lastUpdateDate": "5 octobre 2026 14:33 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1910,7 +1910,7 @@
       "slug": "sao-tome-et-principe",
       "level": 1,
       "iso2": "ST",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – changement mineur",
       "lastUpdateDate": "24 septembre 2026 08:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
