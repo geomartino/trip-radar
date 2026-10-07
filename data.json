@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06",
+  "updated": "2026-10-07",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -469,8 +469,8 @@
       "slug": "colombie",
       "level": 2,
       "iso2": "CO",
-      "recentUpdate": "Section Sécurité – retrait de l’information sur le blocus armé des transports, l'arrêt des activités civiles et le couvre-feu",
-      "lastUpdateDate": "29 septembre 2026 11:17 HAE",
+      "recentUpdate": "Section Sécurité – retrait de l’information sur la situation en matière de sécurité à Santa Marta; Section Catastrophes naturelles et climat – retrait de l’information sur le volcan Puracé",
+      "lastUpdateDate": "6 octobre 2026 14:51 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -921,7 +921,7 @@
       "level": 4,
       "iso2": "IQ",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "5 octobre 2026 16:11 HAE",
+      "lastUpdateDate": "6 octobre 2026 09:31 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1130,7 +1130,7 @@
       "level": 4,
       "iso2": "LY",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "5 octobre 2026 16:18 HAE",
+      "lastUpdateDate": "6 octobre 2026 09:33 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -2372,11 +2372,11 @@
       "slug": "equateur",
       "level": 2,
       "iso2": "EC",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Sécurité – retrait de l’information sur le couvre-feu",
+      "lastUpdateDate": "6 octobre 2026 14:26 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Érythrée",
