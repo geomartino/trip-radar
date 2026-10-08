@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07",
+  "updated": "2026-10-08",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -194,7 +194,7 @@
       "slug": "bahamas",
       "level": 2,
       "iso2": "BS",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – changement mineur",
       "lastUpdateDate": "24 septembre 2026 08:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
@@ -975,8 +975,8 @@
       "slug": "jamaique",
       "level": 2,
       "iso2": "JM",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Santé – changement mineur",
+      "lastUpdateDate": "7 octobre 2026 08:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1020,7 +1020,7 @@
       "level": 2,
       "iso2": "KE",
       "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "lastUpdateDate": "7 octobre 2026 08:31 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1273,7 +1273,7 @@
       "level": 2,
       "iso2": "MA",
       "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "1 octobre 2026 12:46 HAE",
+      "lastUpdateDate": "7 octobre 2026 11:37 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1327,11 +1327,11 @@
       "slug": "mexique",
       "level": 2,
       "iso2": "MX",
-      "recentUpdate": "Section Niveaux de risque – retrait de l’avertissement d’éviter tout voyage non essentiel en Basse-Californie du Sud et sur la côte nord-ouest du Mexique continental en raison de l’ouragan Polo; Section Catastrophes naturelles et climat – mise à jour de l’information sur l’ouragan Polo",
-      "lastUpdateDate": "1 octobre 2026 15:06 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur l’ouragan Polo",
+      "lastUpdateDate": "7 octobre 2026 11:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regional advisory removed"
+      "updateType": "Regular text update"
     },
     {
       "name": "Micronésie (EFM)",
@@ -1954,8 +1954,8 @@
       "slug": "singapour",
       "level": 1,
       "iso2": "SG",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Santé – changement mineur",
+      "lastUpdateDate": "7 octobre 2026 08:40 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2009,7 +2009,7 @@
       "slug": "soudan",
       "level": 4,
       "iso2": "SD",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – changement mineur",
       "lastUpdateDate": "24 septembre 2026 08:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
@@ -2108,8 +2108,8 @@
       "slug": "tanzanie",
       "level": 2,
       "iso2": "TZ",
-      "recentUpdate": "Section Exigences d’entrée et de sortie – ajout d’information sur l’assurance voyage obligatoire",
-      "lastUpdateDate": "1 octobre 2026 15:41 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur des feux de forêt dans la région du Kilimandjaro",
+      "lastUpdateDate": "7 octobre 2026 12:36 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -2163,8 +2163,8 @@
       "slug": "timor-leste-timor-oriental",
       "level": 2,
       "iso2": "TL",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "7 octobre 2026 15:19 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2317,11 +2317,11 @@
       "slug": "yemen",
       "level": 4,
       "iso2": "YE",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section sécurité – mise à jour de l’information sur la situation en matière de sécurité",
+      "lastUpdateDate": "7 octobre 2026 11:12 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Zambie",
@@ -2372,8 +2372,8 @@
       "slug": "equateur",
       "level": 2,
       "iso2": "EC",
-      "recentUpdate": "Section Sécurité – retrait de l’information sur le couvre-feu",
-      "lastUpdateDate": "6 octobre 2026 14:26 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur les fortes pluies",
+      "lastUpdateDate": "7 octobre 2026 14:52 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -2383,8 +2383,8 @@
       "slug": "erythree",
       "level": 3,
       "iso2": "ER",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Santé – changement mineur",
+      "lastUpdateDate": "7 octobre 2026 07:55 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -2394,11 +2394,11 @@
       "slug": "etats-unis",
       "level": 1,
       "iso2": "US",
-      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur l’ouragan Nolo",
-      "lastUpdateDate": "1 octobre 2026 14:14 HAE",
+      "recentUpdate": "Section Niveaux de risque – Évitez tout voyage non essentiel sur la côte nord du Golfe; Section Catastrophes naturelles et climat – mise à jour de l’information sur la tempête tropicale Isaias",
+      "lastUpdateDate": "7 octobre 2026 12:42 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Regional advisory added"
     },
     {
       "name": "Éthiopie",
@@ -2427,7 +2427,7 @@
       "slug": "caimans-iles",
       "level": 1,
       "iso2": "KY",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – changement mineur",
       "lastUpdateDate": "24 septembre 2026 08:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
@@ -2493,7 +2493,7 @@
       "slug": "iles-turks-et-caicos",
       "level": 2,
       "iso2": "TC",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – changement mineur",
       "lastUpdateDate": "24 septembre 2026 08:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
