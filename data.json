@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08",
+  "updated": "2026-10-09",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -18,8 +18,8 @@
       "slug": "afrique-du-sud",
       "level": 2,
       "iso2": "ZA",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "28 septembre 2026 10:34 HAE",
+      "recentUpdate": "Santé – Les conseils de santé aux voyageurs concernant la diphtérie ont été retiré",
+      "lastUpdateDate": "8 octobre 2026 07:17 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -117,11 +117,11 @@
       "slug": "arabie-saoudite",
       "level": 3,
       "iso2": "SA",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Mise à jour de la section sécurité",
+      "lastUpdateDate": "8 octobre 2026 12:59 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Argentine",
@@ -436,11 +436,11 @@
       "slug": "chili",
       "level": 2,
       "iso2": "CL",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur une alerte aux inondations et glissements de terrain pour la région métropolitaine de Santiago",
+      "lastUpdateDate": "8 octobre 2026 21:01 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Chine",
@@ -1096,7 +1096,7 @@
       "slug": "lesotho",
       "level": 2,
       "iso2": "LS",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – changement mineur",
       "lastUpdateDate": "24 septembre 2026 08:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
@@ -1206,7 +1206,7 @@
       "slug": "madagascar",
       "level": 2,
       "iso2": "MG",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – changement mineur",
       "lastUpdateDate": "24 septembre 2026 08:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
@@ -1294,7 +1294,7 @@
       "slug": "maurice",
       "level": 1,
       "iso2": "MU",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – changement mineur",
       "lastUpdateDate": "1 octobre 2026 11:07 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
@@ -1327,11 +1327,11 @@
       "slug": "mexique",
       "level": 2,
       "iso2": "MX",
-      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur l’ouragan Polo",
-      "lastUpdateDate": "7 octobre 2026 11:16 HAE",
+      "recentUpdate": "Section Niveaux de risque – évitez tout voyage non essentiel sur la côte centre-ouest, de Punta San Telmo à Punta Mita; Section Catastrophes naturelles et climat – mise à jour de l’information sur la tempête tropicale Simon",
+      "lastUpdateDate": "8 octobre 2026 18:20 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Micronésie (EFM)",
@@ -1426,7 +1426,7 @@
       "slug": "namibie",
       "level": 2,
       "iso2": "NA",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – changement mineur",
       "lastUpdateDate": "24 septembre 2026 08:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
@@ -2394,19 +2394,19 @@
       "slug": "etats-unis",
       "level": 1,
       "iso2": "US",
-      "recentUpdate": "Section Niveaux de risque – Évitez tout voyage non essentiel sur la côte nord du Golfe; Section Catastrophes naturelles et climat – mise à jour de l’information sur la tempête tropicale Isaias",
-      "lastUpdateDate": "7 octobre 2026 12:42 HAE",
+      "recentUpdate": "Section Niveaux de risque - Évitez tout voyage non essentiel sur la côte nord du Golfe, entre Ocean Springs au Mississippi et la frontière entre les comtés de Bay et Gulf en Floride, en raison de l’ouragan Isaias; section Catastrophes naturelles et climat – mise à jour de l’information sur l’ouragan Isaias",
+      "lastUpdateDate": "8 octobre 2026 06:25 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regional advisory added"
+      "updateType": "Regular text update"
     },
     {
       "name": "Éthiopie",
       "slug": "ethiopie",
       "level": 3,
       "iso2": "ET",
-      "recentUpdate": "Niveaux de risque – évitez tout voyage dans la région de l’Afar; section Sécurité – ajout d’information sur la situation en matière de sécurité dans le nord de l’Éthiopie",
-      "lastUpdateDate": "24 septembre 2026 13:03 HAE",
+      "recentUpdate": "Sections Niveaux de risque, Sécurité et Lois et coutumes – mise à jour de l’information sur la situation en matière de sécurité",
+      "lastUpdateDate": "8 octobre 2026 09:27 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
       "updateType": "Regular text update"
