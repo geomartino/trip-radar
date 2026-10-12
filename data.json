@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-11",
+  "updated": "2026-10-12",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -117,11 +117,11 @@
       "slug": "arabie-saoudite",
       "level": 3,
       "iso2": "SA",
-      "recentUpdate": "Section Niveaux de risque – Évitez tout voyage à l’aéroport international de King Khalid à Riyad en raison des activités militaires en cours",
-      "lastUpdateDate": "10 octobre 2026 12:24 HAE",
+      "recentUpdate": "Section Sécurité – mise à jour de l’information sur la situation à l’aéroport international King Khalid",
+      "lastUpdateDate": "11 octobre 2026 09:58 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
-      "updateType": "Regional advisory added"
+      "updateType": "Regular text update"
     },
     {
       "name": "Argentine",
@@ -1591,11 +1591,11 @@
       "slug": "panama",
       "level": 1,
       "iso2": "PA",
-      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur la menace au tsunami et mise à jour de l’information sur le tremblement de terre",
-      "lastUpdateDate": "9 octobre 2026 16:58 HAE",
+      "recentUpdate": "Section Niveaux de risque – Évitez tout voyage non essentiel aux cantons d’Arena, El Cacao et Quebro dans la province de Veraguas en raison des dommages causés par le tremblement de terre du 9 octobre 2026; Section Catastrophes naturelles et climat – mise à jour de l’information sur les récents tremblements de terre",
+      "lastUpdateDate": "11 octobre 2026 16:02 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Regional advisory added"
     },
     {
       "name": "Papouasie-Nouvelle-Guinée",
