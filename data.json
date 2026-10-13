@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12",
+  "updated": "2026-10-13",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -1327,11 +1327,11 @@
       "slug": "mexique",
       "level": 2,
       "iso2": "MX",
-      "recentUpdate": "Section niveaux de risque – Évitez tout voyage non essentiel sur la côte centre-ouest, de Punta San Telmo à El Roblito, y compris les îles Islas Marias, en raison de l'ouragan Simon; section Catastrophes naturelles et climat – mise à jour de l’information sur l'ouragan Simon",
-      "lastUpdateDate": "10 octobre 2026 20:25 HAE",
+      "recentUpdate": "Section niveaux de risque – Évitez tout voyage non essentiel sur la côte centre-ouest, de Punta San Telmo à Bahia Tempehuaya, y compris les îles Islas Marias, en raison de l'ouragan Simon; section Catastrophes naturelles et climat – mise à jour de l’information sur l'ouragan Simon",
+      "lastUpdateDate": "12 octobre 2026 10:23 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Regional advisory modified"
     },
     {
       "name": "Micronésie (EFM)",
