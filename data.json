@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-15",
+  "updated": "2026-10-16",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -18,8 +18,8 @@
       "slug": "afrique-du-sud",
       "level": 2,
       "iso2": "ZA",
-      "recentUpdate": "Santé – Les conseils de santé aux voyageurs concernant la diphtérie ont été retiré",
-      "lastUpdateDate": "9 octobre 2026 10:07 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 08:49 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -29,19 +29,19 @@
       "slug": "albanie",
       "level": 1,
       "iso2": "AL",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "14 octobre 2026 07:12 HAE",
+      "recentUpdate": "Sécurité – ajout d’information sur des manifestations à Tirana",
+      "lastUpdateDate": "15 octobre 2026 15:47 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Algérie",
       "slug": "algerie",
       "level": 2,
       "iso2": "DZ",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "14 octobre 2026 09:17 HAE",
+      "recentUpdate": "Santé – changement mineur",
+      "lastUpdateDate": "15 octobre 2026 08:05 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -491,22 +491,22 @@
       "slug": "coree-nord",
       "level": 4,
       "iso2": "KP",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 05:56 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Corée du Sud",
       "slug": "coree-sud",
       "level": 1,
       "iso2": "KR",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 08:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Costa Rica",
@@ -667,11 +667,11 @@
       "slug": "gabon",
       "level": 2,
       "iso2": "GA",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 04:29 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Gambie",
@@ -821,11 +821,11 @@
       "slug": "guyane-francaise",
       "level": 1,
       "iso2": "GF",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "13 octobre 2026 11:14 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 04:18 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Géorgie",
@@ -1008,8 +1008,8 @@
       "slug": "kazakhstan",
       "level": 1,
       "iso2": "KZ",
-      "recentUpdate": "Section Exigences d’entrée et de sortie – mise à jour de l’information sur les passeports et l’autorisation de voyage électronique; Section Lois et coutumes – ajout d’information sur la couverture du visage dans les lieux publics",
-      "lastUpdateDate": "14 octobre 2026 13:11 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 04:33 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1019,19 +1019,19 @@
       "slug": "kenya",
       "level": 2,
       "iso2": "KE",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "7 octobre 2026 08:31 HAE",
+      "recentUpdate": "Exigences d’entrée et de sortie – ajout d’information sur l’assurance santé obligatoire",
+      "lastUpdateDate": "15 octobre 2026 11:56 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Kirghizistan",
       "slug": "kirghizistan",
       "level": 2,
       "iso2": "KG",
-      "recentUpdate": "Section Exigences d’entrée et de sortie – mise à jour de l’information sur les passeports et l’enregistrement auprès des autorités; Section Lois et coutumes – ajout d’information sur la couverture du visage dans les lieux publics",
-      "lastUpdateDate": "14 octobre 2026 13:31 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 04:46 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1041,11 +1041,11 @@
       "slug": "kiribati",
       "level": 1,
       "iso2": "KI",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 04:38 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Kosovo",
@@ -1085,22 +1085,22 @@
       "slug": "laos",
       "level": 2,
       "iso2": "LA",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 04:53 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Lesotho",
       "slug": "lesotho",
       "level": 2,
       "iso2": "LS",
-      "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 04:59 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Lettonie",
@@ -1118,8 +1118,8 @@
       "slug": "liban",
       "level": 4,
       "iso2": "LB",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Santé – changement mineur",
+      "lastUpdateDate": "15 octobre 2026 08:15 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1140,18 +1140,18 @@
       "slug": "liberia",
       "level": 2,
       "iso2": "LR",
-      "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 05:02 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Liechtenstein",
       "slug": "liechtenstein",
       "level": 1,
       "iso2": "LI",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – changement mineur",
       "lastUpdateDate": "24 septembre 2026 08:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
@@ -1294,8 +1294,8 @@
       "slug": "maurice",
       "level": 1,
       "iso2": "MU",
-      "recentUpdate": "Section sécurité – ajout d’information de l'information sur le couvre-feu",
-      "lastUpdateDate": "14 octobre 2026 14:21 HAE",
+      "recentUpdate": "Section sécurité – mise à jour de l'information sur le couvre-feu",
+      "lastUpdateDate": "15 octobre 2026 11:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1328,7 +1328,7 @@
       "level": 2,
       "iso2": "MX",
       "recentUpdate": "Section niveaux de risque – retrait du l’avertissement d’évitez tout voyage non essentiel du nord de Escuinapa à Bahia Tempehuaya; section Catastrophes naturelles et climat – mise à jour de l’information sur l’ouragan Simon",
-      "lastUpdateDate": "14 octobre 2026 14:02 HAE",
+      "lastUpdateDate": "15 octobre 2026 07:44 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regional advisory removed"
@@ -1404,33 +1404,33 @@
       "slug": "mozambique",
       "level": 2,
       "iso2": "MZ",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 05:06 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Myanmar",
       "slug": "myanmar",
       "level": 4,
       "iso2": "MM",
-      "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "13 octobre 2026 08:44 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 05:09 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Namibie",
       "slug": "namibie",
       "level": 2,
       "iso2": "NA",
-      "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 05:12 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Nauru",
@@ -1459,33 +1459,33 @@
       "slug": "niger",
       "level": 4,
       "iso2": "NE",
-      "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 05:46 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Nigéria",
       "slug": "nigeria",
       "level": 3,
       "iso2": "NG",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "9 octobre 2026 10:24 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 05:50 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Niue",
       "slug": "niue",
       "level": 1,
       "iso2": "NU",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 05:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Norvège",
@@ -1503,33 +1503,33 @@
       "slug": "nouvelle-caledonie",
       "level": 2,
       "iso2": "NC",
-      "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 05:40 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Nouvelle-Zélande",
       "slug": "nouvelle-zelande",
       "level": 1,
       "iso2": "NZ",
-      "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 05:45 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Népal",
       "slug": "nepal",
       "level": 2,
       "iso2": "NP",
-      "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout \nd’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 05:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Oman",
@@ -1569,8 +1569,8 @@
       "slug": "pakistan",
       "level": 2,
       "iso2": "PK",
-      "recentUpdate": "Section Sécurité – mise à jour de l'information sur les manifestations en cours",
-      "lastUpdateDate": "9 octobre 2026 13:28 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 06:03 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1580,44 +1580,44 @@
       "slug": "palaos",
       "level": 1,
       "iso2": "PW",
-      "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 06:26 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Panama",
       "slug": "panama",
       "level": 1,
       "iso2": "PA",
-      "recentUpdate": "Section Niveaux de risque – Évitez tout voyage non essentiel aux cantons d’Arena, El Cacao et Quebro dans la province de Veraguas en raison des dommages causés par le tremblement de terre du 9 octobre 2026; Section Catastrophes naturelles et climat – mise à jour de l’information sur les récents tremblements de terre",
-      "lastUpdateDate": "11 octobre 2026 16:02 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 06:29 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regional advisory added"
+      "updateType": "Regular text update"
     },
     {
       "name": "Papouasie-Nouvelle-Guinée",
       "slug": "papouasie-nouvelle-guinee",
       "level": 3,
       "iso2": "PG",
-      "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 06:32 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Paraguay",
       "slug": "paraguay",
       "level": 2,
       "iso2": "PY",
-      "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "9 octobre 2026 10:28 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 06:35 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Pays-Bas",
@@ -1635,11 +1635,11 @@
       "slug": "philippines",
       "level": 2,
       "iso2": "PH",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "25 septembre 2026 07:02 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 08:02 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Pologne",
@@ -1657,11 +1657,11 @@
       "slug": "polynesie-francaise",
       "level": 1,
       "iso2": "PF",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 04:21 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Porto Rico",
@@ -1690,8 +1690,8 @@
       "slug": "perou",
       "level": 2,
       "iso2": "PE",
-      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur une menace au tsunami",
-      "lastUpdateDate": "9 octobre 2026 15:20 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 07:45 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1866,8 +1866,8 @@
       "slug": "sainte-lucie",
       "level": 1,
       "iso2": "LC",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "15 octobre 2026 14:38 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1954,11 +1954,11 @@
       "slug": "singapour",
       "level": 1,
       "iso2": "SG",
-      "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "9 octobre 2026 10:28 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 08:32 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Sint Maarten",
@@ -1998,11 +1998,11 @@
       "slug": "somalie",
       "level": 4,
       "iso2": "SO",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 08:42 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Soudan",
@@ -2043,7 +2043,7 @@
       "level": 1,
       "iso2": "CH",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "14 octobre 2026 15:34 HAE",
+      "lastUpdateDate": "15 octobre 2026 08:22 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2086,8 +2086,8 @@
       "slug": "senegal",
       "level": 2,
       "iso2": "SN",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "28 septembre 2026 10:34 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 08:16 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -2208,7 +2208,7 @@
       "level": 2,
       "iso2": "TT",
       "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "13 octobre 2026 16:04 HAE",
+      "lastUpdateDate": "15 octobre 2026 14:16 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -2394,11 +2394,11 @@
       "slug": "etats-unis",
       "level": 1,
       "iso2": "US",
-      "recentUpdate": "Section Niveaux de risque – retrait de l’avertissement d’éviter tout voyage non essentiel sur la côte nord du Golfe; Section Catastrophes naturelles et climat – retrait de l’information sur l’ouragan Isaias et la tempête tropicale Rachel, ajout d’information sur El Niño",
-      "lastUpdateDate": "13 octobre 2026 12:21 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "15 octobre 2026 08:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regional advisory removed"
+      "updateType": "Editorial change"
     },
     {
       "name": "Éthiopie",
@@ -2460,11 +2460,11 @@
       "slug": "mariannes-du-nord-iles",
       "level": 1,
       "iso2": "MP",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 06:00 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Îles Marshall",
@@ -2482,11 +2482,11 @@
       "slug": "salomon-iles",
       "level": 1,
       "iso2": "SB",
-      "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
+      "lastUpdateDate": "15 octobre 2026 08:34 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Îles Turks et Caicos",
