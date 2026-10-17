@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16",
+  "updated": "2026-10-17",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -755,8 +755,8 @@
       "slug": "guam",
       "level": 1,
       "iso2": "GU",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "13 octobre 2026 13:43 HAE",
+      "recentUpdate": "Section catastrophes naturelles et climat – ajout d’information sur la tempête tropicale Champi",
+      "lastUpdateDate": "16 octobre 2026 12:02 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -767,7 +767,7 @@
       "level": 2,
       "iso2": "GT",
       "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "13 octobre 2026 13:46 HAE",
+      "lastUpdateDate": "16 octobre 2026 06:09 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -995,12 +995,12 @@
     {
       "name": "Jordanie",
       "slug": "jordanie",
-      "level": 3,
+      "level": 2,
       "iso2": "JO",
-      "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "9 octobre 2026 10:05 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "16 octobre 2026 16:41 HAE",
       "hasRegionalAdvisory": true,
-      "hasAdvisoryWarning": true,
+      "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
     },
     {
@@ -1295,7 +1295,7 @@
       "level": 1,
       "iso2": "MU",
       "recentUpdate": "Section sécurité – mise à jour de l'information sur le couvre-feu",
-      "lastUpdateDate": "15 octobre 2026 11:53 HAE",
+      "lastUpdateDate": "16 octobre 2026 15:02 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1327,11 +1327,11 @@
       "slug": "mexique",
       "level": 2,
       "iso2": "MX",
-      "recentUpdate": "Section niveaux de risque – retrait du l’avertissement d’évitez tout voyage non essentiel du nord de Escuinapa à Bahia Tempehuaya; section Catastrophes naturelles et climat – mise à jour de l’information sur l’ouragan Simon",
-      "lastUpdateDate": "15 octobre 2026 07:44 HAE",
+      "recentUpdate": "Section Niveaux de risque – Évitez tout voyage non essentiel du nord de Punta San Telmo à Cabo Corrientes en raison de l’ouragan Trudy; Section Catastrophes naturelles et climat – ajout d’information sur l’ouragan Trudy",
+      "lastUpdateDate": "16 octobre 2026 11:30 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regional advisory removed"
+      "updateType": "Regular text update"
     },
     {
       "name": "Micronésie (EFM)",
@@ -1591,8 +1591,8 @@
       "slug": "panama",
       "level": 1,
       "iso2": "PA",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "15 octobre 2026 06:29 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur le tremblement de terre du 9 octobre",
+      "lastUpdateDate": "16 octobre 2026 12:27 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1878,7 +1878,7 @@
       "level": 2,
       "iso2": "SV",
       "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "14 octobre 2026 10:32 HAE",
+      "lastUpdateDate": "16 octobre 2026 06:15 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
