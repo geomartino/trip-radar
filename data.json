@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17",
+  "updated": "2026-10-18",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -753,13 +753,13 @@
     {
       "name": "Guam",
       "slug": "guam",
-      "level": 1,
+      "level": 3,
       "iso2": "GU",
-      "recentUpdate": "Section catastrophes naturelles et climat – ajout d’information sur la tempête tropicale Champi",
-      "lastUpdateDate": "16 octobre 2026 12:02 HAE",
+      "recentUpdate": "Section Niveaux de risque – Évitez tout voyage non essentiel à Guam en raison du typhon Champi; Section Catastrophes naturelles et climat – mise à jour de l’information sur le typhon Champi",
+      "lastUpdateDate": "17 octobre 2026 09:52 HAE",
       "hasRegionalAdvisory": false,
-      "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "hasAdvisoryWarning": true,
+      "updateType": "National advisory increased"
     },
     {
       "name": "Guatemala",
