@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18",
+  "updated": "2026-10-19",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -117,8 +117,8 @@
       "slug": "arabie-saoudite",
       "level": 3,
       "iso2": "SA",
-      "recentUpdate": "Section Sécurité – mise à jour de l’information sur la situation à l’aéroport international King Khalid",
-      "lastUpdateDate": "11 octobre 2026 09:58 HAE",
+      "recentUpdate": "Sécurité – mise à jour de l’information sur la situation en matière de sécurité",
+      "lastUpdateDate": "18 octobre 2026 13:56 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
       "updateType": "Regular text update"
@@ -753,13 +753,13 @@
     {
       "name": "Guam",
       "slug": "guam",
-      "level": 3,
+      "level": 1,
       "iso2": "GU",
-      "recentUpdate": "Section Niveaux de risque – Évitez tout voyage non essentiel à Guam en raison du typhon Champi; Section Catastrophes naturelles et climat – mise à jour de l’information sur le typhon Champi",
-      "lastUpdateDate": "17 octobre 2026 09:52 HAE",
+      "recentUpdate": "Section Niveaux de risque – prenez des mesures de sécurité normales à Guam; Section Catastrophes naturelles et climat – retrait de l’information sur le typhon Champi",
+      "lastUpdateDate": "18 octobre 2026 09:25 HAE",
       "hasRegionalAdvisory": false,
-      "hasAdvisoryWarning": true,
-      "updateType": "National advisory increased"
+      "hasAdvisoryWarning": false,
+      "updateType": "National advisory decreased"
     },
     {
       "name": "Guatemala",
