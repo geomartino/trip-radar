@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20",
+  "updated": "2026-10-21",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -228,7 +228,7 @@
       "level": 1,
       "iso2": "BB",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "24 septembre 2026 11:44 HAE",
+      "lastUpdateDate": "20 octobre 2026 07:23 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -986,11 +986,11 @@
       "slug": "japon",
       "level": 1,
       "iso2": "JP",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "13 octobre 2026 14:27 HAE",
-      "hasRegionalAdvisory": false,
+      "recentUpdate": "Section Niveau de risque – Évitez tout voyage non essentiel aux îles Ryukyu ; Section Catastrophes naturelles et climat – ajout d’information sur le typhon Champi",
+      "lastUpdateDate": "20 octobre 2026 17:11 HAE",
+      "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Regional advisory added"
     },
     {
       "name": "Jordanie",
@@ -1019,11 +1019,11 @@
       "slug": "kenya",
       "level": 2,
       "iso2": "KE",
-      "recentUpdate": "Exigences d’entrée et de sortie – ajout d’information sur l’assurance santé obligatoire",
-      "lastUpdateDate": "15 octobre 2026 11:56 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "20 octobre 2026 11:19 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Kirghizistan",
@@ -1306,7 +1306,7 @@
       "level": 3,
       "iso2": "MR",
       "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "9 octobre 2026 07:25 HAE",
+      "lastUpdateDate": "20 octobre 2026 12:46 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
       "updateType": "Regular text update"
@@ -1613,8 +1613,8 @@
       "slug": "paraguay",
       "level": 2,
       "iso2": "PY",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "15 octobre 2026 06:35 HAE",
+      "recentUpdate": "Section Exigences d’entrée et de sortie – mise à jour de l’information sur les visas",
+      "lastUpdateDate": "20 octobre 2026 16:21 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1790,7 +1790,7 @@
       "level": 4,
       "iso2": "CD",
       "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "28 septembre 2026 13:56 HAE",
+      "lastUpdateDate": "20 octobre 2026 11:45 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1921,11 +1921,11 @@
       "slug": "serbie",
       "level": 1,
       "iso2": "RS",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "9 octobre 2026 10:17 HAE",
+      "recentUpdate": "Section Sécurité – ajout d’information sur les élections législatives",
+      "lastUpdateDate": "20 octobre 2026 09:47 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Seychelles",
