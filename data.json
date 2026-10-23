@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22",
+  "updated": "2026-10-23",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -117,8 +117,8 @@
       "slug": "arabie-saoudite",
       "level": 3,
       "iso2": "SA",
-      "recentUpdate": "Sécurité – mise à jour de l’information sur la situation en matière de sécurité",
-      "lastUpdateDate": "18 octobre 2026 13:56 HAE",
+      "recentUpdate": "Section Niveau de risque – évitez tout voyage à l’aéroport international King Fahd",
+      "lastUpdateDate": "22 octobre 2026 15:24 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
       "updateType": "Regular text update"
@@ -964,8 +964,8 @@
       "slug": "italie",
       "level": 2,
       "iso2": "IT",
-      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur le mont Etna",
-      "lastUpdateDate": "29 septembre 2026 04:08 HAE",
+      "recentUpdate": "Section Sécurité – ajout d’information sur les manifestations",
+      "lastUpdateDate": "22 octobre 2026 15:43 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
