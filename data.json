@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23",
+  "updated": "2026-10-24",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -656,8 +656,8 @@
       "slug": "france",
       "level": 2,
       "iso2": "FR",
-      "recentUpdate": "Section Sécurité – ajout d’information sur les manifestations",
-      "lastUpdateDate": "19 octobre 2026 18:38 HAE",
+      "recentUpdate": "Section sécurité – mise à jour de l’information sur les manifestations",
+      "lastUpdateDate": "23 octobre 2026 15:20 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -855,7 +855,7 @@
       "level": 2,
       "iso2": "HN",
       "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "13 octobre 2026 13:56 HAE",
+      "lastUpdateDate": "23 octobre 2026 11:13 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -997,11 +997,11 @@
       "slug": "jordanie",
       "level": 2,
       "iso2": "JO",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "16 octobre 2026 16:41 HAE",
+      "recentUpdate": "Section Sécurité – ajout d’information sur une fusillade dans le gouvernorat de Karak",
+      "lastUpdateDate": "23 octobre 2026 11:28 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Kazakhstan",
@@ -1328,7 +1328,7 @@
       "level": 2,
       "iso2": "MX",
       "recentUpdate": "Section Niveau de risque – retrait de l’avertissement d’éviter tout voyage non essentiel sur la côte centre-ouest; Section Catastrophes naturelles et climat – retrait de l’information sur l’ouragan Trudy",
-      "lastUpdateDate": "19 octobre 2026 10:54 HAE",
+      "lastUpdateDate": "23 octobre 2026 13:26 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1877,11 +1877,11 @@
       "slug": "salvador",
       "level": 2,
       "iso2": "SV",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "16 octobre 2026 06:15 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "23 octobre 2026 15:51 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Samoa",
@@ -2108,8 +2108,8 @@
       "slug": "tanzanie",
       "level": 2,
       "iso2": "TZ",
-      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur des feux de forêt dans la région du Kilimandjaro",
-      "lastUpdateDate": "14 octobre 2026 10:38 HAE",
+      "recentUpdate": "Sécurité – ajout d’information sur les manifestations",
+      "lastUpdateDate": "23 octobre 2026 13:52 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -2119,8 +2119,8 @@
       "slug": "taiwan",
       "level": 1,
       "iso2": "TW",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d'information sur El Niño",
-      "lastUpdateDate": "14 octobre 2026 11:23 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur les typhons",
+      "lastUpdateDate": "23 octobre 2026 15:42 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
