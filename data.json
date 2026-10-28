@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -634,8 +634,8 @@
       "slug": "fidji",
       "level": 1,
       "iso2": "FJ",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "14 octobre 2026 15:57 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "27 octobre 2026 13:49 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -887,11 +887,11 @@
       "slug": "inde",
       "level": 2,
       "iso2": "IN",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d'information sur El Niño",
-      "lastUpdateDate": "14 octobre 2026 15:24 HAE",
+      "recentUpdate": "Section Niveaux de risque – Évitez tout voyage non essentiel dans certaines zones côtières de l’Andhra Pradesh; Section catastrophes naturelles et climat – ajout d’information sur le cyclone Arnab",
+      "lastUpdateDate": "27 octobre 2026 07:04 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Regional advisory added"
     },
     {
       "name": "Indonésie",
@@ -899,7 +899,7 @@
       "level": 2,
       "iso2": "ID",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "21 octobre 2026 11:05 HAE",
+      "lastUpdateDate": "27 octobre 2026 06:53 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -965,7 +965,7 @@
       "level": 2,
       "iso2": "IT",
       "recentUpdate": "Section Sécurité – ajout d’information sur les manifestations",
-      "lastUpdateDate": "22 octobre 2026 15:43 HAE",
+      "lastUpdateDate": "27 octobre 2026 08:30 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
