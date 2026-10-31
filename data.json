@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -206,7 +206,7 @@
       "level": 3,
       "iso2": "BH",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "14 octobre 2026 07:57 HAE",
+      "lastUpdateDate": "30 octobre 2026 09:35 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -843,8 +843,8 @@
       "slug": "haiti",
       "level": 4,
       "iso2": "HT",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Santé – changement mineur",
+      "lastUpdateDate": "30 octobre 2026 07:58 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -887,11 +887,11 @@
       "slug": "inde",
       "level": 2,
       "iso2": "IN",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "28 octobre 2026 16:20 HAE",
+      "recentUpdate": "Section Niveau de risque – retrait de l’avertissement d'éviter tout voyage non essentiel sur la côte de l'Andhra Pradesh; Section Catastrophes naturelles et climat – mise à jour de l'information sur le cyclone Arnab",
+      "lastUpdateDate": "30 octobre 2026 10:29 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regional advisory removed"
     },
     {
       "name": "Indonésie",
@@ -1119,7 +1119,7 @@
       "level": 4,
       "iso2": "LB",
       "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "15 octobre 2026 08:15 HAE",
+      "lastUpdateDate": "30 octobre 2026 06:49 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1746,7 +1746,7 @@
       "level": 1,
       "iso2": "RW",
       "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "9 octobre 2026 09:48 HAE",
+      "lastUpdateDate": "30 octobre 2026 06:51 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2032,7 +2032,7 @@
       "level": 2,
       "iso2": "LK",
       "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "13 octobre 2026 14:26 HAE",
+      "lastUpdateDate": "30 octobre 2026 14:53 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -2109,7 +2109,7 @@
       "level": 2,
       "iso2": "TZ",
       "recentUpdate": "Sécurité – retrait de l’information sur les manifestations",
-      "lastUpdateDate": "29 octobre 2026 17:19 HAE",
+      "lastUpdateDate": "30 octobre 2026 10:30 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -2515,11 +2515,11 @@
       "slug": "iles-vierges-britanniques",
       "level": 1,
       "iso2": "VG",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "30 octobre 2026 08:59 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     }
   ]
 }
