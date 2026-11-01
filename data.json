@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31",
+  "updated": "2026-11-01",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -1734,11 +1734,11 @@
       "slug": "russie",
       "level": 4,
       "iso2": "RU",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "14 octobre 2026 09:05 HAE",
+      "recentUpdate": "",
+      "lastUpdateDate": "31 octobre 2026 12:47 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": ""
     },
     {
       "name": "Rwanda",
@@ -2372,8 +2372,8 @@
       "slug": "equateur",
       "level": 2,
       "iso2": "EC",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "14 octobre 2026 09:59 HAE",
+      "recentUpdate": "Catastrophes naturelles et climat – ajout d’information sur les pluies fortes aux îles Galápagos",
+      "lastUpdateDate": "31 octobre 2026 17:32 HAE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
