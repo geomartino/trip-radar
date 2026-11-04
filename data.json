@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03",
+  "updated": "2026-11-04",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -249,8 +249,8 @@
       "slug": "belize",
       "level": 2,
       "iso2": "BZ",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "14 octobre 2026 08:09 HAE",
+      "recentUpdate": "Section Sécurité – ajout d’information sur l’état d’urgence",
+      "lastUpdateDate": "3 novembre 2026 17:07 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -447,11 +447,11 @@
       "slug": "chine",
       "level": 2,
       "iso2": "CN",
-      "recentUpdate": "Editorial change",
-      "lastUpdateDate": "2 novembre 2026 09:10 HNE",
+      "recentUpdate": "Section Niveau de risque – évitez tout voyage non essentiel dans certaines portions du comté de Gyirong; Section Catastrophes naturelles et climat – mise à jour de l’info sur des graves crues soudaines et coulées de boue dans la région frontalière entre la Chine et le Népal",
+      "lastUpdateDate": "3 novembre 2026 12:27 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regional advisory modified"
     },
     {
       "name": "Chypre",
@@ -546,8 +546,8 @@
       "slug": "curacao",
       "level": 1,
       "iso2": "CW",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout \nd’information sur El Niño",
-      "lastUpdateDate": "14 octobre 2026 09:41 HAE",
+      "recentUpdate": "Section Exigences d’entrée et de sortie – mise à jour de l’information sur la validité du passeport",
+      "lastUpdateDate": "3 novembre 2026 16:21 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -601,8 +601,8 @@
       "slug": "espagne",
       "level": 2,
       "iso2": "ES",
-      "recentUpdate": "Section Sécurité – ajout d’information sur les troubles urbains",
-      "lastUpdateDate": "29 octobre 2026 15:59 HAE",
+      "recentUpdate": "Section Sécurité – retrait de l’information sur les troubles urbains",
+      "lastUpdateDate": "3 novembre 2026 11:05 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1294,8 +1294,8 @@
       "slug": "maurice",
       "level": 1,
       "iso2": "MU",
-      "recentUpdate": "Section sécurité – mise à jour de l'information sur le couvre-feu",
-      "lastUpdateDate": "19 octobre 2026 17:02 HAE",
+      "recentUpdate": "Section Sécurité – retrait de l’information sur les manifestations et les couvre-feux",
+      "lastUpdateDate": "3 novembre 2026 10:12 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1525,11 +1525,11 @@
       "slug": "nepal",
       "level": 2,
       "iso2": "NP",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout \nd’information sur El Niño",
-      "lastUpdateDate": "15 octobre 2026 05:16 HAE",
+      "recentUpdate": "Section Niveau de risque – évitez tout voyage non essentiel dans certaines portions du corridor de la rivière Trishuli; Section Catastrophes naturelles et climat – mise à jour de l'info sur les crues soudaines et coulées de boue dans le district de Rasuwa",
+      "lastUpdateDate": "3 novembre 2026 11:56 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Regional advisory modified"
     },
     {
       "name": "Oman",
@@ -2493,11 +2493,11 @@
       "slug": "iles-turks-et-caicos",
       "level": 2,
       "iso2": "TC",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "14 octobre 2026 16:23 HAE",
+      "recentUpdate": "Section Exigences d’entrée et de sortie – mise à jour de l’information sur la validité du passeport",
+      "lastUpdateDate": "3 novembre 2026 14:20 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Îles Vierges américaines",
