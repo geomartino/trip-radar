@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-06",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -18,8 +18,8 @@
       "slug": "afrique-du-sud",
       "level": 2,
       "iso2": "ZA",
-      "recentUpdate": "Section Sécurité – ajout d’information sur des élections municipales",
-      "lastUpdateDate": "28 octobre 2026 13:04 HAE",
+      "recentUpdate": "Section Sécurité – mise à jour de l’information sur les élections municipales",
+      "lastUpdateDate": "5 novembre 2026 14:05 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -656,8 +656,8 @@
       "slug": "france",
       "level": 2,
       "iso2": "FR",
-      "recentUpdate": "Section sécurité – mise à jour de l’information sur les manifestations",
-      "lastUpdateDate": "2 novembre 2026 10:00 HNE",
+      "recentUpdate": "Section Sécurité – mise à jour de l’information sur les manifestations et grèves",
+      "lastUpdateDate": "5 novembre 2026 07:47 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -811,7 +811,7 @@
       "level": 2,
       "iso2": "GY",
       "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "13 octobre 2026 13:54 HAE",
+      "lastUpdateDate": "5 novembre 2026 07:20 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1119,7 +1119,7 @@
       "level": 4,
       "iso2": "LB",
       "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "30 octobre 2026 06:49 HAE",
+      "lastUpdateDate": "5 novembre 2026 07:27 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1613,8 +1613,8 @@
       "slug": "paraguay",
       "level": 2,
       "iso2": "PY",
-      "recentUpdate": "Section Exigences d’entrée et de sortie – mise à jour de l’information sur les visas",
-      "lastUpdateDate": "20 octobre 2026 16:21 HAE",
+      "recentUpdate": "Section Sécurité – ajout d’information sur les manifestations",
+      "lastUpdateDate": "5 novembre 2026 16:51 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1955,7 +1955,7 @@
       "level": 1,
       "iso2": "SG",
       "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "15 octobre 2026 08:32 HAE",
+      "lastUpdateDate": "5 novembre 2026 07:27 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -2043,7 +2043,7 @@
       "level": 1,
       "iso2": "CH",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "15 octobre 2026 08:22 HAE",
+      "lastUpdateDate": "5 novembre 2026 10:02 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2372,11 +2372,11 @@
       "slug": "equateur",
       "level": 2,
       "iso2": "EC",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "2 novembre 2026 09:39 HNE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "5 novembre 2026 16:10 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Érythrée",
