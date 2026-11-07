@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-07",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -18,8 +18,8 @@
       "slug": "afrique-du-sud",
       "level": 2,
       "iso2": "ZA",
-      "recentUpdate": "Section Sécurité – mise à jour de l’information sur les élections municipales",
-      "lastUpdateDate": "5 novembre 2026 14:05 HNE",
+      "recentUpdate": "Section Sécurité – mise à jour de l’information sur les taxis et les applications de covoiturage",
+      "lastUpdateDate": "6 novembre 2026 15:09 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -656,8 +656,8 @@
       "slug": "france",
       "level": 2,
       "iso2": "FR",
-      "recentUpdate": "Section Sécurité – mise à jour de l’information sur les manifestations et grèves",
-      "lastUpdateDate": "5 novembre 2026 07:47 HNE",
+      "recentUpdate": "Section Sécurité – mise à jour de l’information sur les manifestations et les grèves",
+      "lastUpdateDate": "6 novembre 2026 15:55 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -767,7 +767,7 @@
       "level": 2,
       "iso2": "GT",
       "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "16 octobre 2026 06:09 HAE",
+      "lastUpdateDate": "6 novembre 2026 08:03 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -887,8 +887,8 @@
       "slug": "inde",
       "level": 2,
       "iso2": "IN",
-      "recentUpdate": "Catastrophes naturelles et climat – ajout d’information sur le cyclone Murasu",
-      "lastUpdateDate": "2 novembre 2026 14:33 HNE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l'information sur le cyclone Murasu",
+      "lastUpdateDate": "6 novembre 2026 08:24 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -931,11 +931,11 @@
       "slug": "irlande",
       "level": 1,
       "iso2": "IE",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Sécurité - ajout d'information sur des mesures de sécurité renforcées lors d'un événement de haut niveau",
+      "lastUpdateDate": "6 novembre 2026 15:56 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Islande",
@@ -1195,7 +1195,7 @@
       "slug": "macedoine-nord",
       "level": 1,
       "iso2": "MK",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – changement mineur",
       "lastUpdateDate": "14 octobre 2026 09:05 HAE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
@@ -1415,8 +1415,8 @@
       "slug": "myanmar",
       "level": 4,
       "iso2": "MM",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "15 octobre 2026 05:09 HAE",
+      "recentUpdate": "Section Lois et coutumes – ajout d’information sur l’enregistrement des téléphones cellulaires; Section Catastrophes naturelles et climat – retrait de l'information sur le tremblement de terre au centre de mars 2025",
+      "lastUpdateDate": "6 novembre 2026 15:50 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Regular text update"
@@ -1592,7 +1592,7 @@
       "level": 1,
       "iso2": "PA",
       "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur le tremblement de terre du 9 octobre",
-      "lastUpdateDate": "16 octobre 2026 12:27 HAE",
+      "lastUpdateDate": "6 novembre 2026 08:03 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1690,8 +1690,8 @@
       "slug": "perou",
       "level": 2,
       "iso2": "PE",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "15 octobre 2026 07:45 HAE",
+      "recentUpdate": "Section Sécurité – ajout d’information sur la visite papale",
+      "lastUpdateDate": "6 novembre 2026 16:44 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1922,7 +1922,7 @@
       "level": 1,
       "iso2": "RS",
       "recentUpdate": "Section Sécurité – retrait de l’information sur les élections législatives",
-      "lastUpdateDate": "2 novembre 2026 11:34 HNE",
+      "lastUpdateDate": "6 novembre 2026 08:05 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -2120,7 +2120,7 @@
       "level": 1,
       "iso2": "TW",
       "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur les typhons",
-      "lastUpdateDate": "26 octobre 2026 06:39 HAE",
+      "lastUpdateDate": "6 novembre 2026 08:04 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -2373,7 +2373,7 @@
       "level": 2,
       "iso2": "EC",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "5 novembre 2026 16:10 HNE",
+      "lastUpdateDate": "6 novembre 2026 12:06 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
