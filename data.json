@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-12",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -1162,8 +1162,8 @@
       "slug": "lituanie",
       "level": 1,
       "iso2": "LT",
-      "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "14 octobre 2026 10:50 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "11 novembre 2026 09:26 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
