@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12",
+  "updated": "2026-11-13",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -95,8 +95,8 @@
       "slug": "antarctique",
       "level": 2,
       "iso2": "AQ",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "14 octobre 2026 07:23 HAE",
+      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "lastUpdateDate": "12 novembre 2026 10:25 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -513,11 +513,11 @@
       "slug": "costa-rica",
       "level": 2,
       "iso2": "CR",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "14 octobre 2026 08:11 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "12 novembre 2026 14:45 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Croatie",
@@ -535,8 +535,8 @@
       "slug": "cuba",
       "level": 3,
       "iso2": "CU",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "13 octobre 2026 11:14 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "12 novembre 2026 12:46 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1328,7 +1328,7 @@
       "level": 2,
       "iso2": "MX",
       "recentUpdate": "Section Niveau de risque – retrait de l’avertissement d’éviter tout voyage non essentiel sur la côte centre-ouest; Section Catastrophes naturelles et climat – retrait de l’information sur l’ouragan Trudy",
-      "lastUpdateDate": "10 novembre 2026 13:59 HNE",
+      "lastUpdateDate": "12 novembre 2026 07:31 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1515,7 +1515,7 @@
       "level": 1,
       "iso2": "NZ",
       "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "15 octobre 2026 05:45 HAE",
+      "lastUpdateDate": "12 novembre 2026 07:04 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1888,7 +1888,7 @@
       "slug": "samoa",
       "level": 1,
       "iso2": "WS",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
+      "recentUpdate": "Santé – Conseils de santé aux voyageurs concernant la dengue a été retiré",
       "lastUpdateDate": "2 novembre 2026 09:42 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
@@ -1922,7 +1922,7 @@
       "level": 1,
       "iso2": "RS",
       "recentUpdate": "Section Sécurité – retrait de l’information sur les élections législatives",
-      "lastUpdateDate": "6 novembre 2026 08:05 HNE",
+      "lastUpdateDate": "12 novembre 2026 11:01 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -2350,8 +2350,8 @@
       "slug": "egypte",
       "level": 2,
       "iso2": "EG",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "14 octobre 2026 09:16 HAE",
+      "recentUpdate": "Santé – changement mineur",
+      "lastUpdateDate": "12 novembre 2026 07:29 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2395,7 +2395,7 @@
       "level": 1,
       "iso2": "US",
       "recentUpdate": "Santé – Surveillance Épidémique – La dengue dans le comté de Hillsborough, en Floride (mise à jour)",
-      "lastUpdateDate": "2 novembre 2026 12:39 HNE",
+      "lastUpdateDate": "12 novembre 2026 12:58 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
