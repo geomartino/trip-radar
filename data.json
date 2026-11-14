@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13",
+  "updated": "2026-11-14",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -84,11 +84,11 @@
       "slug": "anguilla",
       "level": 1,
       "iso2": "AI",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "14 octobre 2026 07:20 HAE",
+      "recentUpdate": "Section Besoin d’aide? – mise à jour des coordonnées des missions",
+      "lastUpdateDate": "13 novembre 2026 16:09 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Antarctique",
@@ -106,11 +106,11 @@
       "slug": "antigua-et-barbuda",
       "level": 1,
       "iso2": "AG",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "14 octobre 2026 07:24 HAE",
+      "recentUpdate": "Section Besoin d’aide? – mise à jour des coordonnées des missions",
+      "lastUpdateDate": "13 novembre 2026 16:11 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Arabie saoudite",
@@ -194,8 +194,8 @@
       "slug": "bahamas",
       "level": 2,
       "iso2": "BS",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d'information sur El Niño",
-      "lastUpdateDate": "13 octobre 2026 16:11 HAE",
+      "recentUpdate": "Section Besoin d’aide? – mise à jour des coordonnées des missions",
+      "lastUpdateDate": "13 novembre 2026 15:22 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -227,11 +227,11 @@
       "slug": "barbade",
       "level": 1,
       "iso2": "BB",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "20 octobre 2026 07:23 HAE",
+      "recentUpdate": "Section Besoin d’aide? – mise à jour des coordonnées des missions",
+      "lastUpdateDate": "13 novembre 2026 16:25 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Belgique",
@@ -260,11 +260,11 @@
       "slug": "bermudes",
       "level": 1,
       "iso2": "BM",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "4 novembre 2026 07:43 HNE",
+      "recentUpdate": "Section Besoin d’aide? – mise à jour des coordonnées des missions",
+      "lastUpdateDate": "13 novembre 2026 14:17 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Bhoutan",
@@ -436,8 +436,8 @@
       "slug": "chili",
       "level": 2,
       "iso2": "CL",
-      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur les inondations et les glissements de terrain dans plusieurs régions",
-      "lastUpdateDate": "19 octobre 2026 11:28 HAE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l’information sur les inondations et glissements de terrain dans plusieurs régions, y compris la région métropolitaine de Santiago",
+      "lastUpdateDate": "13 novembre 2026 10:55 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -513,11 +513,11 @@
       "slug": "costa-rica",
       "level": 2,
       "iso2": "CR",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "12 novembre 2026 14:45 HNE",
+      "recentUpdate": "Section Sécurité – mise à jour de l’information sur la baignade et les voyages d’aventure",
+      "lastUpdateDate": "13 novembre 2026 11:35 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Croatie",
@@ -590,11 +590,11 @@
       "slug": "dominique",
       "level": 1,
       "iso2": "DM",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Besoin d’aide? – mise à jour des coordonnées des missions",
+      "lastUpdateDate": "13 novembre 2026 16:13 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Espagne",
@@ -711,8 +711,8 @@
       "slug": "grenade",
       "level": 1,
       "iso2": "GD",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "13 octobre 2026 13:41 HAE",
+      "recentUpdate": "Section Besoin d’aide? – mise à jour des coordonnées des missions",
+      "lastUpdateDate": "13 novembre 2026 16:15 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -755,11 +755,11 @@
       "slug": "guam",
       "level": 1,
       "iso2": "GU",
-      "recentUpdate": "Section Niveaux de risque – prenez des mesures de sécurité normales à Guam; Section Catastrophes naturelles et climat – retrait de l’information sur le typhon Champi",
-      "lastUpdateDate": "18 octobre 2026 09:25 HAE",
+      "recentUpdate": "Section Besoin d’aide? – mise à jour des coordonnées des missions",
+      "lastUpdateDate": "13 novembre 2026 16:07 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "National advisory decreased"
+      "updateType": "Regular text update"
     },
     {
       "name": "Guatemala",
@@ -810,8 +810,8 @@
       "slug": "guyana",
       "level": 2,
       "iso2": "GY",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "10 novembre 2026 10:24 HNE",
+      "recentUpdate": "Section Besoin d’aide? – mise à jour des coordonnées des missions",
+      "lastUpdateDate": "13 novembre 2026 15:26 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -975,11 +975,11 @@
       "slug": "jamaique",
       "level": 2,
       "iso2": "JM",
-      "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "7 octobre 2026 08:16 HAE",
+      "recentUpdate": "Section Besoin d’aide? – mise à jour des coordonnées des missions",
+      "lastUpdateDate": "13 novembre 2026 15:31 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Japon",
@@ -1360,11 +1360,11 @@
       "slug": "monaco",
       "level": 1,
       "iso2": "MC",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "2 novembre 2026 09:53 HNE",
+      "recentUpdate": "Section Besoin d'aide? – mise à jour des coordonnées des missions",
+      "lastUpdateDate": "13 novembre 2026 14:46 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Mongolie",
@@ -1382,11 +1382,11 @@
       "slug": "montserrat",
       "level": 1,
       "iso2": "MS",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "9 octobre 2026 08:07 HAE",
+      "recentUpdate": "Section Besoin d’aide? – mise à jour des coordonnées des missions",
+      "lastUpdateDate": "13 novembre 2026 16:19 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Monténégro",
@@ -1668,19 +1668,19 @@
       "slug": "porto-rico",
       "level": 1,
       "iso2": "PR",
-      "recentUpdate": "",
-      "lastUpdateDate": "2 octobre 2026 14:02 HAE",
+      "recentUpdate": "Section Besoin d’aide? – mise à jour des coordonnées des missions",
+      "lastUpdateDate": "13 novembre 2026 15:30 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Portugal",
       "slug": "portugal",
       "level": 1,
       "iso2": "PT",
-      "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "9 octobre 2026 09:35 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "13 novembre 2026 10:42 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1811,11 +1811,11 @@
       "slug": "saint-kitts-et-nevis",
       "level": 1,
       "iso2": "KN",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Besoin d’aide? – mise à jour des coordonnées des missions",
+      "lastUpdateDate": "13 novembre 2026 16:17 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Saint-Marin",
@@ -1855,22 +1855,22 @@
       "slug": "saint-vincent-et-grenadines",
       "level": 1,
       "iso2": "VC",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Besoin d’aide? – mise à jour des coordonnées des missions",
+      "lastUpdateDate": "13 novembre 2026 16:22 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Sainte-Lucie",
       "slug": "sainte-lucie",
       "level": 1,
       "iso2": "LC",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "15 octobre 2026 14:38 HAE",
+      "recentUpdate": "Section Besoin d’aide? – mise à jour des coordonnées des missions",
+      "lastUpdateDate": "13 novembre 2026 15:21 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Salvador",
@@ -1922,7 +1922,7 @@
       "level": 1,
       "iso2": "RS",
       "recentUpdate": "Section Sécurité – retrait de l’information sur les élections législatives",
-      "lastUpdateDate": "12 novembre 2026 11:01 HNE",
+      "lastUpdateDate": "13 novembre 2026 07:20 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1965,11 +1965,11 @@
       "slug": "sint-maarten",
       "level": 1,
       "iso2": "SX",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Besoin d’aide? – mise à jour des coordonnées des missions",
+      "lastUpdateDate": "13 novembre 2026 15:24 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Slovaquie",
@@ -2053,8 +2053,8 @@
       "slug": "suriname",
       "level": 1,
       "iso2": "SR",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "13 octobre 2026 14:39 HAE",
+      "recentUpdate": "Section Besoin d’aide? – mise à jour des coordonnées des missions",
+      "lastUpdateDate": "13 novembre 2026 15:25 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -2207,8 +2207,8 @@
       "slug": "trinite-et-tobago",
       "level": 2,
       "iso2": "TT",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "15 octobre 2026 14:16 HAE",
+      "recentUpdate": "Section Besoin d’aide? – mise à jour des coordonnées des missions",
+      "lastUpdateDate": "13 novembre 2026 15:27 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -2394,11 +2394,11 @@
       "slug": "etats-unis",
       "level": 1,
       "iso2": "US",
-      "recentUpdate": "Santé – Surveillance Épidémique – La dengue dans le comté de Hillsborough, en Floride (mise à jour)",
-      "lastUpdateDate": "12 novembre 2026 12:58 HNE",
+      "recentUpdate": "Sécurité – mise à jour de l’information sur une interdiction de décollage nationale",
+      "lastUpdateDate": "13 novembre 2026 21:38 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Éthiopie",
@@ -2427,11 +2427,11 @@
       "slug": "caimans-iles",
       "level": 1,
       "iso2": "KY",
-      "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Besoin d’aide? – mise à jour des coordonnées des missions",
+      "lastUpdateDate": "13 novembre 2026 16:24 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Îles Cook",
@@ -2460,8 +2460,8 @@
       "slug": "mariannes-du-nord-iles",
       "level": 1,
       "iso2": "MP",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "15 octobre 2026 06:00 HAE",
+      "recentUpdate": "Section Besoin d’aide? – mise à jour des coordonnées des missions",
+      "lastUpdateDate": "13 novembre 2026 16:13 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -2493,8 +2493,8 @@
       "slug": "iles-turks-et-caicos",
       "level": 2,
       "iso2": "TC",
-      "recentUpdate": "Section Exigences d’entrée et de sortie – mise à jour de l’information sur la validité du passeport",
-      "lastUpdateDate": "3 novembre 2026 14:20 HNE",
+      "recentUpdate": "Section Besoin d’aide? – mise à jour des coordonnées des missions",
+      "lastUpdateDate": "13 novembre 2026 15:28 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -2504,19 +2504,19 @@
       "slug": "iles-vierges-americaines",
       "level": 1,
       "iso2": "VI",
-      "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Section Besoin d’aide? – mise à jour des coordonnées des missions",
+      "lastUpdateDate": "13 novembre 2026 16:13 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Îles Vierges britanniques",
       "slug": "iles-vierges-britanniques",
       "level": 1,
       "iso2": "VG",
-      "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "30 octobre 2026 08:59 HAE",
+      "recentUpdate": "Section Besoin d’aide? – mise à jour des coordonnées des missions",
+      "lastUpdateDate": "13 novembre 2026 16:10 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
