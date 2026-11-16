@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-15",
+  "updated": "2026-11-16",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -766,8 +766,8 @@
       "slug": "guatemala",
       "level": 2,
       "iso2": "GT",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "6 novembre 2026 08:03 HNE",
+      "recentUpdate": "Sécurité – ajout d’information sur un état de siège dans les départements de Izabal et de Zacapa",
+      "lastUpdateDate": "15 novembre 2026 13:20 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
