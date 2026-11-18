@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17",
+  "updated": "2026-11-18",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -41,7 +41,7 @@
       "level": 2,
       "iso2": "DZ",
       "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "15 octobre 2026 08:05 HAE",
+      "lastUpdateDate": "17 novembre 2026 07:14 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -931,8 +931,8 @@
       "slug": "irlande",
       "level": 1,
       "iso2": "IE",
-      "recentUpdate": "Section Sécurité - ajout d'information sur des mesures de sécurité renforcées lors d'un événement de haut niveau",
-      "lastUpdateDate": "6 novembre 2026 15:56 HNE",
+      "recentUpdate": "Section Sécurité – retrait de l'information sur des mesures de sécurité renforcées lors d'un événement de haut niveau",
+      "lastUpdateDate": "17 novembre 2026 06:57 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1019,11 +1019,11 @@
       "slug": "kenya",
       "level": 2,
       "iso2": "KE",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "2 novembre 2026 09:41 HNE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "17 novembre 2026 11:26 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Kirghizistan",
@@ -1625,7 +1625,7 @@
       "level": 2,
       "iso2": "NL",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "9 octobre 2026 10:18 HAE",
+      "lastUpdateDate": "17 novembre 2026 11:09 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
