@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -52,7 +52,7 @@
       "level": 2,
       "iso2": "DE",
       "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "9 octobre 2026 09:29 HAE",
+      "lastUpdateDate": "18 novembre 2026 11:00 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1118,11 +1118,11 @@
       "slug": "liban",
       "level": 4,
       "iso2": "LB",
-      "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "16 novembre 2026 07:56 HNE",
+      "recentUpdate": "Section Besoin d’aide? – mise à jour de l’adresse et des coordonnées de l’ambassade du Canada au Liban à Beyrouth",
+      "lastUpdateDate": "18 novembre 2026 16:36 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "Libye",
@@ -1262,7 +1262,7 @@
       "level": 1,
       "iso2": "MT",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "9 octobre 2026 07:11 HAE",
+      "lastUpdateDate": "18 novembre 2026 08:28 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -1327,11 +1327,11 @@
       "slug": "mexique",
       "level": 2,
       "iso2": "MX",
-      "recentUpdate": "Section Niveau de risque – retrait de l’avertissement d’éviter tout voyage non essentiel sur la côte centre-ouest; Section Catastrophes naturelles et climat – retrait de l’information sur l’ouragan Trudy",
-      "lastUpdateDate": "12 novembre 2026 07:31 HNE",
+      "recentUpdate": "Changement mineur.",
+      "lastUpdateDate": "18 novembre 2026 16:05 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Micronésie (EFM)",
@@ -1471,10 +1471,10 @@
       "level": 3,
       "iso2": "NG",
       "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "21 octobre 2026 09:54 HAE",
+      "lastUpdateDate": "18 novembre 2026 14:36 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Niue",
@@ -1690,8 +1690,8 @@
       "slug": "perou",
       "level": 2,
       "iso2": "PE",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "16 novembre 2026 14:00 HNE",
+      "recentUpdate": "Section Sécurité – retrait de l’information sur la visite papale",
+      "lastUpdateDate": "18 novembre 2026 10:27 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -2262,8 +2262,8 @@
       "slug": "ukraine",
       "level": 4,
       "iso2": "UA",
-      "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "26 octobre 2026 08:57 HAE",
+      "recentUpdate": "Mise à jour mineure",
+      "lastUpdateDate": "18 novembre 2026 11:15 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -2306,11 +2306,11 @@
       "slug": "vietnam",
       "level": 1,
       "iso2": "VN",
-      "recentUpdate": "Révision approfondie et mise à jour de l'ensemble du contenu",
-      "lastUpdateDate": "28 octobre 2026 07:18 HAE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "18 novembre 2026 12:47 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Full TAA review"
+      "updateType": "Editorial change"
     },
     {
       "name": "Yémen",
@@ -2394,8 +2394,8 @@
       "slug": "etats-unis",
       "level": 1,
       "iso2": "US",
-      "recentUpdate": "Sécurité – mise à jour de l’information sur une interdiction de décollage nationale",
-      "lastUpdateDate": "13 novembre 2026 21:38 HNE",
+      "recentUpdate": "Section Sécurité – retrait de l’information sur l’interdiction de décollage nationale",
+      "lastUpdateDate": "18 novembre 2026 16:43 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
