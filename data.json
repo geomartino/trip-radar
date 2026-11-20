@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-20",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -19,7 +19,7 @@
       "level": 2,
       "iso2": "ZA",
       "recentUpdate": "Section Sécurité – retrait de l’information sur les élections municipales",
-      "lastUpdateDate": "10 novembre 2026 07:47 HNE",
+      "lastUpdateDate": "19 novembre 2026 12:55 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -52,7 +52,7 @@
       "level": 2,
       "iso2": "DE",
       "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "18 novembre 2026 11:00 HNE",
+      "lastUpdateDate": "19 novembre 2026 07:10 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -95,8 +95,8 @@
       "slug": "antarctique",
       "level": 2,
       "iso2": "AQ",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "12 novembre 2026 10:25 HNE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "19 novembre 2026 13:56 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -184,7 +184,7 @@
       "level": 2,
       "iso2": "AZ",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "14 octobre 2026 07:50 HAE",
+      "lastUpdateDate": "19 novembre 2026 14:49 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -888,7 +888,7 @@
       "level": 2,
       "iso2": "IN",
       "recentUpdate": "Section Catastrophes naturelles et climat – retrait de l'information sur le cyclone Murasu",
-      "lastUpdateDate": "6 novembre 2026 08:24 HNE",
+      "lastUpdateDate": "19 novembre 2026 09:25 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -953,8 +953,8 @@
       "slug": "israel-et-palestine",
       "level": 3,
       "iso2": "IL",
-      "recentUpdate": "La section Santé a été mise à jour - renseignements de santé aux voyageurs (Agence de la santé publique du Canada)",
-      "lastUpdateDate": "24 septembre 2026 08:53 HAE",
+      "recentUpdate": "Santé – changement mineur",
+      "lastUpdateDate": "19 novembre 2026 07:09 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
@@ -1008,8 +1008,8 @@
       "slug": "kazakhstan",
       "level": 1,
       "iso2": "KZ",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "15 octobre 2026 04:33 HAE",
+      "recentUpdate": "Section Exigences d’entrée et de sortie – mise à jour de l’information sur l’autorisation de voyage électronique et les zones fermées",
+      "lastUpdateDate": "19 novembre 2026 13:56 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1030,8 +1030,8 @@
       "slug": "kirghizistan",
       "level": 2,
       "iso2": "KG",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "15 octobre 2026 04:46 HAE",
+      "recentUpdate": "Section Exigences d’entrée et de sortie – mise à jour de l’information sur les voyages régionaux",
+      "lastUpdateDate": "19 novembre 2026 14:29 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1119,7 +1119,7 @@
       "level": 4,
       "iso2": "LB",
       "recentUpdate": "Section Besoin d’aide? – mise à jour de l’adresse et des coordonnées de l’ambassade du Canada au Liban à Beyrouth",
-      "lastUpdateDate": "18 novembre 2026 16:36 HNE",
+      "lastUpdateDate": "19 novembre 2026 09:24 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Regular text update"
@@ -1734,8 +1734,8 @@
       "slug": "russie",
       "level": 4,
       "iso2": "RU",
-      "recentUpdate": "Section Sécurité – retrait de l’information sur une alerte de sécurité américaine",
-      "lastUpdateDate": "2 novembre 2026 11:26 HNE",
+      "recentUpdate": "Section Exigences d’entrée et de sortie – mise à jour de l’information sur les postes frontaliers terrestres",
+      "lastUpdateDate": "19 novembre 2026 10:40 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Regular text update"
@@ -1745,11 +1745,11 @@
       "slug": "rwanda",
       "level": 1,
       "iso2": "RW",
-      "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "30 octobre 2026 06:51 HAE",
+      "recentUpdate": "Section Exigences d’entrée et de sortie – mise à jour de l’information sur les visas",
+      "lastUpdateDate": "19 novembre 2026 11:53 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Editorial change"
+      "updateType": "Regular text update"
     },
     {
       "name": "République centrafricaine",
@@ -1768,7 +1768,7 @@
       "level": 2,
       "iso2": "DO",
       "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "9 octobre 2026 09:55 HAE",
+      "lastUpdateDate": "19 novembre 2026 11:11 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2263,7 +2263,7 @@
       "level": 4,
       "iso2": "UA",
       "recentUpdate": "Mise à jour mineure",
-      "lastUpdateDate": "18 novembre 2026 11:15 HNE",
+      "lastUpdateDate": "19 novembre 2026 07:13 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": true,
       "updateType": "Editorial change"
