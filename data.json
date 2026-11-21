@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -52,7 +52,7 @@
       "level": 2,
       "iso2": "DE",
       "recentUpdate": "Santé – changement mineur",
-      "lastUpdateDate": "19 novembre 2026 07:10 HNE",
+      "lastUpdateDate": "20 novembre 2026 07:22 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -657,7 +657,7 @@
       "level": 2,
       "iso2": "FR",
       "recentUpdate": "Section Sécurité – mise à jour de l’information sur les manifestations et les grèves",
-      "lastUpdateDate": "6 novembre 2026 15:55 HNE",
+      "lastUpdateDate": "20 novembre 2026 07:53 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1008,11 +1008,11 @@
       "slug": "kazakhstan",
       "level": 1,
       "iso2": "KZ",
-      "recentUpdate": "Section Exigences d’entrée et de sortie – mise à jour de l’information sur l’autorisation de voyage électronique et les zones fermées",
-      "lastUpdateDate": "19 novembre 2026 13:56 HNE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "20 novembre 2026 09:56 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Kenya",
@@ -1030,11 +1030,11 @@
       "slug": "kirghizistan",
       "level": 2,
       "iso2": "KG",
-      "recentUpdate": "Section Exigences d’entrée et de sortie – mise à jour de l’information sur les voyages régionaux",
-      "lastUpdateDate": "19 novembre 2026 14:29 HNE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "20 novembre 2026 09:50 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Kiribati",
@@ -1613,8 +1613,8 @@
       "slug": "paraguay",
       "level": 2,
       "iso2": "PY",
-      "recentUpdate": "Section Sécurité – ajout d’information sur les manifestations",
-      "lastUpdateDate": "5 novembre 2026 16:51 HNE",
+      "recentUpdate": "Section Sécurité – mise à jour de l’information sur les manifestations",
+      "lastUpdateDate": "20 novembre 2026 11:41 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1745,11 +1745,11 @@
       "slug": "rwanda",
       "level": 1,
       "iso2": "RW",
-      "recentUpdate": "Section Exigences d’entrée et de sortie – mise à jour de l’information sur les visas",
-      "lastUpdateDate": "19 novembre 2026 11:53 HNE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "20 novembre 2026 10:43 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "République centrafricaine",
@@ -1954,8 +1954,8 @@
       "slug": "singapour",
       "level": 1,
       "iso2": "SG",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "5 novembre 2026 07:27 HNE",
+      "recentUpdate": "Section Catastrophes naturelles et climat – mise à jour de l’information sur la pollution atmosphérique",
+      "lastUpdateDate": "20 novembre 2026 12:30 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
