@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24",
+  "updated": "2026-11-25",
   "source": "https://data.international.gc.ca/travel-voyage/index-alpha-fra.json",
   "countries": [
     {
@@ -448,7 +448,7 @@
       "level": 2,
       "iso2": "CN",
       "recentUpdate": "Section Niveau de risque – évitez tout voyage non essentiel dans certaines portions du comté de Gyirong; Section Catastrophes naturelles et climat – mise à jour de l’info sur des graves crues soudaines et coulées de boue dans la région frontalière entre la Chine et le Népal",
-      "lastUpdateDate": "23 novembre 2026 07:01 HNE",
+      "lastUpdateDate": "24 novembre 2026 07:20 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Regional advisory modified"
@@ -502,8 +502,8 @@
       "slug": "coree-sud",
       "level": 1,
       "iso2": "KR",
-      "recentUpdate": "Section Catastrophes naturelles et climat – ajout d’information sur El Niño",
-      "lastUpdateDate": "15 octobre 2026 08:53 HAE",
+      "recentUpdate": "Section Exigences d'entrée et de sortie – mise à jour de l'information sur l'exemption de l'autorisation de voyage électronique (K-ETA)",
+      "lastUpdateDate": "24 novembre 2026 12:38 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -811,7 +811,7 @@
       "level": 2,
       "iso2": "GY",
       "recentUpdate": "Section Besoin d’aide? – mise à jour des coordonnées des missions",
-      "lastUpdateDate": "13 novembre 2026 15:26 HNE",
+      "lastUpdateDate": "24 novembre 2026 14:53 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Regular text update"
@@ -1613,11 +1613,11 @@
       "slug": "paraguay",
       "level": 2,
       "iso2": "PY",
-      "recentUpdate": "Section Sécurité – mise à jour de l’information sur les manifestations",
-      "lastUpdateDate": "20 novembre 2026 11:41 HNE",
+      "recentUpdate": "Changement mineur",
+      "lastUpdateDate": "24 novembre 2026 08:14 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
-      "updateType": "Regular text update"
+      "updateType": "Editorial change"
     },
     {
       "name": "Pays-Bas",
@@ -1724,7 +1724,7 @@
       "level": 2,
       "iso2": "GB",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "5 octobre 2026 14:33 HAE",
+      "lastUpdateDate": "24 novembre 2026 09:31 HNE",
       "hasRegionalAdvisory": false,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
@@ -2219,7 +2219,7 @@
       "level": 2,
       "iso2": "TN",
       "recentUpdate": "Changement mineur",
-      "lastUpdateDate": "14 octobre 2026 15:47 HAE",
+      "lastUpdateDate": "24 novembre 2026 15:52 HNE",
       "hasRegionalAdvisory": true,
       "hasAdvisoryWarning": false,
       "updateType": "Editorial change"
